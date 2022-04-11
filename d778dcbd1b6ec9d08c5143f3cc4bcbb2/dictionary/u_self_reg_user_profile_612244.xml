@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_self_registered_user_profile" label="Self Reg User Profile Invoice" max_length="40" name="u_self_reg_user_profile_612244" sizeclass="8" type="collection">
+        <element label="Company" max_length="50" name="u_company" type="string"/>
+        <element label="First Name" max_length="50" name="u_first_name" type="string"/>
+        <element label="Last Name" max_length="50" name="u_last_name" type="string"/>
+        <element label="Mobile Phone" max_length="50" name="u_mobile_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Related Task" max_length="32" name="u_related_task" reference="u_external_account_request" type="reference"/>
+        <element label="Vendor ID" max_length="50" name="u_vendor_id" type="string"/>
+        <index name="index">
+            <element name="u_related_task"/>
+        </index>
+    </element>
+</database>

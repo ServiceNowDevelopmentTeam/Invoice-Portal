@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+    /* widget controller */
+		var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Invoice User Post Registration Redirect</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-08-10 14:38:10</sys_created_on>
+        <sys_id>0708e1cf1bf1781062e50ed2cd4bcb2b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Invoice User Post Registration Redirect</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sp_widget_0708e1cf1bf1781062e50ed2cd4bcb2b</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:10</sys_updated_on>
+        <template><![CDATA[<div class= "h4 text-center font-thin"> 
+  ${Thank you for signing up!}<br>
+  ${Please wait for an email, you will receive it after your account has been approved.}
+</div>  ]]></template>
+    </sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb45fa400000001</claim_timestamp>
+        <metadata_update_name>sp_widget_0708e1cf1bf1781062e50ed2cd4bcb2b</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:41:10</sys_created_on>
+        <sys_id>41999cb11baec9d08c5143f3cc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:10</sys_updated_on>
+    </sys_claim>
+</record_update>

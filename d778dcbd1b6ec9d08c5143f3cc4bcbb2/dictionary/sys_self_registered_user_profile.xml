@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Self Registered User Profile" max_length="40" name="sys_self_registered_user_profile" sizeclass="8" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Accepted tc date" max_length="40" name="accepted_tc_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Email" max_length="100" name="email" type="email"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Portal" max_length="32" name="portal" reference="sp_portal" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="global" label="Domain" max_length="32" name="sys_domain" reference="domain" type="domain_id"/>
+        <element attributes="edge_encryption_enabled=true" label="Terms and condition link" max_length="1024" name="terms_and_condition_link" type="url"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" reference_cascade_rule="delete" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Registration configuration" mandatory="true" max_length="32" name="user_registration_config" reference="sys_user_registration_config" type="reference"/>
+        <index name="index">
+            <element name="sys_domain"/>
+        </index>
+        <index name="index2">
+            <element name="user_registration_config"/>
+        </index>
+        <index name="index3">
+            <element name="portal"/>
+        </index>
+        <index name="index4">
+            <element name="user"/>
+        </index>
+        <index name="index5">
+            <element name="email"/>
+            <element name="user_registration_config"/>
+            <element name="portal"/>
+            <element name="sys_domain"/>
+        </index>
+    </element>
+</database>

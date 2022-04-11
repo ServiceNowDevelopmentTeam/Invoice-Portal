@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page_route_map">
+    <sp_page_route_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>10</order>
+        <portals>9d579f061bcdb4148c5143f3cc4bcb54</portals>
+        <route_from_page display_value="list">b574e51147132100ba13a5554ee4903e</route_from_page>
+        <route_to_page/>
+        <short_description>List to Invoice List</short_description>
+        <sys_class_name>sp_page_route_map</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-05 14:07:20</sys_created_on>
+        <sys_id>a53bc32b1beec1108c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b574e51147132100ba13a5554ee4903e</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sp_page_route_map_a53bc32b1beec1108c5143f3cc4bcbcc</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-05 14:07:20</sys_updated_on>
+    </sp_page_route_map>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_instance_uc_can_view">
+    <m2m_sp_instance_uc_can_view action="DELETE">
+        <sp_instance display_value="List">bc574770d7000200a9ad1e173e24d42c</sp_instance>
+        <sys_class_name>m2m_sp_instance_uc_can_view</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-05 13:56:19</sys_created_on>
+        <sys_id>fed883671beec1108c5143f3cc4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List.Role: snc_internal and snc_external</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>m2m_sp_instance_uc_can_view_fed883671beec1108c5143f3cc4bcb11</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-05 13:56:19</sys_updated_on>
+        <user_criteria display_value="Role: snc_internal and snc_external">adc883671beec1108c5143f3cc4bcbbc</user_criteria>
+    </m2m_sp_instance_uc_can_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>m2m_sp_instance_uc_can_view_fed883671beec1108c5143f3cc4bcb11</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_instance_uc_can_view"><m2m_sp_instance_uc_can_view action="INSERT_OR_UPDATE"><sp_instance display_value="List">bc574770d7000200a9ad1e173e24d42c</sp_instance><sys_class_name>m2m_sp_instance_uc_can_view</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2022-04-05 13:56:19</sys_created_on><sys_id>fed883671beec1108c5143f3cc4bcb11</sys_id><sys_mod_count>0</sys_mod_count><sys_name>List.Role: snc_internal and snc_external</sys_name><sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package><sys_policy/><sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope><sys_update_name>m2m_sp_instance_uc_can_view_fed883671beec1108c5143f3cc4bcb11</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-04-05 13:56:19</sys_updated_on><user_criteria display_value="Role: snc_internal and snc_external">adc883671beec1108c5143f3cc4bcbbc</user_criteria></m2m_sp_instance_uc_can_view></record_update>]]></payload>
+        <payload_hash>-954510728</payload_hash>
+        <record_name>List.Role: snc_internal and snc_external</record_name>
+        <reverted_from/>
+        <source>c75d3a421b1dc55062e50ed2cd4bcbd1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-05 13:56:19</sys_created_on>
+        <sys_id>36d883671beec1108c5143f3cc4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ffa0313240000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-05 13:56:19</sys_updated_on>
+        <type>Who Can View Instance</type>
+        <update_guid>3ed88367d9eec11001e94b53a1be1a13</update_guid>
+        <update_guid_history>3ed88367d9eec11001e94b53a1be1a13:-954510728</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="List.Role: snc_internal and snc_external">55b94b671beec1108c5143f3cc4bcbb8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-05 14:00:03</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_instance_uc_can_view">m2m_sp_instance_uc_can_view</sys_db_object>
+        <sys_id>521f02fb77c649a8b8d287197a323c40</sys_id>
+        <sys_metadata>fed883671beec1108c5143f3cc4bcb11</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List.Role: snc_internal and snc_external</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>m2m_sp_instance_uc_can_view_fed883671beec1108c5143f3cc4bcb11</sys_update_name>
+        <sys_update_version display_value="m2m_sp_instance_uc_can_view_fed883671beec1108c5143f3cc4bcb11">36d883671beec1108c5143f3cc4bcb14</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-05 14:00:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

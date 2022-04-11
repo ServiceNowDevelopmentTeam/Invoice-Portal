@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="eb2d73391b0af4108c5143f3cc4bcbbd" sys_domain="global" table="u_user_reg_req_835040" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2021-08-19 14:33:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f2db3391b0af4108c5143f3cc4bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_user_reg_req_835040" name="u_user_reg_req_835040" sys_domain="global" view="Default view">eb2d73391b0af4108c5143f3cc4bcbbd</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="u_user_reg_req_835040" sys_domain="global" view="Default view">eb2db3391b0af4108c5143f3cc4bcb13</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2021-08-19 14:33:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2021-08-19 14:33:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f2db3391b0af4108c5143f3cc4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_user_reg_req_835040" name="u_user_reg_req_835040" sys_domain="global" view="Default view">eb2d73391b0af4108c5143f3cc4bcbbd</sys_ui_form>
+            <sys_ui_section caption="Request details" display_value="Request details" name="u_user_reg_req_835040" sys_domain="global" view="Default view">ef2d73391b0af4108c5143f3cc4bcbc0</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2021-08-19 14:33:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>u_user_reg_req_835040</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2021-08-19 14:33:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb2d73391b0af4108c5143f3cc4bcbbd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_user_reg_req_835040</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_eb2d73391b0af4108c5143f3cc4bcbbd</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-03-30 14:41:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb463eae0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_form_sections_eb2d73391b0af4108c5143f3cc4bcbbd</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:41:28</sys_created_on>
+        <sys_id>99a9d8f11baec9d08c5143f3cc4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:28</sys_updated_on>
+    </sys_claim>
+</record_update>

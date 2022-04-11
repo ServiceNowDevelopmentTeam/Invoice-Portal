@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>other</category>
+        <client_script><![CDATA[function ($scope, spUtil, cabrillo, $timeout) {
+  $scope.got = false;
+  $scope.need = false;
+
+  $scope.$on("need_barcode", function() {
+    $scope.need = true;
+  });
+
+  $scope.$on('scan_barcode', function(evt) {
+    $timeout(function() {
+      angular.element('#scan_barcode').trigger('click');
+    }, 100);
+  });
+
+  $scope.getBarcode = function() {
+    cabrillo.camera.getBarcode().then(function(value) {
+      cabrillo.log('Received barcode value: ' + value);
+      $scope.data.barcode = value;
+      $scope.got = true;
+      $scope.need = false;
+      spUtil.update($scope);
+    }, function(err) {
+      $scope.data.barcode = "IT1011717";
+      spUtil.update($scope);
+      $scope.got = true;
+      $scope.need = false;
+    });
+  }
+}]]></client_script>
+        <controller_as/>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Barcode</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[// populate the 'data' variable
+var gr = $sp.getRecord();
+if (gr == null)
+	return;
+
+data.table = gr.getTableName();
+data.sys_id = gr.getUniqueValue();
+
+if (input && input.barcode && gr.comments.canWrite()) {
+  gr.comments = "scanned: " + input.barcode;
+  gr.update();
+}]]></script>
+        <servicenow>true</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2015-04-01 20:55:46</sys_created_on>
+        <sys_id>12b8f3d3d7033100a9ad1e173e24d406</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>Barcode</sys_name>
+        <sys_package display_value="Service Portal - Core" source="com.glide.service-portal">521a246f1b251010e7004229bc4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sp_widget_12b8f3d3d7033100a9ad1e173e24d406</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:46:09</sys_updated_on>
+        <template><![CDATA[<div>
+  <div ng-show="false" style="padding-bottom: 16px"><button id="scan_barcode" class="btn btn-primary" style="border-color:#278efc" ng-click="getBarcode()">${Scan Barcode}</button></div>
+</div>]]></template>
+    </sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb4a88eb0000001</claim_timestamp>
+        <metadata_update_name>sp_widget_12b8f3d3d7033100a9ad1e173e24d406</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:46:09</sys_created_on>
+        <sys_id>06ba10391baec9d08c5143f3cc4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:46:09</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb4a88ea0000001</claim_timestamp>
+        <metadata_update_name>sp_widget_12b8f3d3d7033100a9ad1e173e24d406</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.service-portal</previous_claim_name>
+        <previous_claim_scope>com.glide.service-portal</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:46:09</sys_created_on>
+        <sys_id>c6ba10391baec9d08c5143f3cc4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:46:09</sys_updated_on>
+    </sys_claim>
+</record_update>

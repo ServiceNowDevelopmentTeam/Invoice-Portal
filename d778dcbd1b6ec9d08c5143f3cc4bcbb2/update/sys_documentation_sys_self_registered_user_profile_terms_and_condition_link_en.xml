@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="terms_and_condition_link" label="Terms and condition link" language="en" table="sys_self_registered_user_profile">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>terms_and_condition_link</element>
+            <help/>
+            <hint/>
+            <label>Terms and condition link</label>
+            <language>en</language>
+            <name>sys_self_registered_user_profile</name>
+            <plural>Terms and condition links</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2021-08-07 17:56:16</sys_created_on>
+            <sys_id>7b98fa4e1bfd70d0346ffd951a4bcbd7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Terms and condition link</sys_name>
+            <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">9698ba4e1bfd70d0346ffd951a4bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+            <sys_update_name>sys_documentation_sys_self_registered_user_profile_terms_and_condition_link_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-03-30 14:45:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb49d1da0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_sys_self_registered_user_profile_terms_and_condition_link_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:45:22</sys_created_on>
+        <sys_id>e68ad0f51baec9d08c5143f3cc4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:45:22</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb49d1d90000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_sys_self_registered_user_profile_terms_and_condition_link_en</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.external_user_self_registration</previous_claim_name>
+        <previous_claim_scope>com.snc.external_user_self_regis</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:45:22</sys_created_on>
+        <sys_id>aa8ad0f51baec9d08c5143f3cc4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:45:22</sys_updated_on>
+    </sys_claim>
+</record_update>

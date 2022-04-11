@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Invoice Management">13ad40de1b8df4148c5143f3cc4bcba1</application>
+        <assessment/>
+        <device_type/>
+        <filter table="core_company">vendor=true^EQ<item endquery="false" field="vendor" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image>images/icons/vendors.gif</image>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Vendors</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>core_company</name>
+        <order>150</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>invoice</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2011-08-24 17:02:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>91d7b93737601000deeabfc8bcbe5dcb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Vendors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="com.snc.organization_management">7848e02f1be11010e7004229bc4bcbcd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_app_module_91d7b93737601000deeabfc8bcbe5dcb</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:46:26</sys_updated_on>
+        <timeline_page/>
+        <title>Vendors</title>
+        <uncancelable>false</uncancelable>
+        <view_name>vendor</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb4acafe0000001</claim_timestamp>
+        <metadata_update_name>sys_app_module_91d7b93737601000deeabfc8bcbe5dcb</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:46:26</sys_created_on>
+        <sys_id>c6ca54391baec9d08c5143f3cc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:46:26</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb4acafd0000001</claim_timestamp>
+        <metadata_update_name>sys_app_module_91d7b93737601000deeabfc8bcbe5dcb</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.organization_management</previous_claim_name>
+        <previous_claim_scope>com.snc.organization_management</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:46:26</sys_created_on>
+        <sys_id>8aca54391baec9d08c5143f3cc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:46:26</sys_updated_on>
+    </sys_claim>
+</record_update>

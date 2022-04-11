@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Invoice Portal User Registration">fd1dfbc91b71bcd08c5143f3cc4bcb38</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-08-04 21:16:19</sys_created_on>
+        <sys_id>01a98c1d1bf1bcd08c5143f3cc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Invoice Portal User Registration</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_01a98c1d1bf1bcd08c5143f3cc4bcbb0</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-08-04 21:16:19</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global">global</application>
+        <file_path/>
+        <instance_id>cb41202bdbe5d890601a11f8489619fb</instance_id>
+        <instance_name>apigroup</instance_name>
+        <name>sc_cat_item_catalog_01a98c1d1bf1bcd08c5143f3cc4bcbb0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Invoice Portal User Registration">fd1dfbc91b71bcd08c5143f3cc4bcb38</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2021-08-04 21:16:19</sys_created_on><sys_id>01a98c1d1bf1bcd08c5143f3cc4bcbb0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Invoice Portal User Registration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_01a98c1d1bf1bcd08c5143f3cc4bcbb0</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2021-08-04 21:16:19</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1389993469</payload_hash>
+        <record_name>Service Catalog.Invoice Portal User Registration</record_name>
+        <reverted_from/>
+        <source>0c7c379b1bf6fc90622b32ac0a4bcba2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-09-30 13:08:37</sys_created_on>
+        <sys_id>ecacbbdb1bf6fc90622b32ac0a4bcb6e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17c36d2301f0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-09-30 13:09:06</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>d10944e629deb410607d6e406f4ffb8b</update_guid>
+        <update_guid_history>d10944e629deb410607d6e406f4ffb8b:1389993469,4da98c1d5bf1bcd07655dd19dabe79b5:1389993469,141e6a2d7542f410e098db57eaf6e066:1489010673,e0adea694142f41053ebcf274b1eaebc:1489010673,4da98c1d5bf1bcd07655dd19dabe79b5:1389993469,bdf962656b02f4108825c3c16cb08c17:1489010673,4da98c1d5bf1bcd07655dd19dabe79b5:1389993469</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7aa752971b77b054df31da49cc4bcbd4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-18 22:50:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>258e96110cc04ca28e8f3646c75b7cb9</sys_id>
+        <sys_metadata>01a98c1d1bf1bcd08c5143f3cc4bcbb0</sys_metadata>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Service Catalog.Invoice Portal User Registration</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent display_value="Invoice Portal User Registration">fd1dfbc91b71bcd08c5143f3cc4bcb38</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">3a08cd4d4e9544da90041791f25d2984</sys_scope_delete>
+        <sys_update_name>sys_metadata_delete_258e96110cc04ca28e8f3646c75b7cb9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_01a98c1d1bf1bcd08c5143f3cc4bcbb0">ecacbbdb1bf6fc90622b32ac0a4bcb6e</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

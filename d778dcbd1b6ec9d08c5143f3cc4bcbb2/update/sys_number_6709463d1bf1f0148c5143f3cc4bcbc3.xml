@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="u_external_account_request">u_external_account_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>EXT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-08-06 19:50:16</sys_created_on>
+        <sys_id>6709463d1bf1f0148c5143f3cc4bcbc3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EXT</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_number_6709463d1bf1f0148c5143f3cc4bcbc3</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:14</sys_updated_on>
+    </sys_number>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb460a060000001</claim_timestamp>
+        <metadata_update_name>sys_number_6709463d1bf1f0148c5143f3cc4bcbc3</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:41:14</sys_created_on>
+        <sys_id>0e9990f11baec9d08c5143f3cc4bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:14</sys_updated_on>
+    </sys_claim>
+</record_update>

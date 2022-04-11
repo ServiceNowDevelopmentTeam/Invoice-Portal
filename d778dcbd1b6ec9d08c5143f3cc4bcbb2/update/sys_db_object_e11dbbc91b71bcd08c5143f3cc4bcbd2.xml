@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>true</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Self Reg User Profile Invoice</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_self_reg_user_profile_835040</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Self Registered User Profile" name="sys_self_registered_user_profile">3b98fa4e1bfd70d0346ffd951a4bcbbc</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-08-04 20:21:29</sys_created_on>
+        <sys_id>e11dbbc91b71bcd08c5143f3cc4bcbd2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Self Reg User Profile Invoice</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_db_object_e11dbbc91b71bcd08c5143f3cc4bcbd2</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:40:53</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb45b7dd0000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_e11dbbc91b71bcd08c5143f3cc4bcbd2</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:40:53</sys_created_on>
+        <sys_id>c18914b11baec9d08c5143f3cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:40:53</sys_updated_on>
+    </sys_claim>
+</record_update>

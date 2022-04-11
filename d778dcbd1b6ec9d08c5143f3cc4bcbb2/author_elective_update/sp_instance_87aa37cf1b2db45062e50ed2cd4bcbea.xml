@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">fc0d57321ba9f8908c5143f3cc4bcb79</sp_column>
+        <sp_widget display_value="My Requests APi">ad233fb11b543450e7004229bc4bcba6</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-07-29 15:03:05</sys_created_on>
+        <sys_id>87aa37cf1b2db45062e50ed2cd4bcbea</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>My Items</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sp_instance_87aa37cf1b2db45062e50ed2cd4bcbea</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:40:34</sys_updated_on>
+        <title>My Items</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "My Items",
+		"displayValue": "My Items"
+	},
+	"show_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"items_per_page": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=87aa37cf1b2db45062e50ed2cd4bcbea"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb456c400000001</claim_timestamp>
+        <metadata_update_name>sp_instance_87aa37cf1b2db45062e50ed2cd4bcbea</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:40:34</sys_created_on>
+        <sys_id>9079dc711baec9d08c5143f3cc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:40:34</sys_updated_on>
+    </sys_claim>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sp_instance_87aa37cf1b2db45062e50ed2cd4bcbea</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;fc0d57321ba9f8908c5143f3cc4bcb79&lt;/sp_column&gt;&lt;sp_widget display_value="My Requests APi"&gt;ad233fb11b543450e7004229bc4bcba6&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Terry.Lillo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-29 15:03:05&lt;/sys_created_on&gt;&lt;sys_id&gt;87aa37cf1b2db45062e50ed2cd4bcbea&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Items&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Invoice Portal"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_87aa37cf1b2db45062e50ed2cd4bcbea&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Terry.Lillo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-30 14:40:34&lt;/sys_updated_on&gt;&lt;title&gt;My Items&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "My Items",
+		"displayValue": "My Items"
+	},
+	"show_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"items_per_page": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=87aa37cf1b2db45062e50ed2cd4bcbea"/&gt;&lt;sys_claim action="INSERT_OR_UPDATE"&gt;&lt;claim_owner_scope display_value="Invoice Portal"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/claim_owner_scope&gt;&lt;claim_timestamp&gt;17fdb456c400000001&lt;/claim_timestamp&gt;&lt;metadata_update_name&gt;sp_instance_87aa37cf1b2db45062e50ed2cd4bcbea&lt;/metadata_update_name&gt;&lt;previous_claim_app_version&gt;1.0.0&lt;/previous_claim_app_version&gt;&lt;previous_claim_name&gt;Invoice Portal&lt;/previous_claim_name&gt;&lt;previous_claim_scope&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/previous_claim_scope&gt;&lt;sys_created_by&gt;Terry.Lillo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-30 14:40:34&lt;/sys_created_on&gt;&lt;sys_id&gt;9079dc711baec9d08c5143f3cc4bcb98&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Terry.Lillo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-30 14:40:34&lt;/sys_updated_on&gt;&lt;/sys_claim&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-797352040</payload_hash>
+        <record_name>My Items</record_name>
+        <reverted_from/>
+        <source>c75d3a421b1dc55062e50ed2cd4bcbd1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:40:34</sys_created_on>
+        <sys_id>5c79dc711baec9d08c5143f3cc4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fdb456ca30000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:40:34</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>5479dc7177aec9d08f2354cf6e84769b</update_guid>
+        <update_guid_history>5479dc7177aec9d08f2354cf6e84769b:-797352040,a77c84aeb9deb410e15f429ba89a43bd:241882941,9500e8db08a5f450450c3e4178c0350d:241882941,785e62ada642f410bd3f9b2a01263143:-715715318,9500e8db08a5f450450c3e4178c0350d:241882941,42a96ea1de02f4103d52efc15e92ac0c:-715715318,9500e8db08a5f450450c3e4178c0350d:241882941,87aa37cf412db4506072ce9230fc39ec:1385847453</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Items">955c576f1b2205108c5143f3cc4bcb0c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-05 15:21:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2d7a9b9aada6408a885b9980441b1d19</sys_id>
+        <sys_metadata>87aa37cf1b2db45062e50ed2cd4bcbea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Items</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sp_instance_87aa37cf1b2db45062e50ed2cd4bcbea</sys_update_name>
+        <sys_update_version display_value="sp_instance_87aa37cf1b2db45062e50ed2cd4bcbea">5c79dc711baec9d08c5143f3cc4bcb9b</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-05 15:21:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_mobile_phone" label="Mobile Phone" language="en" table="u_self_reg_user_profile_612244">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_mobile_phone</element>
+            <help/>
+            <hint/>
+            <label>Mobile Phone</label>
+            <language>en</language>
+            <name>u_self_reg_user_profile_612244</name>
+            <plural>Mobile Phones</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2021-08-19 15:08:59</sys_created_on>
+            <sys_id>e265444a1b4af4108c5143f3cc4bcb9f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Mobile Phone</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+            <sys_update_name>sys_documentation_u_self_reg_user_profile_612244_u_mobile_phone_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-03-30 14:40:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb45b9eb0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_u_self_reg_user_profile_612244_u_mobile_phone_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:40:54</sys_created_on>
+        <sys_id>498914b11baec9d08c5143f3cc4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:40:54</sys_updated_on>
+    </sys_claim>
+</record_update>

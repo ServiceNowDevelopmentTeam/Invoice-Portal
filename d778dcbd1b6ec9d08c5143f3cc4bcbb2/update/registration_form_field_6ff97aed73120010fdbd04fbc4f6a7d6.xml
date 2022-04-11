@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field">
+    <registration_form_field action="INSERT_OR_UPDATE">
+        <column_label>Name</column_label>
+        <column_name>name</column_name>
+        <custom_field>false</custom_field>
+        <display>false</display>
+        <mandatory>false</mandatory>
+        <order>10000</order>
+        <registration_configuration/>
+        <sys_class_name>registration_form_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-12 12:43:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6ff97aed73120010fdbd04fbc4f6a7d6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Name</sys_name>
+        <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">9698ba4e1bfd70d0346ffd951a4bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>registration_form_field_6ff97aed73120010fdbd04fbc4f6a7d6</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:23</sys_updated_on>
+        <type>6</type>
+        <validation_only>false</validation_only>
+    </registration_form_field>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb462aa80000001</claim_timestamp>
+        <metadata_update_name>registration_form_field_6ff97aed73120010fdbd04fbc4f6a7d6</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:41:23</sys_created_on>
+        <sys_id>84a918f11baec9d08c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:23</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb462aa70000001</claim_timestamp>
+        <metadata_update_name>registration_form_field_6ff97aed73120010fdbd04fbc4f6a7d6</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.external_user_self_registration</previous_claim_name>
+        <previous_claim_scope>com.snc.external_user_self_regis</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:41:23</sys_created_on>
+        <sys_id>48a918f11baec9d08c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:23</sys_updated_on>
+    </sys_claim>
+</record_update>

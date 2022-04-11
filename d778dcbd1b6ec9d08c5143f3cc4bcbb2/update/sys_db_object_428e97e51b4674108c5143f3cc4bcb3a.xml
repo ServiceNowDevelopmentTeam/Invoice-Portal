@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>true</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>User Acti Req 612244</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_user_acti_req_612244</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="User Activation Request" name="user_activation_request">84a83e4e1bfd70d0346ffd951a4bcb0e</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-08-18 17:40:38</sys_created_on>
+        <sys_id>428e97e51b4674108c5143f3cc4bcb3a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>User Acti Req 612244</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_db_object_428e97e51b4674108c5143f3cc4bcb3a</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:40:53</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>false</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb45b7520000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_428e97e51b4674108c5143f3cc4bcb3a</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:40:53</sys_created_on>
+        <sys_id>388914b11baec9d08c5143f3cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:40:53</sys_updated_on>
+    </sys_claim>
+</record_update>

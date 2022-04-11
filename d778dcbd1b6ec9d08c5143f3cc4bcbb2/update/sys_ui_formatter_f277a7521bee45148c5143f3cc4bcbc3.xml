@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>com_glideapp_invoice_veditor</formatter>
+        <name>Invoice Task</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-01 18:57:44</sys_created_on>
+        <sys_id>f277a7521bee45148c5143f3cc4bcbc3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Invoice Task</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ui_formatter_f277a7521bee45148c5143f3cc4bcbc3</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-06 12:07:17</sys_updated_on>
+        <table>u_invoice_task</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

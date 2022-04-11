@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD265fdeca02e64114edaa9b1bbac452f3</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>d778dcbd1b6ec9d08c5143f3cc4bcbb2</scope_name>
+        <serialized_content>{"FlowDesigner:FD265fdeca02e64114edaa9b1bbac452f3":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD265fdeca02e64114edaa9b1bbac452f3.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Array\",\"mandatory\":\"true\",\"child_name\":\"Array_child0\",\"uiUniqueId\":\"30d28857-00f2-4272-b1cc-844976fa380b\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD265fdeca02e64114edaa9b1bbac452f3\",\"child_label\":\"Array_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"8f0687f6-5275-47d6-90a0-064bfb10fc73\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-31 19:04:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e65fdeca1be641148c5143f3cc4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD265fdeca02e64114edaa9b1bbac452f3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_complex_object_e65fdeca1be641148c5143f3cc4bcbf3</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-31 19:04:06</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

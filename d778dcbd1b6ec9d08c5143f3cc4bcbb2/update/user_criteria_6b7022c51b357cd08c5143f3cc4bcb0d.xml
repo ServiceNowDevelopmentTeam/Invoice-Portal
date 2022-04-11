@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location/>
+        <match_all>false</match_all>
+        <name>Public</name>
+        <role name="public">b0593b350a0a0aa7001d689e4542dc28</role>
+        <script/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-08-04 13:37:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b7022c51b357cd08c5143f3cc4bcb0d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Public</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>user_criteria_6b7022c51b357cd08c5143f3cc4bcb0d</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:05</sys_updated_on>
+        <user/>
+    </user_criteria>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb45e49a0000001</claim_timestamp>
+        <metadata_update_name>user_criteria_6b7022c51b357cd08c5143f3cc4bcb0d</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:41:05</sys_created_on>
+        <sys_id>778998b11baec9d08c5143f3cc4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:41:05</sys_updated_on>
+    </sys_claim>
+</record_update>

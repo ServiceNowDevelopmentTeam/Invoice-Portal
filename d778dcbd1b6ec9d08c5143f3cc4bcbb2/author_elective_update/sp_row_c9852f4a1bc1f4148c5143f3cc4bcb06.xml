@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <sp_column/>
+        <sp_container display_value="APi Group Invoice Portal - Container 1">8185eb4a1bc1f4148c5143f3cc4bcbdf</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>terry.owczarski@cdw.com</sys_created_by>
+        <sys_created_on>2021-07-01 14:25:19</sys_created_on>
+        <sys_id>c9852f4a1bc1f4148c5143f3cc4bcb06</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sp_row_c9852f4a1bc1f4148c5143f3cc4bcb06</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:45:17</sys_updated_on>
+    </sp_row>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb49be260000001</claim_timestamp>
+        <metadata_update_name>sp_row_c9852f4a1bc1f4148c5143f3cc4bcb06</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:45:17</sys_created_on>
+        <sys_id>d98adcb51baec9d08c5143f3cc4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:45:17</sys_updated_on>
+    </sys_claim>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sp_row_c9852f4a1bc1f4148c5143f3cc4bcb06</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>2</order><sp_column/><sp_container display_value="APi Group Invoice Portal - Container 1">8185eb4a1bc1f4148c5143f3cc4bcbdf</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>terry.owczarski@cdw.com</sys_created_by><sys_created_on>2021-07-01 14:25:19</sys_created_on><sys_id>c9852f4a1bc1f4148c5143f3cc4bcb06</sys_id><sys_mod_count>2</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope><sys_update_name>sp_row_c9852f4a1bc1f4148c5143f3cc4bcb06</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-03-30 14:45:17</sys_updated_on></sp_row><sys_claim action="INSERT_OR_UPDATE"><claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope><claim_timestamp>17fdb49be260000001</claim_timestamp><metadata_update_name>sp_row_c9852f4a1bc1f4148c5143f3cc4bcb06</metadata_update_name><previous_claim_app_version>1.0.0</previous_claim_app_version><previous_claim_name>Invoice Portal</previous_claim_name><previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2022-03-30 14:45:17</sys_created_on><sys_id>d98adcb51baec9d08c5143f3cc4bcb6a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-03-30 14:45:17</sys_updated_on></sys_claim></record_update>]]></payload>
+        <payload_hash>912244904</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>c75d3a421b1dc55062e50ed2cd4bcbd1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:45:17</sys_created_on>
+        <sys_id>d18adcb51baec9d08c5143f3cc4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fdb49be410000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:45:17</sys_updated_on>
+        <type>Row</type>
+        <update_guid>d98adcb59eaec9d003bf39578e556d91</update_guid>
+        <update_guid_history>d98adcb59eaec9d003bf39578e556d91:912244904,5c1f7bdb323afc9035c0f801ea1fbece:-1688831243,33eb446eebdeb41047443cbf354026aa:-889063817,4d852f4a94c1f4140ce9c47a895f0407:633690375,00a60351af46f010056dd447198ee701:-171161986,4d852f4a94c1f4140ce9c47a895f0407:633690375</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">e91ecbeb1beec1108c5143f3cc4bcbb9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-05 14:19:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>1c10681d924e4878b2052e3cc47a81a1</sys_id>
+        <sys_metadata>c9852f4a1bc1f4148c5143f3cc4bcb06</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sp_row_c9852f4a1bc1f4148c5143f3cc4bcb06</sys_update_name>
+        <sys_update_version display_value="sp_row_c9852f4a1bc1f4148c5143f3cc4bcb06">d18adcb51baec9d08c5143f3cc4bcb92</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-05 14:19:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

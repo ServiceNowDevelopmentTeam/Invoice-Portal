@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send a user the password reset email.</description>
+        <internal_name>password_reset_sender</internal_name>
+        <label_cache>[{"name":"f6eec674-add5-40cc-8c76-a128f2177aec.Record.sys_id","label":"2➛Self Reg User Profile Invoice Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_self_reg_user_profile_612244","column_name":"sys_id"},{"name":"f6eec674-add5-40cc-8c76-a128f2177aec.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f6eec674-add5-40cc-8c76-a128f2177aec.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f6eec674-add5-40cc-8c76-a128f2177aec.Table","label":"2➛Self Reg User Profile Invoice Table","reference":"u_self_reg_user_profile_612244","reference_display":"Self Reg User Profile Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f6eec674-add5-40cc-8c76-a128f2177aec.Record","label":"2➛Self Reg User Profile Invoice Record","reference":"u_self_reg_user_profile_612244","reference_display":"Self Reg User Profile Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ce951f7-2ad9-402c-b579-182f017e95e2.record","label":"1➛Password Reset Request Record","reference":"pwd_reset_request","reference_display":"Password Reset Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ce951f7-2ad9-402c-b579-182f017e95e2.table_name","label":"1➛Password Reset Request Table","reference":"pwd_reset_request","reference_display":"Password Reset Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.user","label":"Input➛user","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b116f6b4-bac0-4c00-bdbe-0e2f847a937b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"5ce951f7-2ad9-402c-b579-182f017e95e2.record.sys_id","label":"1➛Password Reset Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"pwd_reset_request","column_name":"sys_id"}]</label_cache>
+        <master_snapshot>05dc65e31b9ff41062e50ed2cd4bcb51</master_snapshot>
+        <name>Password Reset Sender</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:46:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36eba1a31b9ff41062e50ed2cd4bcb27</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Password Reset Sender</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_hub_flow_36eba1a31b9ff41062e50ed2cd4bcb27</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:47:25</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=36eba1a31b9ff41062e50ed2cd4bcb27"/>
+    <sys_variable_value action="delete_multiple" query="document_key=36eba1a31b9ff41062e50ed2cd4bcb27"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>17fdb4bb2c20000001</claim_timestamp>
+        <metadata_update_name>sys_hub_flow_36eba1a31b9ff41062e50ed2cd4bcb27</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-03-30 14:47:25</sys_created_on>
+        <sys_id>a00b14f51baec9d08c5143f3cc4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:47:25</sys_updated_on>
+    </sys_claim>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=36eba1a31b9ff41062e50ed2cd4bcb27^sys_idNOT IN32eba1a31b9ff41062e50ed2cd4bcb2a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>36eba1a31b9ff41062e50ed2cd4bcb27</id>
+        <name>Password Reset Sender</name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:46:12</sys_created_on>
+        <sys_id>32eba1a31b9ff41062e50ed2cd4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:46:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=36eba1a31b9ff41062e50ed2cd4bcb27^sys_idNOT INb0dc25e31b9ff41062e50ed2cd4bcbfb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=b116f6b4-bac0-4c00-bdbe-0e2f847a937b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>user</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Password Reset Sender">36eba1a31b9ff41062e50ed2cd4bcb27</model>
+        <model_id>36eba1a31b9ff41062e50ed2cd4bcb27</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_36eba1a31b9ff41062e50ed2cd4bcb27</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:10</sys_created_on>
+        <sys_id>b0dc25e31b9ff41062e50ed2cd4bcbfb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=36eba1a31b9ff41062e50ed2cd4bcb27^sys_idNOT IN30dc65e31b9ff41062e50ed2cd4bcb0e,cddc65e31b9ff41062e50ed2cd4bcb15,fc1de9e31b9ff41062e50ed2cd4bcb05"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Password Reset Sender">36eba1a31b9ff41062e50ed2cd4bcb27</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:11</sys_created_on>
+        <sys_id>30dc65e31b9ff41062e50ed2cd4bcb0e</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 18:07:05</sys_updated_on>
+        <ui_id>5ce951f7-2ad9-402c-b579-182f017e95e2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30dc65e31b9ff41062e50ed2cd4bcb0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>30dc65e31b9ff41062e50ed2cd4bcb0e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:11</sys_created_on>
+        <sys_id>49dc65e31b9ff41062e50ed2cd4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:11</sys_updated_on>
+        <value>pwd_reset_request</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=30dc65e31b9ff41062e50ed2cd4bcb0e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>30dc65e31b9ff41062e50ed2cd4bcb0e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:11</sys_created_on>
+        <sys_id>01dc65e31b9ff41062e50ed2cd4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>30dc65e31b9ff41062e50ed2cd4bcb0e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:11</sys_created_on>
+        <sys_id>c5dc65e31b9ff41062e50ed2cd4bcb10</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 18:07:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>user={{subflow.user}}^action_type=1^status=2^active=true^lock_state=2^process={"display":"Default Self Service","value":"c6b0c20667100200a5a0f3b457415ad5"}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send External User Password Reset Email">66c7a8865336001001a3ddeeff7b1298</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Password Reset Sender">36eba1a31b9ff41062e50ed2cd4bcb27</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:11</sys_created_on>
+        <sys_id>cddc65e31b9ff41062e50ed2cd4bcb15</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 18:07:05</sys_updated_on>
+        <ui_id>bf26bd40-16f6-4ad9-b234-2a46f42585f8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cddc65e31b9ff41062e50ed2cd4bcb15"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cddc65e31b9ff41062e50ed2cd4bcb15</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:11</sys_created_on>
+        <sys_id>cddc65e31b9ff41062e50ed2cd4bcb17</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:51:16</sys_updated_on>
+        <value/>
+        <variable display_value="Profile">a66894b45393001001a3ddeeff7b12a2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cddc65e31b9ff41062e50ed2cd4bcb15"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>password_reset_request</field>
+        <id>cddc65e31b9ff41062e50ed2cd4bcb15</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:11</sys_created_on>
+        <sys_id>c5dc65e31b9ff41062e50ed2cd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_66c7a8865336001001a3ddeeff7b1298</table>
+        <value>{{5ce951f7-2ad9-402c-b579-182f017e95e2.record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>profile</field>
+        <id>cddc65e31b9ff41062e50ed2cd4bcb15</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:11</sys_created_on>
+        <sys_id>4ddc65e31b9ff41062e50ed2cd4bcb17</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:51:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_66c7a8865336001001a3ddeeff7b1298</table>
+        <value>{{f6eec674-add5-40cc-8c76-a128f2177aec.Record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>cddc65e31b9ff41062e50ed2cd4bcb15</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:11</sys_created_on>
+        <sys_id>89dc65e31b9ff41062e50ed2cd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_66c7a8865336001001a3ddeeff7b1298</table>
+        <value>{{subflow.user}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Password Reset Sender">36eba1a31b9ff41062e50ed2cd4bcb27</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:51:15</sys_created_on>
+        <sys_id>fc1de9e31b9ff41062e50ed2cd4bcb05</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 18:07:05</sys_updated_on>
+        <ui_id>f6eec674-add5-40cc-8c76-a128f2177aec</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fc1de9e31b9ff41062e50ed2cd4bcb05"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fc1de9e31b9ff41062e50ed2cd4bcb05</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:51:16</sys_created_on>
+        <sys_id>301de9e31b9ff41062e50ed2cd4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:51:16</sys_updated_on>
+        <value>u_self_reg_user_profile_612244</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fc1de9e31b9ff41062e50ed2cd4bcb05"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>fc1de9e31b9ff41062e50ed2cd4bcb05</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:51:16</sys_created_on>
+        <sys_id>f81de9e31b9ff41062e50ed2cd4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:51:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>user={{subflow.user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>fc1de9e31b9ff41062e50ed2cd4bcb05</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:51:16</sys_created_on>
+        <sys_id>bc1de9e31b9ff41062e50ed2cd4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:51:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_36eba1a31b9ff41062e50ed2cd4bcb27^sys_idNOT IN70dc65e31b9ff41062e50ed2cd4bcb06"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user</element>
+        <help/>
+        <hint/>
+        <label>user</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_36eba1a31b9ff41062e50ed2cd4bcb27</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:11</sys_created_on>
+        <sys_id>70dc65e31b9ff41062e50ed2cd4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_36eba1a31b9ff41062e50ed2cd4bcb27_user_en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=36eba1a31b9ff41062e50ed2cd4bcb27^sys_idNOT IN65dc65e31b9ff41062e50ed2cd4bcbd7"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@1973ae5</plan>
+        <plan_id display_value="Password Reset Sender">36eba1a31b9ff41062e50ed2cd4bcb27</plan_id>
+        <snapshot>05dc65e31b9ff41062e50ed2cd4bcb51</snapshot>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>65dc65e31b9ff41062e50ed2cd4bcbd7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 18:07:05</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send a user the password reset email.</description>
+        <internal_name>password_reset_sender</internal_name>
+        <label_cache>[{"name":"f6eec674-add5-40cc-8c76-a128f2177aec.Record.sys_id","label":"2➛Self Reg User Profile Invoice Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_self_reg_user_profile_612244","column_name":"sys_id"},{"name":"f6eec674-add5-40cc-8c76-a128f2177aec.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f6eec674-add5-40cc-8c76-a128f2177aec.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f6eec674-add5-40cc-8c76-a128f2177aec.Table","label":"2➛Self Reg User Profile Invoice Table","reference":"u_self_reg_user_profile_612244","reference_display":"Self Reg User Profile Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f6eec674-add5-40cc-8c76-a128f2177aec.Record","label":"2➛Self Reg User Profile Invoice Record","reference":"u_self_reg_user_profile_612244","reference_display":"Self Reg User Profile Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ce951f7-2ad9-402c-b579-182f017e95e2.record","label":"1➛Password Reset Request Record","reference":"pwd_reset_request","reference_display":"Password Reset Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ce951f7-2ad9-402c-b579-182f017e95e2.table_name","label":"1➛Password Reset Request Table","reference":"pwd_reset_request","reference_display":"Password Reset Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.user","label":"Input➛user","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b116f6b4-bac0-4c00-bdbe-0e2f847a937b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"5ce951f7-2ad9-402c-b579-182f017e95e2.record.sys_id","label":"1➛Password Reset Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"pwd_reset_request","column_name":"sys_id"}]</label_cache>
+        <master>true</master>
+        <name>Password Reset Sender</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Password Reset Sender">36eba1a31b9ff41062e50ed2cd4bcb27</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>05dc65e31b9ff41062e50ed2cd4bcb51</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 18:07:04</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_variable_value action="delete_multiple" query="document_key=05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=05dc65e31b9ff41062e50ed2cd4bcb51^sys_idNOT IN49dc65e31b9ff41062e50ed2cd4bcb52"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>05dc65e31b9ff41062e50ed2cd4bcb51</id>
+        <name>Password Reset Sender</name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>49dc65e31b9ff41062e50ed2cd4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=05dc65e31b9ff41062e50ed2cd4bcb51^sys_idNOT INc9dc65e31b9ff41062e50ed2cd4bcb53"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=b116f6b4-bac0-4c00-bdbe-0e2f847a937b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>user</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Password Reset Sender">05dc65e31b9ff41062e50ed2cd4bcb51</model>
+        <model_id>05dc65e31b9ff41062e50ed2cd4bcb51</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_05dc65e31b9ff41062e50ed2cd4bcb51</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>c9dc65e31b9ff41062e50ed2cd4bcb53</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=05dc65e31b9ff41062e50ed2cd4bcb51^sys_idNOT IN4d1de9e31b9ff41062e50ed2cd4bcb74,59dc65e31b9ff41062e50ed2cd4bcba9,d9dc65e31b9ff41062e50ed2cd4bcbb1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Password Reset Sender">05dc65e31b9ff41062e50ed2cd4bcb51</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:51:17</sys_created_on>
+        <sys_id>4d1de9e31b9ff41062e50ed2cd4bcb74</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 18:07:04</sys_updated_on>
+        <ui_id>f6eec674-add5-40cc-8c76-a128f2177aec</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4d1de9e31b9ff41062e50ed2cd4bcb74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4d1de9e31b9ff41062e50ed2cd4bcb74</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:51:17</sys_created_on>
+        <sys_id>491de9e31b9ff41062e50ed2cd4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:51:17</sys_updated_on>
+        <value>u_self_reg_user_profile_612244</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4d1de9e31b9ff41062e50ed2cd4bcb74"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4d1de9e31b9ff41062e50ed2cd4bcb74</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:51:17</sys_created_on>
+        <sys_id>051de9e31b9ff41062e50ed2cd4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:51:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>user={{subflow.user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>4d1de9e31b9ff41062e50ed2cd4bcb74</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:51:17</sys_created_on>
+        <sys_id>c51de9e31b9ff41062e50ed2cd4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:51:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Password Reset Sender">05dc65e31b9ff41062e50ed2cd4bcb51</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>59dc65e31b9ff41062e50ed2cd4bcba9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 18:07:04</sys_updated_on>
+        <ui_id>5ce951f7-2ad9-402c-b579-182f017e95e2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=59dc65e31b9ff41062e50ed2cd4bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>59dc65e31b9ff41062e50ed2cd4bcba9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>5ddc65e31b9ff41062e50ed2cd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:12</sys_updated_on>
+        <value>pwd_reset_request</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=59dc65e31b9ff41062e50ed2cd4bcba9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>59dc65e31b9ff41062e50ed2cd4bcba9</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>19dc65e31b9ff41062e50ed2cd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>59dc65e31b9ff41062e50ed2cd4bcba9</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>d9dc65e31b9ff41062e50ed2cd4bcbaa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 18:07:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>user={{subflow.user}}^action_type=1^status=2^active=true^lock_state=2^process={"display":"Default Self Service","value":"c6b0c20667100200a5a0f3b457415ad5"}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send External User Password Reset Email">66c7a8865336001001a3ddeeff7b1298</action_type>
+        <action_type_parent display_value="Send External User Password Reset Email">03262c465336001001a3ddeeff7b127b</action_type_parent>
+        <comment/>
+        <compiled_snapshot>66c7a8865336001001a3ddeeff7b1298</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Password Reset Sender">05dc65e31b9ff41062e50ed2cd4bcb51</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>d9dc65e31b9ff41062e50ed2cd4bcbb1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 18:07:04</sys_updated_on>
+        <ui_id>bf26bd40-16f6-4ad9-b234-2a46f42585f8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d9dc65e31b9ff41062e50ed2cd4bcbb1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d9dc65e31b9ff41062e50ed2cd4bcbb1</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>15dc65e31b9ff41062e50ed2cd4bcbb3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:51:17</sys_updated_on>
+        <value/>
+        <variable display_value="Profile">a66894b45393001001a3ddeeff7b12a2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d9dc65e31b9ff41062e50ed2cd4bcbb1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>password_reset_request</field>
+        <id>d9dc65e31b9ff41062e50ed2cd4bcbb1</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>1ddc65e31b9ff41062e50ed2cd4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_66c7a8865336001001a3ddeeff7b1298</table>
+        <value>{{5ce951f7-2ad9-402c-b579-182f017e95e2.record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>profile</field>
+        <id>d9dc65e31b9ff41062e50ed2cd4bcbb1</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>91dc65e31b9ff41062e50ed2cd4bcbb3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:51:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_66c7a8865336001001a3ddeeff7b1298</table>
+        <value>{{f6eec674-add5-40cc-8c76-a128f2177aec.Record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>d9dc65e31b9ff41062e50ed2cd4bcbb1</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>dddc65e31b9ff41062e50ed2cd4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_66c7a8865336001001a3ddeeff7b1298</table>
+        <value>{{subflow.user}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_05dc65e31b9ff41062e50ed2cd4bcb51^sys_idNOT IN59dc65e31b9ff41062e50ed2cd4bcb9e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user</element>
+        <help/>
+        <hint/>
+        <label>user</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_05dc65e31b9ff41062e50ed2cd4bcb51</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-25 17:50:12</sys_created_on>
+        <sys_id>59dc65e31b9ff41062e50ed2cd4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_05dc65e31b9ff41062e50ed2cd4bcb51_user_en</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-25 17:50:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>36eba1a31b9ff41062e50ed2cd4bcb27</sys_id>
+        <latest_snapshot>05dc65e31b9ff41062e50ed2cd4bcb51</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

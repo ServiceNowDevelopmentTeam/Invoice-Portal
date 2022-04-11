@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_uc_can_view">
+    <m2m_sp_widget_uc_can_view action="INSERT_OR_UPDATE">
+        <sp_widget display_value="Invoice Data Table from Instance Definit">0694d3a31b2205108c5143f3cc4bcb79</sp_widget>
+        <sys_class_name>m2m_sp_widget_uc_can_view</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-05 15:17:29</sys_created_on>
+        <sys_id>b36b932f1b2205108c5143f3cc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Invoice Data Table from Instance Definit.Role: snc_internal and snc_external</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>m2m_sp_widget_uc_can_view_b36b932f1b2205108c5143f3cc4bcbef</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-05 15:17:29</sys_updated_on>
+        <user_criteria display_value="Role: snc_internal and snc_external">adc883671beec1108c5143f3cc4bcbbc</user_criteria>
+    </m2m_sp_widget_uc_can_view>
+</record_update>

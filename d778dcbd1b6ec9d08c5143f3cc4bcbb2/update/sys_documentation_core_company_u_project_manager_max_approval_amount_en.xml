@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_project_manager_max_approval_amount" label="PM Limit" language="en" table="core_company">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_project_manager_max_approval_amount</element>
+            <help/>
+            <hint/>
+            <label>PM Limit</label>
+            <language>en</language>
+            <name>core_company</name>
+            <plural>PM Limits</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-04-01 17:26:05</sys_created_on>
+            <sys_id>14821b1e1b2a45148c5143f3cc4bcb80</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>PM Limit</sys_name>
+            <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+            <sys_update_name>sys_documentation_core_company_u_project_manager_max_approval_amount_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-04-01 17:34:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

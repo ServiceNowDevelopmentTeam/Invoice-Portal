@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Question" max_length="40" name="question" sizeclass="1740" type="collection">
+        <element attributes="edge_encryption_enabled=true,is_searchable_choice=true" choice="3" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Attachment" sequence="10" value="33"/>
+                <element inactive_on_update="false" label="Break" sequence="20" value="12"/>
+                <element inactive_on_update="false" label="CheckBox" sequence="30" value="7"/>
+                <element inactive_on_update="false" label="Container End" sequence="40" value="20"/>
+                <element inactive_on_update="false" label="Container Split" sequence="50" value="24"/>
+                <element inactive_on_update="false" label="Container Start" sequence="60" value="19"/>
+                <element inactive_on_update="false" label="Custom" sequence="70" value="14"/>
+                <element inactive_on_update="false" label="Custom with Label" sequence="80" value="17"/>
+                <element inactive_on_update="false" label="Date" sequence="90" value="9"/>
+                <element inactive_on_update="false" label="Date/Time" sequence="100" value="10"/>
+                <element inactive_on_update="false" label="Duration" sequence="110" value="29"/>
+                <element inactive_on_update="false" label="Email" sequence="120" value="26"/>
+                <element inactive_on_update="false" label="HTML" sequence="130" value="23"/>
+                <element inactive_on_update="false" label="IP Address" sequence="140" value="28"/>
+                <element inactive_on_update="false" label="Label" sequence="150" value="11"/>
+                <element inactive_on_update="false" label="List Collector" sequence="160" value="21"/>
+                <element inactive_on_update="false" label="Lookup Multiple Choice" sequence="170" value="22"/>
+                <element inactive_on_update="false" label="Lookup Select Box" sequence="180" value="18"/>
+                <element inactive_on_update="false" label="Masked" sequence="190" value="25"/>
+                <element inactive_on_update="false" label="Multi Line Text" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Multiple Choice" sequence="210" value="3"/>
+                <element inactive_on_update="false" label="Numeric Scale" sequence="220" value="4"/>
+                <element inactive_on_update="false" label="Reference" sequence="230" value="8"/>
+                <element inactive_on_update="false" label="Requested For" sequence="235" value="31"/>
+                <element inactive_on_update="false" label="Rich Text Label" sequence="240" value="32"/>
+                <element inactive_on_update="false" label="Select Box" sequence="250" value="5"/>
+                <element inactive_on_update="false" label="Single Line Text" sequence="260" value="6"/>
+                <element inactive="true" inactive_on_update="true" label="Table Name" sequence="270" value="40"/>
+                <element inactive_on_update="false" label="UI Page" sequence="280" value="15"/>
+                <element inactive_on_update="false" label="URL" sequence="290" value="27"/>
+                <element inactive_on_update="false" label="Wide Single Line Text" sequence="300" value="16"/>
+                <element inactive_on_update="false" label="Yes / No" sequence="310" value="1"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>u_invoice_task</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Invoice Task - Copy Invoice Variables</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	//Look up variables to copy to invoice task
+	var qa = new GlideRecord('question_answer');
+	qa.addQuery('table_sys_id',current.parent.sys_id.toString());
+	qa.addQuery('table_name','u_invoice');
+	qa.addQuery('question.global',true);
+	//Don't copy related incident or related ritm variables
+	qa.addQuery('question','!=','3781add11b457cd08c5143f3cc4bcbdd');
+	qa.addQuery('question','!=','9947ae711b0d78d0e7004229bc4bcbe2');
+	qa.addQuery('question','!=','001ffc221bc9fcd0e7004229bc4bcb60');
+	qa.query();
+	while(qa.next()) {
+		//Create a new variable related to invoice task
+		var gr = new GlideRecord('question_answer');
+		gr.initialize();
+		gr.table_name = 'u_invoice_task';
+		gr.table_sys_id = current.sys_id.toString();
+		gr.question = qa.question.sys_id.toString();
+		gr.value = qa.value;
+		gr.order = qa.order;
+		gr.insert();		
+	}
+	
+	//Create a new produced record related to invoice task
+	var pr = new GlideRecord('sc_item_produced_record');
+	pr.addQuery('record_table','u_invoice_task');
+	pr.addQuery('producer','39845cda1b0138148c5143f3cc4bcb27');
+	pr.addQuery('record_key',current.parent.sys_id.toString());
+	pr.addQuery('task',current.parent.sys_id.toString());
+	pr.query();
+	if(pr.next()) {
+		var pt = new GlideRecord('sc_item_produced_record');
+		pt.initialize();
+		pt.record_table = 'u_invoice_task';
+		pt.producer = '39845cda1b0138148c5143f3cc4bcb27';
+		pt.record_key = current.sys_id.toString();
+		pt.task = current.sys_id.toString();
+		pt.insert();		
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-06 12:55:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>25938c0c1bfa45108c5143f3cc4bcb3a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Invoice Task - Copy Invoice Variables</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_script_25938c0c1bfa45108c5143f3cc4bcb3a</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-06 14:31:42</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=25938c0c1bfa45108c5143f3cc4bcb3a"/>
+</record_update>
