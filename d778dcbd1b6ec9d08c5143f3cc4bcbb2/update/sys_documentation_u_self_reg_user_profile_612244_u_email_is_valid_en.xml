@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_email_is_valid" label="Email Is Valid" language="en" table="u_self_reg_user_profile_612244">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_email_is_valid</element>
+            <help/>
+            <hint/>
+            <label>Email Is Valid</label>
+            <language>en</language>
+            <name>u_self_reg_user_profile_612244</name>
+            <plural>Email Is Valids</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-04-27 13:10:46</sys_created_on>
+            <sys_id>3161dc7a1b4f819062e50ed2cd4bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Email Is Valid</sys_name>
+            <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+            <sys_update_name>sys_documentation_u_self_reg_user_profile_612244_u_email_is_valid_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-04-27 13:10:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

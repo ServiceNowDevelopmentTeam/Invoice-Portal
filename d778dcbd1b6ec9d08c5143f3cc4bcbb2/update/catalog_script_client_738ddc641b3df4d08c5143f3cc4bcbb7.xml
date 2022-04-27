@@ -18,21 +18,22 @@
         <name>Set Company</name>
         <order>50</order>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (g_form.isLiveUpdating && g_form.isLiveUpdating())
-      return;
-
-   if (newValue == '') {
-      g_form.setValue('company', '');
-      return;
-   }
-   if (!g_form.hasField('company'))
-      return;
-   var caller = g_form.getReference('opened_by', setCompany);
+	if (g_form.isLiveUpdating && g_form.isLiveUpdating())
+		return;
+	if (oldValue == ''){
+		if (newValue == '') {
+			g_form.setValue('company', '');
+			return;
+		}
+		if (!g_form.hasField('company'))
+			return;
+		var caller = g_form.getReference('opened_by', setCompany);
+	}
 }
 
 function setCompany(caller) {
-   if (caller)
-       g_form.setValue('company', caller.company);
+	if (caller)
+		g_form.setValue('company', caller.company);
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>terry.owczarski@cdw.com</sys_created_by>
@@ -40,7 +41,7 @@ function setCompany(caller) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>738ddc641b3df4d08c5143f3cc4bcbb7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Set Company</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
@@ -48,7 +49,7 @@ function setCompany(caller) {
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>catalog_script_client_738ddc641b3df4d08c5143f3cc4bcbb7</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 15:08:26</sys_updated_on>
+        <sys_updated_on>2022-04-20 14:52:15</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
