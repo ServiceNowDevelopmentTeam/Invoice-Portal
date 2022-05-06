@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow read for name in sys_user, for users with roles (snc_internal, snc_external, invoice_portal).</description>
+        <name>sys_user.name</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-06 19:54:30</sys_created_on>
+        <sys_id>f40484351b1bc9d062e50ed2cd4bcb1a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sys_user.name</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_security_acl_f40484351b1bc9d062e50ed2cd4bcb1a</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-06 20:08:21</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
