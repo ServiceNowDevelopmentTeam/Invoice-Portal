@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>company</element>
+        <mandatory>true</mandatory>
+        <mandatory_override>true</mandatory_override>
+        <name>u_invoice</name>
+        <read_only>false</read_only>
+        <read_only_override>true</read_only_override>
+        <reference_qual>vendor=true</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-13 19:32:06</sys_created_on>
+        <sys_id>d162a9161bf6c110346ffd951a4bcbcc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>company</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_dictionary_override_d162a9161bf6c110346ffd951a4bcbcc</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-18 16:01:48</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>180d7e7666c0000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_override_d162a9161bf6c110346ffd951a4bcbcc</metadata_update_name>
+        <previous_claim_app_version>1.1.5</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-18 16:01:48</sys_created_on>
+        <sys_id>84f101251baf095062e50ed2cd4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-18 16:01:48</sys_updated_on>
+    </sys_claim>
+</record_update>
