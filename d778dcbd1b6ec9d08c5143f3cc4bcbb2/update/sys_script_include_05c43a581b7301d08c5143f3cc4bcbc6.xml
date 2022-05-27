@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.resetInvoice</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>resetInvoice</name>
+        <script><![CDATA[var resetInvoice = Class.create();
+resetInvoice.prototype = {
+	initialize: function() {
+	},
+	resetInvoice: function(docId){
+		var invoiceGr = new GlideRecord('u_invoice');
+		invoiceGr.get(docId);
+		var userId = gs.getUserID();
+		var userGr = new GlideRecord('sys_user');
+		userGr.get(userId);
+		gs.info('user ' + userGr.name + ' resetting invoice ' + invoiceGr.number);
+		try {
+			var inputs = {};
+			inputs['invoice'] = invoiceGr; // GlideRecord of table: u_invoice 
+			inputs['reset_by_user'] = userGr; // GlideRecord of table: sys_user 
+
+			// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+			sn_fd.FlowAPI.getRunner().subflow('global.reset_invoice').inBackground().withInputs(inputs).run();
+			gs.addInfoMessage('Invoice reset process started.');
+		} catch (ex) {
+			var message = ex.getMessage();
+			gs.error(message);
+		}
+	},
+	type: 'resetInvoice'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-27 13:27:05</sys_created_on>
+        <sys_id>05c43a581b7301d08c5143f3cc4bcbc6</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>resetInvoice</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_script_include_05c43a581b7301d08c5143f3cc4bcbc6</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-27 14:18:17</sys_updated_on>
+    </sys_script_include>
+</record_update>

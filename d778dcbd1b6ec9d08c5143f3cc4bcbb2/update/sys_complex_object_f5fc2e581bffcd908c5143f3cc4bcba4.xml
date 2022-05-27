@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD35fc2e58f6ffcd90d083150ecf105ea4</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>d778dcbd1b6ec9d08c5143f3cc4bcbb2</scope_name>
+        <serialized_content>{"FlowDesigner:FD35fc2e58f6ffcd90d083150ecf105ea4":{},"FlowDesigner:FD35fc2e58f6ffcd90d083150ecf105ea4.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"872d42a9-c926-4285-b8fc-902493acdc77\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD35fc2e58f6ffcd90d083150ecf105ea4\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-27 12:52:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f5fc2e581bffcd908c5143f3cc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD35fc2e58f6ffcd90d083150ecf105ea4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_complex_object_f5fc2e581bffcd908c5143f3cc4bcba4</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-27 12:52:42</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
