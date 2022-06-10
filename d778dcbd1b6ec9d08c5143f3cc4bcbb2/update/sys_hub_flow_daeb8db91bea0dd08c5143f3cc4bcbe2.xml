@@ -13,10 +13,10 @@
         <internal_name>invoice_portal__invoice_submitted</internal_name>
         <label_cache>[{"name":"1685a8f4-3b8d-4212-80da-2b85ccd33ce0.company.name","label":"3➛company➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"core_company","column_name":"name"},{"name":"9f2ed1a2-c1c7-4b97-bf82-dd274ace5492.context","label":"6➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"1691374b-7842-4bd9-a173-8f10d2a88373.context","label":"6➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.Record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"740adb27-a89c-407a-bd38-0de5c073130c.__dont_treat_as_error__","label":"10➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"740adb27-a89c-407a-bd38-0de5c073130c.__action_status__","label":"10➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"740adb27-a89c-407a-bd38-0de5c073130c.table_name","label":"10➛Invoice Table","reference":"u_invoice","reference_display":"Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"740adb27-a89c-407a-bd38-0de5c073130c.record","label":"10➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4585cee4-91bb-467a-a612-daabccd4c2bf.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4585cee4-91bb-467a-a612-daabccd4c2bf.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4585cee4-91bb-467a-a612-daabccd4c2bf.Table","label":"2➛Invoice Task Table","reference":"u_invoice_task","reference_display":"Invoice Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4585cee4-91bb-467a-a612-daabccd4c2bf.Record","label":"2➛Invoice Task Record","reference":"u_invoice_task","reference_display":"Invoice Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.company","label":"Trigger➛Invoice Record➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"u_invoice","column_name":"company"},{"name":"Created_1.current.sys_id","label":"Trigger➛Invoice Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_invoice","column_name":"sys_id"},{"name":"cc9656f6-9082-4c62-9c95-4be55c61eb7e.context","label":"5➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"ac931172-4588-42e2-9e1d-a3e788ad3695.record","label":"1➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ac931172-4588-42e2-9e1d-a3e788ad3695.table_name","label":"1➛Invoice Table","reference":"u_invoice","reference_display":"Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ac931172-4588-42e2-9e1d-a3e788ad3695.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ac931172-4588-42e2-9e1d-a3e788ad3695.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{}},{"name":"d527303e-f00a-4adb-8259-1f70a9016ca7.context","label":"2➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"d527303e-f00a-4adb-8259-1f70a9016ca7.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"66e11c0d-cb58-4218-9ac6-65255f82e61b"}},{"name":"cc9656f6-9082-4c62-9c95-4be55c61eb7e.approval_state","label":"5➛Approval State","reference_display":"Approval State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"66e11c0d-cb58-4218-9ac6-65255f82e61b"}},{"name":"ff7a33d8-d72b-4afa-9118-ff68e90f1a44.__status__","label":"14➛Error Status","reference_display":"Error Status","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7f22c05-a478-4951-8aca-7b3eef007cba.context","label":"14➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"ff7a33d8-d72b-4afa-9118-ff68e90f1a44.__status__.message","label":"14➛Error Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"ff7a33d8-d72b-4afa-9118-ff68e90f1a44.__status__.code","label":"14➛Error Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"Created_1.current.number","label":"Trigger➛Invoice Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"u_invoice","column_name":"number"},{"name":"e8ef4930-a401-4ff7-b68b-9cf5b878310c.record","label":"8➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8ef4930-a401-4ff7-b68b-9cf5b878310c.table_name","label":"8➛Invoice Table","reference":"u_invoice","reference_display":"Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8ef4930-a401-4ff7-b68b-9cf5b878310c.__action_status__","label":"8➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8ef4930-a401-4ff7-b68b-9cf5b878310c.__dont_treat_as_error__","label":"8➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b8bdc9d5-1383-4c4b-aee6-2950bc05877a.Record","label":"9➛Invoice Task Record","reference":"u_invoice_task","reference_display":"Invoice Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b8bdc9d5-1383-4c4b-aee6-2950bc05877a.Table","label":"9➛Invoice Task Table","reference":"u_invoice_task","reference_display":"Invoice Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b8bdc9d5-1383-4c4b-aee6-2950bc05877a.__action_status__","label":"9➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b8bdc9d5-1383-4c4b-aee6-2950bc05877a.__dont_treat_as_error__","label":"9➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"30d9cb2f-bf37-41f6-8874-92c49a57cafb.Record","label":"11➛Invoice Task Record","reference":"u_invoice_task","reference_display":"Invoice Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"30d9cb2f-bf37-41f6-8874-92c49a57cafb.Table","label":"11➛Invoice Task Table","reference":"u_invoice_task","reference_display":"Invoice Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"30d9cb2f-bf37-41f6-8874-92c49a57cafb.__action_status__","label":"11➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"30d9cb2f-bf37-41f6-8874-92c49a57cafb.__dont_treat_as_error__","label":"11➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e52b8a1-0634-4f7a-9f70-8a28d5a41099.record","label":"12➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e52b8a1-0634-4f7a-9f70-8a28d5a41099.table_name","label":"12➛Invoice Table","reference":"u_invoice","reference_display":"Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e52b8a1-0634-4f7a-9f70-8a28d5a41099.__action_status__","label":"12➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e52b8a1-0634-4f7a-9f70-8a28d5a41099.__dont_treat_as_error__","label":"12➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e54fe4c-182d-4cbe-ba0f-6b2c1afeacad.record","label":"4➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e54fe4c-182d-4cbe-ba0f-6b2c1afeacad.table_name","label":"4➛Invoice Table","reference":"u_invoice","reference_display":"Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e54fe4c-182d-4cbe-ba0f-6b2c1afeacad.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e54fe4c-182d-4cbe-ba0f-6b2c1afeacad.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1685a8f4-3b8d-4212-80da-2b85ccd33ce0.company","label":"3➛company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"d0af00d7-1452-4c47-8a08-5250cd7337b3.context","label":"5➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"d0af00d7-1452-4c47-8a08-5250cd7337b3.output","label":"5➛Approval State","reference_display":"Approval State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"af235e6b-6478-4664-8500-fbe41c96e64b"}},{"name":"Created_1.current.company.name","label":"Trigger➛Invoice Record➛Company➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"core_company","column_name":"name"},{"name":"cc9656f6-9082-4c62-9c95-4be55c61eb7e.output","label":"5➛Approval State","reference_display":"Approval State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"af235e6b-6478-4664-8500-fbe41c96e64b"}}]</label_cache>
         <master_snapshot>7d896aca1baa41148c5143f3cc4bcb95</master_snapshot>
-        <name>Invoice Portal - Invoice Submitted</name>
+        <name>Invoice Submitted</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>00ad743d1bb745d062e50ed2cd4bcb43</remote_trigger_id>
+        <remote_trigger_id>dcd8bab01bc419108c5143f3cc4bcb79</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>daeb8db91bea0dd08c5143f3cc4bcbe2</sys_id>
-        <sys_mod_count>30</sys_mod_count>
-        <sys_name>Invoice Portal - Invoice Submitted</sys_name>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>Invoice Submitted</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_hub_flow_daeb8db91bea0dd08c5143f3cc4bcbe2</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:10</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=daeb8db91bea0dd08c5143f3cc4bcbe2"/>
@@ -57,56 +57,56 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-31 20:37:08</sys_created_on>
+        <sys_created_on>2022-06-10 13:17:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>00ad743d1bb745d062e50ed2cd4bcb43</sys_id>
+        <sys_id>dcd8bab01bc419108c5143f3cc4bcb79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:08</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:08</sys_updated_on>
         <table>u_invoice</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"88ad743d1bb745d062e50ed2cd4bcb43","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"98d8bab01bc419108c5143f3cc4bcb7a","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>daeb8db91bea0dd08c5143f3cc4bcbe2</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-31 20:37:08</sys_created_on>
-        <sys_id>88ad743d1bb745d062e50ed2cd4bcb43</sys_id>
+        <sys_created_on>2022-06-10 13:17:08</sys_created_on>
+        <sys_id>98d8bab01bc419108c5143f3cc4bcb7a</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:09</sys_updated_on>
-        <trigger display_value="">00ad743d1bb745d062e50ed2cd4bcb43</trigger>
+        <sys_updated_on>2022-06-10 13:17:08</sys_updated_on>
+        <trigger display_value="">dcd8bab01bc419108c5143f3cc4bcb79</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>88ad743d1bb745d062e50ed2cd4bcb43</document_id>
+        <document_id>98d8bab01bc419108c5143f3cc4bcb7a</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-31 20:37:08</sys_created_on>
-        <sys_id>80ad743d1bb745d062e50ed2cd4bcb44</sys_id>
+        <sys_created_on>2022-06-10 13:17:08</sys_created_on>
+        <sys_id>d0d8bab01bc419108c5143f3cc4bcb7b</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=daeb8db91bea0dd08c5143f3cc4bcbe2^sys_idNOT IN88ad743d1bb745d062e50ed2cd4bcb43"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=daeb8db91bea0dd08c5143f3cc4bcbe2^sys_idNOT IN98d8bab01bc419108c5143f3cc4bcb7a"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=daeb8db91bea0dd08c5143f3cc4bcbe2^sys_idNOT INbb7c0d3d1bea0dd08c5143f3cc4bcbfd"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 18:23:38</sys_created_on>
         <sys_id>bb7c0d3d1bea0dd08c5143f3cc4bcbfd</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:09</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:09</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -193,7 +193,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</model>
+        <model display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</model>
         <model_id>daeb8db91bea0dd08c5143f3cc4bcbe2</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_daeb8db91bea0dd08c5143f3cc4bcbe2</name>
@@ -216,14 +216,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 18:23:37</sys_created_on>
         <sys_id>a37c413d1bea0dd08c5143f3cc4bcb46</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:09</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -274,7 +274,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</model>
+        <model display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</model>
         <model_id>daeb8db91bea0dd08c5143f3cc4bcbe2</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_daeb8db91bea0dd08c5143f3cc4bcbe2</name>
@@ -297,14 +297,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 18:23:37</sys_created_on>
         <sys_id>b77c0d3d1bea0dd08c5143f3cc4bcbf6</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:09</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -325,17 +325,17 @@
         <comment/>
         <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-01 20:00:59</sys_created_on>
         <sys_id>11f53b961be285148c5143f3cc4bcb3d</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-08 15:57:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:54:26</sys_updated_on>
         <ui_id>1685a8f4-3b8d-4212-80da-2b85ccd33ce0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=11f53b961be285148c5143f3cc4bcb3d"/>
@@ -412,17 +412,17 @@
         <comment>Create AP Review Task</comment>
         <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:25</sys_created_on>
         <sys_id>2941fa461b6e41148c5143f3cc4bcb72</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-08 15:57:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:54:26</sys_updated_on>
         <ui_id>4585cee4-91bb-467a-a612-daabccd4c2bf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2941fa461b6e41148c5143f3cc4bcb72"/>
@@ -513,17 +513,17 @@
         <comment>Create Process Invoice Task</comment>
         <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <order>9</order>
         <parent_ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:26</sys_created_on>
         <sys_id>3d413e461b6e41148c5143f3cc4bcb55</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-08 15:57:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:54:26</sys_updated_on>
         <ui_id>b8bdc9d5-1383-4c4b-aee6-2950bc05877a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3d413e461b6e41148c5143f3cc4bcb55"/>
@@ -615,17 +615,17 @@
         <comment>Set Invoice State to Payment Processing</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <order>10</order>
         <parent_ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-01 17:12:13</sys_created_on>
         <sys_id>515f4b521b2a45148c5143f3cc4bcb29</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-08 15:57:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:54:26</sys_updated_on>
         <ui_id>740adb27-a89c-407a-bd38-0de5c073130c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=515f4b521b2a45148c5143f3cc4bcb29"/>
@@ -702,17 +702,17 @@
         <comment>Set Invoice to Waiting for Approval</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-01 17:12:55</sys_created_on>
         <sys_id>6f7f0b921b2a45148c5143f3cc4bcb46</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-08 15:57:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:54:26</sys_updated_on>
         <ui_id>0e54fe4c-182d-4cbe-ba0f-6b2c1afeacad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6f7f0b921b2a45148c5143f3cc4bcb46"/>
@@ -789,17 +789,17 @@
         <comment>Create Pay Invoice Task</comment>
         <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <order>11</order>
         <parent_ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:26</sys_created_on>
         <sys_id>b1413e461b6e41148c5143f3cc4bcb5c</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-08 15:57:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:54:26</sys_updated_on>
         <ui_id>30d9cb2f-bf37-41f6-8874-92c49a57cafb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b1413e461b6e41148c5143f3cc4bcb5c"/>
@@ -891,17 +891,17 @@
         <comment>Set Invoice State to Process Invoice</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <order>8</order>
         <parent_ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:26</sys_created_on>
         <sys_id>b9413e461b6e41148c5143f3cc4bcb4d</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-08 15:57:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:54:26</sys_updated_on>
         <ui_id>e8ef4930-a401-4ff7-b68b-9cf5b878310c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b9413e461b6e41148c5143f3cc4bcb4d"/>
@@ -978,17 +978,17 @@
         <comment>Set Invoice to Under Review</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 18:23:38</sys_created_on>
         <sys_id>bb7c4d3d1bea0dd08c5143f3cc4bcb04</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-08 15:57:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:54:26</sys_updated_on>
         <ui_id>ac931172-4588-42e2-9e1d-a3e788ad3695</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bb7c4d3d1bea0dd08c5143f3cc4bcb04"/>
@@ -1065,17 +1065,17 @@
         <comment>Set Invoice to Closed Complete</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <order>12</order>
         <parent_ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:26</sys_created_on>
         <sys_id>f1413e461b6e41148c5143f3cc4bcb62</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-08 15:57:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:54:26</sys_updated_on>
         <ui_id>6e52b8a1-0634-4f7a-9f70-8a28d5a41099</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f1413e461b6e41148c5143f3cc4bcb62"/>
@@ -1154,7 +1154,7 @@
         <display_text/>
         <extended_inputs/>
         <extended_inputs/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1167,10 +1167,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-01 20:51:07</sys_created_on>
         <sys_id>a761c4621be685148c5143f3cc4bcb1c</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:09</sys_updated_on>
         <ui_id>9f2ed1a2-c1c7-4b97-bf82-dd274ace5492</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1747,7 +1747,7 @@
         <display_text/>
         <extended_inputs/>
         <extended_inputs/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1760,10 +1760,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-05-17 19:11:09</sys_created_on>
         <sys_id>f7a3e4111b6fc1508c5143f3cc4bcbc8</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:09</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:09</sys_updated_on>
         <ui_id>d0af00d7-1452-4c47-8a08-5250cd7337b3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2044,7 +2044,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
+        <flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -2058,10 +2058,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:26</sys_created_on>
         <sys_id>f9413e461b6e41148c5143f3cc4bcb44</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:10</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:09</sys_updated_on>
         <ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2158,18 +2158,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8a89aaca1baa41148c5143f3cc4bcb81","name":"plan","plan_signature":null}}</plan>
         <plan_id>daeb8db91bea0dd08c5143f3cc4bcbe2</plan_id>
-        <snapshot>ec4acd141b04951062e50ed2cd4bcb8a</snapshot>
+        <snapshot>1a51cbb41b4819108c5143f3cc4bcbdf</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 19:48:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8a89aaca1baa41148c5143f3cc4bcb81</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:09</sys_updated_on>
-        <trigger display_value="">00ad743d1bb745d062e50ed2cd4bcb43</trigger>
+        <sys_updated_on>2022-06-10 13:17:08</sys_updated_on>
+        <trigger display_value="">dcd8bab01bc419108c5143f3cc4bcb79</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2184,10 +2184,10 @@
         <internal_name>invoice_portal__invoice_submitted</internal_name>
         <label_cache>[{"name":"1685a8f4-3b8d-4212-80da-2b85ccd33ce0.company.name","label":"3➛company➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"core_company","column_name":"name"},{"name":"9f2ed1a2-c1c7-4b97-bf82-dd274ace5492.context","label":"6➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"1691374b-7842-4bd9-a173-8f10d2a88373.context","label":"6➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6513b749-ddbb-4f31-a4a1-4afe962cec3a.Record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"740adb27-a89c-407a-bd38-0de5c073130c.__dont_treat_as_error__","label":"10➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"740adb27-a89c-407a-bd38-0de5c073130c.__action_status__","label":"10➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"740adb27-a89c-407a-bd38-0de5c073130c.table_name","label":"10➛Invoice Table","reference":"u_invoice","reference_display":"Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"740adb27-a89c-407a-bd38-0de5c073130c.record","label":"10➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4585cee4-91bb-467a-a612-daabccd4c2bf.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4585cee4-91bb-467a-a612-daabccd4c2bf.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4585cee4-91bb-467a-a612-daabccd4c2bf.Table","label":"2➛Invoice Task Table","reference":"u_invoice_task","reference_display":"Invoice Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4585cee4-91bb-467a-a612-daabccd4c2bf.Record","label":"2➛Invoice Task Record","reference":"u_invoice_task","reference_display":"Invoice Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.company","label":"Trigger➛Invoice Record➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"u_invoice","column_name":"company"},{"name":"Created_1.current.sys_id","label":"Trigger➛Invoice Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_invoice","column_name":"sys_id"},{"name":"cc9656f6-9082-4c62-9c95-4be55c61eb7e.context","label":"5➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"ac931172-4588-42e2-9e1d-a3e788ad3695.record","label":"1➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ac931172-4588-42e2-9e1d-a3e788ad3695.table_name","label":"1➛Invoice Table","reference":"u_invoice","reference_display":"Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ac931172-4588-42e2-9e1d-a3e788ad3695.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ac931172-4588-42e2-9e1d-a3e788ad3695.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{}},{"name":"d527303e-f00a-4adb-8259-1f70a9016ca7.context","label":"2➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"d527303e-f00a-4adb-8259-1f70a9016ca7.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"66e11c0d-cb58-4218-9ac6-65255f82e61b"}},{"name":"cc9656f6-9082-4c62-9c95-4be55c61eb7e.approval_state","label":"5➛Approval State","reference_display":"Approval State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"66e11c0d-cb58-4218-9ac6-65255f82e61b"}},{"name":"ff7a33d8-d72b-4afa-9118-ff68e90f1a44.__status__","label":"14➛Error Status","reference_display":"Error Status","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7f22c05-a478-4951-8aca-7b3eef007cba.context","label":"14➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"ff7a33d8-d72b-4afa-9118-ff68e90f1a44.__status__.message","label":"14➛Error Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"ff7a33d8-d72b-4afa-9118-ff68e90f1a44.__status__.code","label":"14➛Error Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"Created_1.current.number","label":"Trigger➛Invoice Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"u_invoice","column_name":"number"},{"name":"e8ef4930-a401-4ff7-b68b-9cf5b878310c.record","label":"8➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8ef4930-a401-4ff7-b68b-9cf5b878310c.table_name","label":"8➛Invoice Table","reference":"u_invoice","reference_display":"Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8ef4930-a401-4ff7-b68b-9cf5b878310c.__action_status__","label":"8➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8ef4930-a401-4ff7-b68b-9cf5b878310c.__dont_treat_as_error__","label":"8➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b8bdc9d5-1383-4c4b-aee6-2950bc05877a.Record","label":"9➛Invoice Task Record","reference":"u_invoice_task","reference_display":"Invoice Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b8bdc9d5-1383-4c4b-aee6-2950bc05877a.Table","label":"9➛Invoice Task Table","reference":"u_invoice_task","reference_display":"Invoice Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b8bdc9d5-1383-4c4b-aee6-2950bc05877a.__action_status__","label":"9➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b8bdc9d5-1383-4c4b-aee6-2950bc05877a.__dont_treat_as_error__","label":"9➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"30d9cb2f-bf37-41f6-8874-92c49a57cafb.Record","label":"11➛Invoice Task Record","reference":"u_invoice_task","reference_display":"Invoice Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"30d9cb2f-bf37-41f6-8874-92c49a57cafb.Table","label":"11➛Invoice Task Table","reference":"u_invoice_task","reference_display":"Invoice Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"30d9cb2f-bf37-41f6-8874-92c49a57cafb.__action_status__","label":"11➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"30d9cb2f-bf37-41f6-8874-92c49a57cafb.__dont_treat_as_error__","label":"11➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e52b8a1-0634-4f7a-9f70-8a28d5a41099.record","label":"12➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e52b8a1-0634-4f7a-9f70-8a28d5a41099.table_name","label":"12➛Invoice Table","reference":"u_invoice","reference_display":"Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e52b8a1-0634-4f7a-9f70-8a28d5a41099.__action_status__","label":"12➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e52b8a1-0634-4f7a-9f70-8a28d5a41099.__dont_treat_as_error__","label":"12➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e54fe4c-182d-4cbe-ba0f-6b2c1afeacad.record","label":"4➛Invoice Record","reference":"u_invoice","reference_display":"Invoice","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e54fe4c-182d-4cbe-ba0f-6b2c1afeacad.table_name","label":"4➛Invoice Table","reference":"u_invoice","reference_display":"Invoice","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e54fe4c-182d-4cbe-ba0f-6b2c1afeacad.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e54fe4c-182d-4cbe-ba0f-6b2c1afeacad.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1685a8f4-3b8d-4212-80da-2b85ccd33ce0.company","label":"3➛company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"d0af00d7-1452-4c47-8a08-5250cd7337b3.context","label":"5➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"d0af00d7-1452-4c47-8a08-5250cd7337b3.output","label":"5➛Approval State","reference_display":"Approval State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"af235e6b-6478-4664-8500-fbe41c96e64b"}},{"name":"Created_1.current.company.name","label":"Trigger➛Invoice Record➛Company➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"core_company","column_name":"name"},{"name":"cc9656f6-9082-4c62-9c95-4be55c61eb7e.output","label":"5➛Approval State","reference_display":"Approval State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"af235e6b-6478-4664-8500-fbe41c96e64b"}}]</label_cache>
         <master>true</master>
-        <name>Invoice Portal - Invoice Submitted</name>
+        <name>Invoice Submitted</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Invoice Portal - Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</parent_flow>
+        <parent_flow display_value="Invoice Submitted">daeb8db91bea0dd08c5143f3cc4bcbe2</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -2199,7 +2199,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7d896aca1baa41148c5143f3cc4bcb95</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2207,7 +2207,7 @@
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:06</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:06</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=7d896aca1baa41148c5143f3cc4bcb95"/>
@@ -2216,16 +2216,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 19:48:35</sys_created_on>
         <sys_id>0a89aaca1baa41148c5143f3cc4bcb10</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:09</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:08</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2312,7 +2312,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</model>
+        <model display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</model>
         <model_id>7d896aca1baa41148c5143f3cc4bcb95</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_7d896aca1baa41148c5143f3cc4bcb95</name>
@@ -2335,14 +2335,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 19:48:34</sys_created_on>
         <sys_id>35896aca1baa41148c5143f3cc4bcb98</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:05</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2393,7 +2393,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</model>
+        <model display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</model>
         <model_id>7d896aca1baa41148c5143f3cc4bcb95</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_7d896aca1baa41148c5143f3cc4bcb95</name>
@@ -2416,14 +2416,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 19:48:34</sys_created_on>
         <sys_id>f5896aca1baa41148c5143f3cc4bcba9</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:05</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2444,17 +2444,17 @@
         <comment>Set Invoice to Under Review</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 19:48:35</sys_created_on>
         <sys_id>02896aca1baa41148c5143f3cc4bcbf5</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:05</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:05</sys_updated_on>
         <ui_id>ac931172-4588-42e2-9e1d-a3e788ad3695</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=02896aca1baa41148c5143f3cc4bcbf5"/>
@@ -2531,17 +2531,17 @@
         <comment>Create Pay Invoice Task</comment>
         <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <order>11</order>
         <parent_ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:31</sys_created_on>
         <sys_id>3241be461b6e41148c5143f3cc4bcb12</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:06</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:06</sys_updated_on>
         <ui_id>30d9cb2f-bf37-41f6-8874-92c49a57cafb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3241be461b6e41148c5143f3cc4bcb12"/>
@@ -2633,17 +2633,17 @@
         <comment>Set Invoice State to Process Invoice</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <order>8</order>
         <parent_ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:30</sys_created_on>
         <sys_id>3e417e461b6e41148c5143f3cc4bcbf8</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:06</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:06</sys_updated_on>
         <ui_id>e8ef4930-a401-4ff7-b68b-9cf5b878310c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e417e461b6e41148c5143f3cc4bcbf8"/>
@@ -2720,17 +2720,17 @@
         <comment/>
         <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-01 20:01:28</sys_created_on>
         <sys_id>50163bd61be285148c5143f3cc4bcb0a</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:05</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:05</sys_updated_on>
         <ui_id>1685a8f4-3b8d-4212-80da-2b85ccd33ce0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=50163bd61be285148c5143f3cc4bcb0a"/>
@@ -2807,17 +2807,17 @@
         <comment>Create Process Invoice Task</comment>
         <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <order>9</order>
         <parent_ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:30</sys_created_on>
         <sys_id>72417e461b6e41148c5143f3cc4bcbff</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:06</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:06</sys_updated_on>
         <ui_id>b8bdc9d5-1383-4c4b-aee6-2950bc05877a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=72417e461b6e41148c5143f3cc4bcbff"/>
@@ -2909,17 +2909,17 @@
         <comment>Create AP Review Task</comment>
         <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:30</sys_created_on>
         <sys_id>b2417e461b6e41148c5143f3cc4bcbe5</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:05</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:05</sys_updated_on>
         <ui_id>4585cee4-91bb-467a-a612-daabccd4c2bf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b2417e461b6e41148c5143f3cc4bcbe5"/>
@@ -3010,17 +3010,17 @@
         <comment>Set Invoice to Closed Complete</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <order>12</order>
         <parent_ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:31</sys_created_on>
         <sys_id>c341be461b6e41148c5143f3cc4bcb18</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:06</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:06</sys_updated_on>
         <ui_id>6e52b8a1-0634-4f7a-9f70-8a28d5a41099</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c341be461b6e41148c5143f3cc4bcb18"/>
@@ -3097,17 +3097,17 @@
         <comment>Set Invoice State to Payment Processing</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <order>10</order>
         <parent_ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-01 17:12:19</sys_created_on>
         <sys_id>e65f0f521b2a45148c5143f3cc4bcbbc</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:06</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:06</sys_updated_on>
         <ui_id>740adb27-a89c-407a-bd38-0de5c073130c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e65f0f521b2a45148c5143f3cc4bcbbc"/>
@@ -3184,17 +3184,17 @@
         <comment>Set Invoice to Waiting for Approval</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-01 17:13:00</sys_created_on>
         <sys_id>fc8f8b921b2a45148c5143f3cc4bcb9c</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:05</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:05</sys_updated_on>
         <ui_id>0e54fe4c-182d-4cbe-ba0f-6b2c1afeacad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fc8f8b921b2a45148c5143f3cc4bcb9c"/>
@@ -3273,7 +3273,7 @@
         <display_text/>
         <extended_inputs/>
         <extended_inputs/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -3286,10 +3286,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-01 20:51:14</sys_created_on>
         <sys_id>2d7188621be685148c5143f3cc4bcb20</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:06</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:06</sys_updated_on>
         <ui_id>9f2ed1a2-c1c7-4b97-bf82-dd274ace5492</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3866,7 +3866,7 @@
         <display_text/>
         <extended_inputs/>
         <extended_inputs/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -3879,10 +3879,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-05-18 16:19:23</sys_created_on>
         <sys_id>61f545e11bef095062e50ed2cd4bcb34</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:05</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:05</sys_updated_on>
         <ui_id>d0af00d7-1452-4c47-8a08-5250cd7337b3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4163,7 +4163,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Invoice Portal - Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
+        <flow display_value="Invoice Submitted">7d896aca1baa41148c5143f3cc4bcb95</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -4177,10 +4177,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-31 20:22:31</sys_created_on>
         <sys_id>8b41be461b6e41148c5143f3cc4bcb45</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-31 20:37:06</sys_updated_on>
+        <sys_updated_on>2022-06-10 13:17:06</sys_updated_on>
         <ui_id>d7e2d68b-e354-47dc-846d-d276a37eb425</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
