@@ -6,7 +6,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Send a user the password reset email.</description>
@@ -16,6 +15,7 @@
         <name>Password Reset Sender</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -29,15 +29,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>36eba1a31b9ff41062e50ed2cd4bcb27</sys_id>
-        <sys_mod_count>1</sys_mod_count>
         <sys_name>Password Reset Sender</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_hub_flow_36eba1a31b9ff41062e50ed2cd4bcb27</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:47:25</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=36eba1a31b9ff41062e50ed2cd4bcb27"/>
@@ -52,10 +49,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:47:25</sys_created_on>
         <sys_id>a00b14f51baec9d08c5143f3cc4bcb73</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:47:25</sys_updated_on>
     </sys_claim>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=36eba1a31b9ff41062e50ed2cd4bcb27"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=36eba1a31b9ff41062e50ed2cd4bcb27"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=36eba1a31b9ff41062e50ed2cd4bcb27^sys_idNOT IN32eba1a31b9ff41062e50ed2cd4bcb2a"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>36eba1a31b9ff41062e50ed2cd4bcb27</id>
@@ -68,6 +64,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2021-10-25 17:46:12</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=32eba1a31b9ff41062e50ed2cd4bcb2a"/>
     <sys_hub_flow_input action="delete_multiple" query="model=36eba1a31b9ff41062e50ed2cd4bcb27^sys_idNOT INb0dc25e31b9ff41062e50ed2cd4bcbfb"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -100,6 +97,7 @@
         <element>user</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -146,10 +144,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=36eba1a31b9ff41062e50ed2cd4bcb27"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=36eba1a31b9ff41062e50ed2cd4bcb27"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=36eba1a31b9ff41062e50ed2cd4bcb27^sys_idNOT IN30dc65e31b9ff41062e50ed2cd4bcb0e,cddc65e31b9ff41062e50ed2cd4bcb15,fc1de9e31b9ff41062e50ed2cd4bcb05"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -157,7 +158,6 @@
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Password Reset Sender">36eba1a31b9ff41062e50ed2cd4bcb27</flow>
         <order>1</order>
@@ -212,13 +212,14 @@
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
         <value>user={{subflow.user}}^action_type=1^status=2^active=true^lock_state=2^process={"display":"Default Self Service","value":"c6b0c20667100200a5a0f3b457415ad5"}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=30dc65e31b9ff41062e50ed2cd4bcb0e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=30dc65e31b9ff41062e50ed2cd4bcb0e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Send External User Password Reset Email">66c7a8865336001001a3ddeeff7b1298</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Password Reset Sender">36eba1a31b9ff41062e50ed2cd4bcb27</flow>
         <order>3</order>
@@ -285,13 +286,14 @@
         <table>var__m_sys_hub_action_input_66c7a8865336001001a3ddeeff7b1298</table>
         <value>{{subflow.user}}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cddc65e31b9ff41062e50ed2cd4bcb15"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cddc65e31b9ff41062e50ed2cd4bcb15"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Password Reset Sender">36eba1a31b9ff41062e50ed2cd4bcb27</flow>
         <order>2</order>
@@ -346,6 +348,12 @@
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fc1de9e31b9ff41062e50ed2cd4bcb05"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fc1de9e31b9ff41062e50ed2cd4bcb05"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=36eba1a31b9ff41062e50ed2cd4bcb27"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=36eba1a31b9ff41062e50ed2cd4bcb27"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=36eba1a31b9ff41062e50ed2cd4bcb27"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=36eba1a31b9ff41062e50ed2cd4bcb27"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_36eba1a31b9ff41062e50ed2cd4bcb27^sys_idNOT IN70dc65e31b9ff41062e50ed2cd4bcb06"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>user</element>
@@ -370,6 +378,10 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_36eba1a31b9ff41062e50ed2cd4bcb27"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_36eba1a31b9ff41062e50ed2cd4bcb27"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_36eba1a31b9ff41062e50ed2cd4bcb27"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=36eba1a31b9ff41062e50ed2cd4bcb27"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=36eba1a31b9ff41062e50ed2cd4bcb27^sys_idNOT IN65dc65e31b9ff41062e50ed2cd4bcbd7"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>com.snc.process_flow.engine.ProcessPlan@1973ae5</plan>
@@ -427,6 +439,8 @@
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=05dc65e31b9ff41062e50ed2cd4bcb51"/>
     <sys_variable_value action="delete_multiple" query="document_key=05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=05dc65e31b9ff41062e50ed2cd4bcb51"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=05dc65e31b9ff41062e50ed2cd4bcb51^sys_idNOT IN49dc65e31b9ff41062e50ed2cd4bcb52"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>05dc65e31b9ff41062e50ed2cd4bcb51</id>
@@ -439,6 +453,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2021-10-25 17:50:12</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=49dc65e31b9ff41062e50ed2cd4bcb52"/>
     <sys_hub_flow_input action="delete_multiple" query="model=05dc65e31b9ff41062e50ed2cd4bcb51^sys_idNOT INc9dc65e31b9ff41062e50ed2cd4bcb53"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -471,6 +486,7 @@
         <element>user</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -517,10 +533,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=05dc65e31b9ff41062e50ed2cd4bcb51"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=05dc65e31b9ff41062e50ed2cd4bcb51^sys_idNOT IN4d1de9e31b9ff41062e50ed2cd4bcb74,59dc65e31b9ff41062e50ed2cd4bcba9,d9dc65e31b9ff41062e50ed2cd4bcbb1"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -528,7 +547,6 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Password Reset Sender">05dc65e31b9ff41062e50ed2cd4bcb51</flow>
         <order>2</order>
@@ -583,13 +601,14 @@
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4d1de9e31b9ff41062e50ed2cd4bcb74"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4d1de9e31b9ff41062e50ed2cd4bcb74"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Password Reset Sender">05dc65e31b9ff41062e50ed2cd4bcb51</flow>
         <order>1</order>
@@ -644,13 +663,14 @@
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
         <value>user={{subflow.user}}^action_type=1^status=2^active=true^lock_state=2^process={"display":"Default Self Service","value":"c6b0c20667100200a5a0f3b457415ad5"}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=59dc65e31b9ff41062e50ed2cd4bcba9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=59dc65e31b9ff41062e50ed2cd4bcba9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Send External User Password Reset Email">66c7a8865336001001a3ddeeff7b1298</action_type>
         <action_type_parent display_value="Send External User Password Reset Email">03262c465336001001a3ddeeff7b127b</action_type_parent>
         <comment/>
-        <compiled_snapshot>66c7a8865336001001a3ddeeff7b1298</compiled_snapshot>
         <display_text/>
         <flow display_value="Password Reset Sender">05dc65e31b9ff41062e50ed2cd4bcb51</flow>
         <order>3</order>
@@ -717,6 +737,12 @@
         <table>var__m_sys_hub_action_input_66c7a8865336001001a3ddeeff7b1298</table>
         <value>{{subflow.user}}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d9dc65e31b9ff41062e50ed2cd4bcbb1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d9dc65e31b9ff41062e50ed2cd4bcbb1"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=05dc65e31b9ff41062e50ed2cd4bcb51"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_05dc65e31b9ff41062e50ed2cd4bcb51^sys_idNOT IN59dc65e31b9ff41062e50ed2cd4bcb9e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>user</element>
@@ -741,8 +767,12 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_flow action="update">
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_05dc65e31b9ff41062e50ed2cd4bcb51"/>
+    <sys_hub_flow action="UPDATE">
         <sys_id>36eba1a31b9ff41062e50ed2cd4bcb27</sys_id>
         <latest_snapshot>05dc65e31b9ff41062e50ed2cd4bcb51</latest_snapshot>
+        <compiler_build/>
     </sys_hub_flow>
 </record_update>

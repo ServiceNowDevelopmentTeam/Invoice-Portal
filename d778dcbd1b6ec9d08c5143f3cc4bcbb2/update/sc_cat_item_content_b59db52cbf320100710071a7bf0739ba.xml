@@ -16,6 +16,7 @@
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -67,14 +68,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2013-07-23 00:03:34</sys_created_on>
         <sys_id>b59db52cbf320100710071a7bf0739ba</sys_id>
-        <sys_mod_count>12</sys_mod_count>
         <sys_name>Password Reset Enrollment</sys_name>
         <sys_package display_value="Password Reset" source="com.glideapp.password_reset">ea4aacaf1b251010e7004229bc4bcbc1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sc_cat_item_content_b59db52cbf320100710071a7bf0739ba</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:41:12</sys_updated_on>
         <target>internal</target>
         <taxonomy_topic/>
         <template/>
@@ -222,9 +220,6 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:41:12</sys_created_on>
         <sys_id>a19910f11baec9d08c5143f3cc4bcb74</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:41:12</sys_updated_on>
     </sys_claim>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -236,8 +231,5 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:41:12</sys_created_on>
         <sys_id>659910f11baec9d08c5143f3cc4bcb74</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:41:12</sys_updated_on>
     </sys_claim>
 </record_update>

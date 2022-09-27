@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_self_registered_user_profile" label="Self Reg User Profile 056174" max_length="40" name="u_self_reg_user_profile_056174" sizeclass="0" type="collection">
+    <element db_object_id="592cdf6d1b0674108c5143f3cc4bcbf7" extends="sys_self_registered_user_profile" label="Self Reg User Profile 056174" max_length="40" name="u_self_reg_user_profile_056174" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_first_name" label="First Name" max_length="40" name="u_first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_last_name" label="Last Name" max_length="40" name="u_last_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_phone" label="Phone" max_length="40" name="u_phone" type="string"/>

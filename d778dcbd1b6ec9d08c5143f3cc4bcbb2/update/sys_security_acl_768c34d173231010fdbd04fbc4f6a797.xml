@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
     <sys_security_acl action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
@@ -12,14 +12,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-28 08:26:53</sys_created_on>
         <sys_id>768c34d173231010fdbd04fbc4f6a797</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>sys_self_registered_user_profile.*</sys_name>
         <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">9698ba4e1bfd70d0346ffd951a4bcb4c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_security_acl_768c34d173231010fdbd04fbc4f6a797</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:45:19</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_claim action="INSERT_OR_UPDATE">
@@ -32,9 +29,6 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:45:19</sys_created_on>
         <sys_id>718a10f51baec9d08c5143f3cc4bcbc2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:45:19</sys_updated_on>
     </sys_claim>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -46,8 +40,5 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:45:19</sys_created_on>
         <sys_id>358a10f51baec9d08c5143f3cc4bcbc2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:45:19</sys_updated_on>
     </sys_claim>
 </record_update>

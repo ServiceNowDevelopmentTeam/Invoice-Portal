@@ -22,14 +22,11 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-13 19:32:06</sys_created_on>
         <sys_id>d162a9161bf6c110346ffd951a4bcbcc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
         <sys_name>company</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_dictionary_override_d162a9161bf6c110346ffd951a4bcbcc</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-18 16:01:48</sys_updated_on>
     </sys_dictionary_override>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -41,8 +38,5 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-05-18 16:01:48</sys_created_on>
         <sys_id>84f101251baf095062e50ed2cd4bcba7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-18 16:01:48</sys_updated_on>
     </sys_claim>
 </record_update>

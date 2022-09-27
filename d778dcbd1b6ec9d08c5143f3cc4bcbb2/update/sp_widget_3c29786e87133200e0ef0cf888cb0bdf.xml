@@ -1834,14 +1834,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-06-14 18:00:07</sys_created_on>
         <sys_id>3c29786e87133200e0ef0cf888cb0bdf</sys_id>
-        <sys_mod_count>656</sys_mod_count>
         <sys_name>SC Catalog Item</sys_name>
         <sys_package display_value="Service Portal - Service Catalog (do not activate...see plugin description)" source="com.glide.service-portal.service-catalog">303a60af1b251010e7004229bc4bcbfd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sp_widget_3c29786e87133200e0ef0cf888cb0bdf</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:40:59</sys_updated_on>
         <template><![CDATA[<div id="sc_cat_item" ng-if="::(data.recordFound && !data.not_for_mobile)" sn-atf-blacklist="IS_SERVICE_CATALOG">
   <sp-widget widget="c.orderItemModal" ng-if="c.orderItemModal"></sp-widget>
   <div class="row" ng-if="::data.sc_cat_item" ng-class="{'native-mobile': options.native_mobile == 'true'}">
@@ -2095,9 +2092,6 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:40:59</sys_created_on>
         <sys_id>1a8994b11baec9d08c5143f3cc4bcb8a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:40:59</sys_updated_on>
     </sys_claim>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -2109,8 +2103,5 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:40:59</sys_created_on>
         <sys_id>da8994b11baec9d08c5143f3cc4bcb8a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:40:59</sys_updated_on>
     </sys_claim>
 </record_update>

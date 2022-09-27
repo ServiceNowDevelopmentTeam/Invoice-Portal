@@ -63,15 +63,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>987c3ca91b6f095062e50ed2cd4bcb03</sys_id>
-        <sys_mod_count>8</sys_mod_count>
         <sys_name>Invoice Task - Copy Company Variable</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_script_987c3ca91b6f095062e50ed2cd4bcb03</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-18 15:48:10</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>

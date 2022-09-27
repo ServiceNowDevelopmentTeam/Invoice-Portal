@@ -277,14 +277,11 @@ data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]&gt;&lt;/script&gt
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-07-28 17:55:40</sys_created_on>
         <sys_id>15981bf61b69f8908c5143f3cc4bcbf6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
         <sys_name>51981bf61b69f8908c5143f3cc4bcbf2</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sp_rel_widget_clone_15981bf61b69f8908c5143f3cc4bcbf6</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:40:38</sys_updated_on>
     </sp_rel_widget_clone>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -296,8 +293,5 @@ data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]&gt;&lt;/script&gt
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:40:38</sys_created_on>
         <sys_id>1d7910b11baec9d08c5143f3cc4bcbad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:40:38</sys_updated_on>
     </sys_claim>
 </record_update>

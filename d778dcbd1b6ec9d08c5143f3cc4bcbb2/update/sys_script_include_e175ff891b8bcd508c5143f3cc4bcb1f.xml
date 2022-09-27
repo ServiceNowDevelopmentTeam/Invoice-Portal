@@ -28,13 +28,10 @@ EmailValidationAjax.prototype = Object.extendsObject(global.AbstractAjaxProcesso
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-22 19:20:49</sys_created_on>
         <sys_id>e175ff891b8bcd508c5143f3cc4bcb1f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
         <sys_name>EmailValidationAjax</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_script_include_e175ff891b8bcd508c5143f3cc4bcb1f</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-26 20:18:25</sys_updated_on>
     </sys_script_include>
 </record_update>

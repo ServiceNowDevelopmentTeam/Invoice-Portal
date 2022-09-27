@@ -8585,6 +8585,7 @@ answer = 0;</value>
         <element>u_company</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8630,6 +8631,7 @@ answer = 0;</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8684,8 +8686,5 @@ answer = 0;</value>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:40:13</sys_created_on>
         <sys_id>cb5950fd1b6ec9d08c5143f3cc4bcb91</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:40:13</sys_updated_on>
     </sys_claim>
 </record_update>

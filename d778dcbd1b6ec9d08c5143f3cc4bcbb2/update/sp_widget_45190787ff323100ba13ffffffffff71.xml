@@ -107,14 +107,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2015-03-19 12:31:52</sys_created_on>
         <sys_id>45190787ff323100ba13ffffffffff71</sys_id>
-        <sys_mod_count>238</sys_mod_count>
         <sys_name>Sessions</sys_name>
         <sys_package display_value="Service Portal - Core" source="com.glide.service-portal">521a246f1b251010e7004229bc4bcba1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sp_widget_45190787ff323100ba13ffffffffff71</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:46:09</sys_updated_on>
         <template><![CDATA[<sp-panel ng-if="sessions && sessionCount()" class="panel b">
   <div>
     <ul class="list-group no-bg no-borders pull-in">
@@ -142,9 +139,6 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:46:09</sys_created_on>
         <sys_id>3dba10391baec9d08c5143f3cc4bcb55</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:46:09</sys_updated_on>
     </sys_claim>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -156,8 +150,5 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:46:09</sys_created_on>
         <sys_id>fdba10391baec9d08c5143f3cc4bcb55</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:46:09</sys_updated_on>
     </sys_claim>
 </record_update>

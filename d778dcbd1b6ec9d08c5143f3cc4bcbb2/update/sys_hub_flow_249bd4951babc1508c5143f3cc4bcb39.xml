@@ -6,7 +6,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-rome-06-23-2021__patch7b-04-19-2022_04-26-2022_2245.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -16,6 +15,7 @@
         <name>Cascading Approval - Invoice</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -29,20 +29,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>249bd4951babc1508c5143f3cc4bcb39</sys_id>
-        <sys_mod_count>28</sys_mod_count>
         <sys_name>Cascading Approval - Invoice</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_hub_flow_249bd4951babc1508c5143f3cc4bcb39</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:52:39</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=249bd4951babc1508c5143f3cc4bcb39"/>
     <sys_variable_value action="delete_multiple" query="document_key=249bd4951babc1508c5143f3cc4bcb39"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=249bd4951babc1508c5143f3cc4bcb39"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=249bd4951babc1508c5143f3cc4bcb39"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=249bd4951babc1508c5143f3cc4bcb39"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=249bd4951babc1508c5143f3cc4bcb39^sys_idNOT IN2c9bd4951babc1508c5143f3cc4bcb3a"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>249bd4951babc1508c5143f3cc4bcb39</id>
@@ -55,6 +54,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-05-17 18:35:41</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2c9bd4951babc1508c5143f3cc4bcb3a"/>
     <sys_hub_flow_input action="delete_multiple" query="model=249bd4951babc1508c5143f3cc4bcb39^sys_idNOT IN2edb94951babc1508c5143f3cc4bcbd5,e6db90dd1babc1508c5143f3cc4bcba8"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -87,6 +87,7 @@
         <element>invoice_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -133,6 +134,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -168,6 +170,7 @@
         <element>company</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -214,6 +217,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -250,6 +254,7 @@
         <element>output</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -296,10 +301,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=249bd4951babc1508c5143f3cc4bcb39"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=249bd4951babc1508c5143f3cc4bcb39^sys_idNOT IN17e12cd11b2fc1508c5143f3cc4bcbef,5dcc98d11bebc1508c5143f3cc4bcbde"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -307,7 +314,6 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Cascading Approval - Invoice">249bd4951babc1508c5143f3cc4bcb39</flow>
         <order>9</order>
@@ -316,10 +322,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-05-17 19:03:27</sys_created_on>
         <sys_id>17e12cd11b2fc1508c5143f3cc4bcbef</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:59:42</sys_updated_on>
+        <sys_updated_on>2022-09-26 20:15:56</sys_updated_on>
         <ui_id>0ec5fbfb-8794-41ec-9004-4bd3f50da86e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=17e12cd11b2fc1508c5143f3cc4bcbef"/>
@@ -388,13 +394,14 @@
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=17e12cd11b2fc1508c5143f3cc4bcbef"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=17e12cd11b2fc1508c5143f3cc4bcbef"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Create String Array">5a5fdeca1be641148c5143f3cc4bcba5</action_type>
         <action_type_parent/>
         <comment>Build array of user sys_ids and limits</comment>
-        <compiled_snapshot>5a5fdeca1be641148c5143f3cc4bcba5</compiled_snapshot>
         <display_text/>
         <flow display_value="Cascading Approval - Invoice">249bd4951babc1508c5143f3cc4bcb39</flow>
         <order>1</order>
@@ -403,10 +410,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-05-17 18:40:56</sys_created_on>
         <sys_id>5dcc98d11bebc1508c5143f3cc4bcbde</sys_id>
-        <sys_mod_count>58</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:59:42</sys_updated_on>
+        <sys_updated_on>2022-09-26 20:15:56</sys_updated_on>
         <ui_id>38290806-17a1-495b-85cb-5a6c6ac4cd74</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5dcc98d11bebc1508c5143f3cc4bcbde"/>
@@ -417,12 +424,15 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-05-17 18:40:56</sys_created_on>
         <sys_id>19cc98d11bebc1508c5143f3cc4bcbf9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 18:42:58</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-26 20:15:56</sys_updated_on>
         <table>var__m_sys_hub_action_input_5a5fdeca1be641148c5143f3cc4bcba5</table>
-        <value>{"version":"1.0","complexObject":{"name$":"FD925fdecae0e6411405c83792c04c4da9","$COCollectionField":["{{subflow.company.u_project_manager.sys_id}},{{fd_transform:4960208a-6784-4568-9da3-5d308c62fbd4}}","{{subflow.company.u_1st_level.sys_id}},{{fd_transform:abbaa4f9-9d72-4608-9d56-3143cc1380c8}}","{{subflow.company.u_2nd_level.sys_id}},{{fd_transform:3bdbc3b0-b095-45a0-b324-0986df20b700}}","{{subflow.company.u_3rd_level.sys_id}},{{fd_transform:9978620c-7bbe-472c-9daa-789ec02123a8}}","{{subflow.company.u_4th_level.sys_id}},{{fd_transform:5ed5b61c-d68a-406d-943f-7d1c8f29245e}}","{{subflow.company.u_5th_level.sys_id}},1000000000"]},"complexObjectSchema":{"FlowDesigner:FD925fdecae0e6411405c83792c04c4da9":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD925fdecae0e6411405c83792c04c4da9.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"variable\",\"mandatory\":\"true\",\"child_name\":\"variable_child0\",\"uiUniqueId\":\"5755aaea-820b-4769-8cb4-754e07d503ed\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD925fdecae0e6411405c83792c04c4da9\",\"child_label\":\"variable_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{\\\"[0]\\\":\\\"{{subflow.company.u_project_manager.sys_id}},{{fd_transform:4960208a-6784-4568-9da3-5d308c62fbd4}}\\\",\\\"[1]\\\":\\\"{{subflow.company.u_1st_level.sys_id}},{{fd_transform:abbaa4f9-9d72-4608-9d56-3143cc1380c8}}\\\",\\\"[2]\\\":\\\"{{subflow.company.u_2nd_level.sys_id}},{{fd_transform:3bdbc3b0-b095-45a0-b324-0986df20b700}}\\\",\\\"[3]\\\":\\\"{{subflow.company.u_3rd_level.sys_id}},{{fd_transform:9978620c-7bbe-472c-9daa-789ec02123a8}}\\\",\\\"[4]\\\":\\\"{{subflow.company.u_4th_level.sys_id}},{{fd_transform:5ed5b61c-d68a-406d-943f-7d1c8f29245e}}\\\",\\\"[5]\\\":\\\"{{subflow.company.u_5th_level.sys_id}},1000000000\\\"}\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1b0b41fa-97bc-46b7-92a8-5a44316881e8\"}"}},"serializationFormat":"JSON"}</value>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD925fdecae0e6411405c83792c04c4da9":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD925fdecae0e6411405c83792c04c4da9.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"variable\",\"mandatory\":\"true\",\"child_name\":\"variable_child0\",\"uiUniqueId\":\"5755aaea-820b-4769-8cb4-754e07d503ed\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD925fdecae0e6411405c83792c04c4da9\",\"child_label\":\"variable_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{\\\"[0]\\\":\\\"{{subflow.company.u_project_manager.sys_id}},{{fd_transform:4960208a-6784-4568-9da3-5d308c62fbd4}}\\\",\\\"[1]\\\":\\\"{{subflow.company.u_1st_level.sys_id}},{{fd_transform:abbaa4f9-9d72-4608-9d56-3143cc1380c8}}\\\",\\\"[2]\\\":\\\"{{subflow.company.u_2nd_level.sys_id}},{{fd_transform:3bdbc3b0-b095-45a0-b324-0986df20b700}}\\\",\\\"[3]\\\":\\\"{{subflow.company.u_3rd_level.sys_id}},{{fd_transform:9978620c-7bbe-472c-9daa-789ec02123a8}}\\\",\\\"[4]\\\":\\\"{{subflow.company.u_4th_level.sys_id}},{{fd_transform:5ed5b61c-d68a-406d-943f-7d1c8f29245e}}\\\",\\\"[5]\\\":\\\"{{subflow.company.u_5th_level.sys_id}},1000000000\\\"}\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1b0b41fa-97bc-46b7-92a8-5a44316881e8\"}"}},"serializationFormat":"JSON","complexObject":{"name$":"FD925fdecae0e6411405c83792c04c4da9","$COCollectionField":["{{subflow.company.u_project_manager.sys_id}},{{fd_transform:4960208a-6784-4568-9da3-5d308c62fbd4}}","{{subflow.company.u_1st_level.sys_id}},{{fd_transform:abbaa4f9-9d72-4608-9d56-3143cc1380c8}}","{{subflow.company.u_2nd_level.sys_id}},{{fd_transform:3bdbc3b0-b095-45a0-b324-0986df20b700}}","{{subflow.company.u_3rd_level.sys_id}},{{fd_transform:9978620c-7bbe-472c-9daa-789ec02123a8}}","{{subflow.company.u_4th_level.sys_id}},{{fd_transform:5ed5b61c-d68a-406d-943f-7d1c8f29245e}}","{{subflow.company.u_5th_level.sys_id}},1000000000"]}}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5dcc98d11bebc1508c5143f3cc4bcbde"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5dcc98d11bebc1508c5143f3cc4bcbde"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=249bd4951babc1508c5143f3cc4bcb39"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=249bd4951babc1508c5143f3cc4bcb39^sys_idNOT IN14d9b6b41bc419108c5143f3cc4bcbc0,1be16cd11b2fc1508c5143f3cc4bcb25,1c80e89d1bebc1508c5143f3cc4bcb6a,39d2681d1b2fc1508c5143f3cc4bcb5e,3ac068dd1bebc1508c5143f3cc4bcbb7,53e16cd11b2fc1508c5143f3cc4bcb29,5bcedc591bebc1508c5143f3cc4bcb8c,66d08b341b4819108c5143f3cc4bcb0c,7ad08b341b4819108c5143f3cc4bcb0f,acd9f6b41bc419108c5143f3cc4bcb20,b532a8951b2fc1508c5143f3cc4bcbcc,bdd2681d1b2fc1508c5143f3cc4bcb3c,cad2681d1b2fc1508c5143f3cc4bcb61,cad2681d1b2fc1508c5143f3cc4bcb65,d3cedc591bebc1508c5143f3cc4bcb95,dbcedc591bebc1508c5143f3cc4bcb88,dbcedc591bebc1508c5143f3cc4bcb90,dc80e89d1bebc1508c5143f3cc4bcb6d,f5d2681d1b2fc1508c5143f3cc4bcb41"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">58d9b6b41bc419108c5143f3cc4bcbbf</block>
@@ -499,30 +509,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=14d9b6b41bc419108c5143f3cc4bcbc0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow</field>
-        <id>14d9b6b41bc419108c5143f3cc4bcbc0</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:21:31</sys_created_on>
-        <sys_id>ecd9b6b41bc419108c5143f3cc4bcbf7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:21:31</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow_template</field>
-        <id>14d9b6b41bc419108c5143f3cc4bcbc0</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:21:31</sys_created_on>
-        <sys_id>64d9b6b41bc419108c5143f3cc4bcbf7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:21:31</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>invoice_number</field>
         <id>14d9b6b41bc419108c5143f3cc4bcbc0</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -557,18 +543,6 @@
         <sys_updated_on>2022-06-10 13:21:31</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_ext_input_14d9b6b41bc419108c5143f3cc4bcbc0</table>
         <value>{{0ec5fbfb-8794-41ec-9004-4bd3f50da86e.Record.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>14d9b6b41bc419108c5143f3cc4bcbc0</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:21:31</sys_created_on>
-        <sys_id>2cd9b6b41bc419108c5143f3cc4bcbf7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:21:31</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_249bd4951babc1508c5143f3cc4bcb39^id=14d9b6b41bc419108c5143f3cc4bcbc0"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256^id=14d9b6b41bc419108c5143f3cc4bcbc0"/>
@@ -605,6 +579,7 @@
         <element>user_sys_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -651,6 +626,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -686,6 +662,7 @@
         <element>invoice_sys_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -732,6 +709,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -767,6 +745,7 @@
         <element>invoice_number</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -813,10 +792,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_logic_ext_input>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=14d9b6b41bc419108c5143f3cc4bcbc0"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">53e12cd11b2fc1508c5143f3cc4bcbf3</block>
         <comment>User found</comment>
@@ -863,6 +844,8 @@
         <value>{{0ec5fbfb-8794-41ec-9004-4bd3f50da86e.status}}=0</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=1be16cd11b2fc1508c5143f3cc4bcb25"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1be16cd11b2fc1508c5143f3cc4bcb25"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1be16cd11b2fc1508c5143f3cc4bcb25"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">5480e89d1bebc1508c5143f3cc4bcb6a</block>
         <comment>Set Invoice Amount String</comment>
@@ -908,6 +891,8 @@
         <value>{{fd_transform:50cf098c-7c68-4c38-a013-c00b8fe15a3b}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=1c80e89d1bebc1508c5143f3cc4bcb6a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1c80e89d1bebc1508c5143f3cc4bcb6a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1c80e89d1bebc1508c5143f3cc4bcb6a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">71d2681d1b2fc1508c5143f3cc4bcb5e</block>
         <comment/>
@@ -940,6 +925,8 @@
     <sys_variable_value action="delete_multiple" query="document_key=39d2681d1b2fc1508c5143f3cc4bcb5e"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_249bd4951babc1508c5143f3cc4bcb39^id=39d2681d1b2fc1508c5143f3cc4bcb5e"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=39d2681d1b2fc1508c5143f3cc4bcb5e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=39d2681d1b2fc1508c5143f3cc4bcb5e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=39d2681d1b2fc1508c5143f3cc4bcb5e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">72c068dd1bebc1508c5143f3cc4bcbb7</block>
         <comment/>
@@ -1012,6 +999,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=3ac068dd1bebc1508c5143f3cc4bcbb7"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3ac068dd1bebc1508c5143f3cc4bcbb7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ac068dd1bebc1508c5143f3cc4bcbb7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">9be16cd11b2fc1508c5143f3cc4bcb28</block>
         <comment>Ask one to approve invoice</comment>
@@ -1087,30 +1076,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=53e16cd11b2fc1508c5143f3cc4bcb29"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow</field>
-        <id>53e16cd11b2fc1508c5143f3cc4bcb29</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:03:28</sys_created_on>
-        <sys_id>e3e16cd11b2fc1508c5143f3cc4bcbd7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:03:28</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow_template</field>
-        <id>53e16cd11b2fc1508c5143f3cc4bcb29</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:03:28</sys_created_on>
-        <sys_id>6fe16cd11b2fc1508c5143f3cc4bcbd6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:03:28</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>invoice_record</field>
         <id>53e16cd11b2fc1508c5143f3cc4bcb29</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -1133,18 +1098,6 @@
         <sys_updated_on>2022-05-17 19:03:28</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_ext_input_53e16cd11b2fc1508c5143f3cc4bcb29</table>
         <value>{{0ec5fbfb-8794-41ec-9004-4bd3f50da86e.Record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>53e16cd11b2fc1508c5143f3cc4bcb29</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:03:28</sys_created_on>
-        <sys_id>23e16cd11b2fc1508c5143f3cc4bcbd7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:03:28</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_249bd4951babc1508c5143f3cc4bcb39^id=53e16cd11b2fc1508c5143f3cc4bcb29"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256^id=53e16cd11b2fc1508c5143f3cc4bcb29"/>
@@ -1181,6 +1134,7 @@
         <element>invoice_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1227,6 +1181,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1262,6 +1217,7 @@
         <element>user_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1308,10 +1264,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_logic_ext_input>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53e16cd11b2fc1508c5143f3cc4bcb29"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">93cedc591bebc1508c5143f3cc4bcb8c</block>
         <comment>Set Current Approver and Current Limit</comment>
@@ -1383,6 +1341,8 @@
         <value>{{fd_transform:297064f5-aa3e-495f-a295-78bf03eb69f0}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=5bcedc591bebc1508c5143f3cc4bcb8c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5bcedc591bebc1508c5143f3cc4bcb8c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5bcedc591bebc1508c5143f3cc4bcb8c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">aad08b341b4819108c5143f3cc4bcb0b</block>
         <comment>Auto-approve comment</comment>
@@ -1415,6 +1375,8 @@
     <sys_variable_value action="delete_multiple" query="document_key=66d08b341b4819108c5143f3cc4bcb0c"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_249bd4951babc1508c5143f3cc4bcb39^id=66d08b341b4819108c5143f3cc4bcb0c"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=66d08b341b4819108c5143f3cc4bcb0c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=66d08b341b4819108c5143f3cc4bcb0c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=66d08b341b4819108c5143f3cc4bcb0c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">b2d08b341b4819108c5143f3cc4bcb0f</block>
         <comment>Invoice Approved</comment>
@@ -1570,30 +1532,6 @@
         <value>{{flow_variable.current_limit}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow</field>
-        <id>7ad08b341b4819108c5143f3cc4bcb0f</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:52:16</sys_created_on>
-        <sys_id>c3d08b341b4819108c5143f3cc4bcb79</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:52:16</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow_template</field>
-        <id>7ad08b341b4819108c5143f3cc4bcb0f</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:52:16</sys_created_on>
-        <sys_id>4bd08b341b4819108c5143f3cc4bcb78</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:52:16</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>invoice</field>
         <id>7ad08b341b4819108c5143f3cc4bcb0f</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -1627,18 +1565,6 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-10 13:52:16</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_ext_input_7ad08b341b4819108c5143f3cc4bcb0f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>7ad08b341b4819108c5143f3cc4bcb0f</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:52:16</sys_created_on>
-        <sys_id>03d08b341b4819108c5143f3cc4bcb79</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:52:16</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_249bd4951babc1508c5143f3cc4bcb39^id=7ad08b341b4819108c5143f3cc4bcb0f"/>
@@ -1676,6 +1602,7 @@
         <element>invoice</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1722,6 +1649,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1757,6 +1685,7 @@
         <element>approved_or_rejected</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1803,6 +1732,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1838,6 +1768,7 @@
         <element>is_partial_approval</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1884,6 +1815,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1919,6 +1851,7 @@
         <element>approver_max_approval_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1965,6 +1898,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2000,6 +1934,7 @@
         <element>invoice_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2046,10 +1981,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_logic_ext_input>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ad08b341b4819108c5143f3cc4bcb0f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">e4d9f6b41bc419108c5143f3cc4bcb20</block>
         <comment/>
@@ -2122,6 +2059,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=acd9f6b41bc419108c5143f3cc4bcb20"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=acd9f6b41bc419108c5143f3cc4bcb20"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=acd9f6b41bc419108c5143f3cc4bcb20"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">fd32a8951b2fc1508c5143f3cc4bcbcb</block>
         <comment>Invoice Approved, Rejected, or Not Required</comment>
@@ -2263,30 +2202,6 @@
         <value>{{flow_variable.current_limit}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow</field>
-        <id>b532a8951b2fc1508c5143f3cc4bcbcc</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:04:44</sys_created_on>
-        <sys_id>0e32e8951b2fc1508c5143f3cc4bcb97</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:04:44</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow_template</field>
-        <id>b532a8951b2fc1508c5143f3cc4bcbcc</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:04:44</sys_created_on>
-        <sys_id>8632e8951b2fc1508c5143f3cc4bcb97</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:04:44</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>invoice</field>
         <id>b532a8951b2fc1508c5143f3cc4bcbcc</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -2320,18 +2235,6 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-05-17 19:04:44</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_ext_input_b532a8951b2fc1508c5143f3cc4bcbcc</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>b532a8951b2fc1508c5143f3cc4bcbcc</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:04:44</sys_created_on>
-        <sys_id>4a32e8951b2fc1508c5143f3cc4bcb97</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:04:44</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_249bd4951babc1508c5143f3cc4bcb39^id=b532a8951b2fc1508c5143f3cc4bcbcc"/>
@@ -2369,6 +2272,7 @@
         <element>invoice</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2415,6 +2319,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2450,6 +2355,7 @@
         <element>invoice_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2496,6 +2402,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2531,6 +2438,7 @@
         <element>is_partial_approval</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2577,6 +2485,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2612,6 +2521,7 @@
         <element>approver_max_approval_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2658,6 +2568,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2693,6 +2604,7 @@
         <element>approved_or_rejected</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2739,10 +2651,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_logic_ext_input>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b532a8951b2fc1508c5143f3cc4bcbcc"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">f5d2681d1b2fc1508c5143f3cc4bcb3c</block>
         <comment/>
@@ -2815,6 +2729,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=bdd2681d1b2fc1508c5143f3cc4bcb3c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bdd2681d1b2fc1508c5143f3cc4bcb3c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bdd2681d1b2fc1508c5143f3cc4bcb3c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">06d2681d1b2fc1508c5143f3cc4bcb61</block>
         <comment/>
@@ -2874,6 +2790,8 @@
         <value>{{flow_variable.current_limit}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=cad2681d1b2fc1508c5143f3cc4bcb61"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cad2681d1b2fc1508c5143f3cc4bcb61"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cad2681d1b2fc1508c5143f3cc4bcb61"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">06d2681d1b2fc1508c5143f3cc4bcb65</block>
         <comment>Set approved</comment>
@@ -2920,6 +2838,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_249bd4951babc1508c5143f3cc4bcb39^id=cad2681d1b2fc1508c5143f3cc4bcb65"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=cad2681d1b2fc1508c5143f3cc4bcb65"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cad2681d1b2fc1508c5143f3cc4bcb65"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cad2681d1b2fc1508c5143f3cc4bcb65"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1fcedc591bebc1508c5143f3cc4bcb94</block>
         <comment>Set current limit 0</comment>
@@ -2966,6 +2886,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_249bd4951babc1508c5143f3cc4bcb39^id=d3cedc591bebc1508c5143f3cc4bcb95"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=d3cedc591bebc1508c5143f3cc4bcb95"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d3cedc591bebc1508c5143f3cc4bcb95"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d3cedc591bebc1508c5143f3cc4bcb95"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">17cedc591bebc1508c5143f3cc4bcb88</block>
         <comment/>
@@ -3012,6 +2934,8 @@
         <value>{{38290806-17a1-495b-85cb-5a6c6ac4cd74.array}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=dbcedc591bebc1508c5143f3cc4bcb88"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dbcedc591bebc1508c5143f3cc4bcb88"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dbcedc591bebc1508c5143f3cc4bcb88"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">17cedc591bebc1508c5143f3cc4bcb90</block>
         <comment/>
@@ -3084,6 +3008,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=dbcedc591bebc1508c5143f3cc4bcb90"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dbcedc591bebc1508c5143f3cc4bcb90"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dbcedc591bebc1508c5143f3cc4bcb90"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1880e89d1bebc1508c5143f3cc4bcb6d</block>
         <comment>Parse Invoice Amount and previous limit = 0</comment>
@@ -3169,6 +3095,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=dc80e89d1bebc1508c5143f3cc4bcb6d"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dc80e89d1bebc1508c5143f3cc4bcb6d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dc80e89d1bebc1508c5143f3cc4bcb6d"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">31d2681d1b2fc1508c5143f3cc4bcb41</block>
         <comment>Set rejected</comment>
@@ -3215,6 +3143,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_249bd4951babc1508c5143f3cc4bcb39^id=f5d2681d1b2fc1508c5143f3cc4bcb41"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^id=f5d2681d1b2fc1508c5143f3cc4bcb41"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f5d2681d1b2fc1508c5143f3cc4bcb41"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f5d2681d1b2fc1508c5143f3cc4bcb41"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=249bd4951babc1508c5143f3cc4bcb39^sys_idNOT IN133dd0551bebc1508c5143f3cc4bcb1d,146fd4d91bebc1508c5143f3cc4bcbf7,1880e89d1bebc1508c5143f3cc4bcb8c,1c80e89d1bebc1508c5143f3cc4bcb8b,1f3dd0551bebc1508c5143f3cc4bcb68,1fcedc591bebc1508c5143f3cc4bcb9b,29cc98d11bebc1508c5143f3cc4bcbfc,2dcc98d11bebc1508c5143f3cc4bcbfb,5480e89d1bebc1508c5143f3cc4bcb8c,57cedc591bebc1508c5143f3cc4bcb9c,5880e89d1bebc1508c5143f3cc4bcb8b,5b3dd0551bebc1508c5143f3cc4bcb1d,5b3dd0551bebc1508c5143f3cc4bcb68,5bcedc591bebc1508c5143f3cc4bcb9b,5f3dd0551bebc1508c5143f3cc4bcb1c,65cc98d11bebc1508c5143f3cc4bcbfb,65cc98d11bebc1508c5143f3cc4bcbfc,9080e89d1bebc1508c5143f3cc4bcb8c,93cedc591bebc1508c5143f3cc4bcb9c,9480e89d1bebc1508c5143f3cc4bcb8b,973dd0551bebc1508c5143f3cc4bcb1d,973dd0551bebc1508c5143f3cc4bcb68,97cedc591bebc1508c5143f3cc4bcb9b,9b3dd0551bebc1508c5143f3cc4bcb1c,9c80e89d1bebc1508c5143f3cc4bcb8c,a1cc98d11bebc1508c5143f3cc4bcbfc,d33dd0551bebc1508c5143f3cc4bcb1d,d46fd4d91bebc1508c5143f3cc4bcbf7,d880e89d1bebc1508c5143f3cc4bcb8c,dc80e89d1bebc1508c5143f3cc4bcb8b,dfcedc591bebc1508c5143f3cc4bcb9a,dfcedc591bebc1508c5143f3cc4bcb9b,edcc98d11bebc1508c5143f3cc4bcbfb"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>249bd4951babc1508c5143f3cc4bcb39</attached_to>
@@ -3809,6 +3739,7 @@
         <element>current_limit</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3855,6 +3786,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3890,6 +3822,7 @@
         <element>previous_limit</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3936,6 +3869,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3971,6 +3905,7 @@
         <element>current_approver</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4017,6 +3952,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4052,6 +3988,7 @@
         <element>invoice_amount_string</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4098,6 +4035,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4133,6 +4071,7 @@
         <element>invoice_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4179,6 +4118,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4197,7 +4137,7 @@
         <sys_created_on>2022-05-17 18:36:55</sys_created_on>
         <sys_id>22db90dd1babc1508c5143f3cc4bcba7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice Record</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -4220,7 +4160,7 @@
         <sys_created_on>2022-05-17 18:36:55</sys_created_on>
         <sys_id>6adb90dd1babc1508c5143f3cc4bcbe3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Company</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -4230,6 +4170,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_249bd4951babc1508c5143f3cc4bcb39"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39^sys_idNOT IN22dbd0dd1babc1508c5143f3cc4bcb23"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>output</element>
@@ -4244,7 +4185,7 @@
         <sys_created_on>2022-05-17 18:36:55</sys_created_on>
         <sys_id>22dbd0dd1babc1508c5143f3cc4bcb23</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Approval State</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -4254,11 +4195,13 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_249bd4951babc1508c5143f3cc4bcb39"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=249bd4951babc1508c5143f3cc4bcb39"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=249bd4951babc1508c5143f3cc4bcb39^sys_idNOT IN64e2605d1b2fc1508c5143f3cc4bcbf7"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"64e2605d1b2fc1508c5143f3cc4bcbf7","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Cascading Approval - Invoice">249bd4951babc1508c5143f3cc4bcb39</plan_id>
-        <snapshot>6f8243f81b4819108c5143f3cc4bcb90</snapshot>
+        <snapshot>2b5468771b86511062e50ed2cd4bcba5</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-05-17 19:07:38</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -4312,6 +4255,8 @@
     <sys_translated_text action="delete_multiple" query="documentkey=4fd22c1d1b2fc1508c5143f3cc4bcbbc"/>
     <sys_variable_value action="delete_multiple" query="document_key=4fd22c1d1b2fc1508c5143f3cc4bcbbc"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=4fd22c1d1b2fc1508c5143f3cc4bcbbc"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=4fd22c1d1b2fc1508c5143f3cc4bcbbc"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4fd22c1d1b2fc1508c5143f3cc4bcbbc"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=4fd22c1d1b2fc1508c5143f3cc4bcbbc^sys_idNOT IN43d22c1d1b2fc1508c5143f3cc4bcbbe"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>4fd22c1d1b2fc1508c5143f3cc4bcbbc</id>
@@ -4324,6 +4269,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-05-17 19:07:32</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=43d22c1d1b2fc1508c5143f3cc4bcbbe"/>
     <sys_hub_flow_input action="delete_multiple" query="model=4fd22c1d1b2fc1508c5143f3cc4bcbbc^sys_idNOT IN03d26c1d1b2fc1508c5143f3cc4bcb18,87d22c1d1b2fc1508c5143f3cc4bcbbf"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -4356,6 +4302,7 @@
         <element>company</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4402,6 +4349,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4437,6 +4385,7 @@
         <element>invoice_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4483,6 +4432,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4519,6 +4469,7 @@
         <element>output</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4565,10 +4516,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4fd22c1d1b2fc1508c5143f3cc4bcbbc"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=4fd22c1d1b2fc1508c5143f3cc4bcbbc^sys_idNOT IN4ce2205d1b2fc1508c5143f3cc4bcb6c,cce2205d1b2fc1508c5143f3cc4bcb2f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -4576,7 +4529,6 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Cascading Approval - Invoice">4fd22c1d1b2fc1508c5143f3cc4bcbbc</flow>
         <order>9</order>
@@ -4657,13 +4609,14 @@
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4ce2205d1b2fc1508c5143f3cc4bcb6c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4ce2205d1b2fc1508c5143f3cc4bcb6c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Create String Array">5a5fdeca1be641148c5143f3cc4bcba5</action_type>
         <action_type_parent display_value="Create String Array">e53f1aca1be641148c5143f3cc4bcb33</action_type_parent>
         <comment>Build array of user sys_ids and limits</comment>
-        <compiled_snapshot>5a5fdeca1be641148c5143f3cc4bcba5</compiled_snapshot>
         <display_text/>
         <flow display_value="Cascading Approval - Invoice">4fd22c1d1b2fc1508c5143f3cc4bcbbc</flow>
         <order>1</order>
@@ -4692,6 +4645,9 @@
         <table>var__m_sys_hub_action_input_5a5fdeca1be641148c5143f3cc4bcba5</table>
         <value>{"version":"1.0","complexObject":{"name$":"FD925fdecae0e6411405c83792c04c4da9","$COCollectionField":["{{subflow.company.u_project_manager.sys_id}},{{fd_transform:4960208a-6784-4568-9da3-5d308c62fbd4}}","{{subflow.company.u_1st_level.sys_id}},{{fd_transform:abbaa4f9-9d72-4608-9d56-3143cc1380c8}}","{{subflow.company.u_2nd_level.sys_id}},{{fd_transform:3bdbc3b0-b095-45a0-b324-0986df20b700}}","{{subflow.company.u_3rd_level.sys_id}},{{fd_transform:9978620c-7bbe-472c-9daa-789ec02123a8}}","{{subflow.company.u_4th_level.sys_id}},{{fd_transform:5ed5b61c-d68a-406d-943f-7d1c8f29245e}}","{{subflow.company.u_5th_level.sys_id}},1000000000"]},"complexObjectSchema":{"FlowDesigner:FD925fdecae0e6411405c83792c04c4da9":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD925fdecae0e6411405c83792c04c4da9.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"variable\",\"mandatory\":\"true\",\"child_name\":\"variable_child0\",\"uiUniqueId\":\"5755aaea-820b-4769-8cb4-754e07d503ed\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD925fdecae0e6411405c83792c04c4da9\",\"child_label\":\"variable_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{\\\"[0]\\\":\\\"{{subflow.company.u_project_manager.sys_id}},{{fd_transform:4960208a-6784-4568-9da3-5d308c62fbd4}}\\\",\\\"[1]\\\":\\\"{{subflow.company.u_1st_level.sys_id}},{{fd_transform:abbaa4f9-9d72-4608-9d56-3143cc1380c8}}\\\",\\\"[2]\\\":\\\"{{subflow.company.u_2nd_level.sys_id}},{{fd_transform:3bdbc3b0-b095-45a0-b324-0986df20b700}}\\\",\\\"[3]\\\":\\\"{{subflow.company.u_3rd_level.sys_id}},{{fd_transform:9978620c-7bbe-472c-9daa-789ec02123a8}}\\\",\\\"[4]\\\":\\\"{{subflow.company.u_4th_level.sys_id}},{{fd_transform:5ed5b61c-d68a-406d-943f-7d1c8f29245e}}\\\",\\\"[5]\\\":\\\"{{subflow.company.u_5th_level.sys_id}},1000000000\\\"}\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1b0b41fa-97bc-46b7-92a8-5a44316881e8\"}"}},"serializationFormat":"JSON"}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cce2205d1b2fc1508c5143f3cc4bcb2f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cce2205d1b2fc1508c5143f3cc4bcb2f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4fd22c1d1b2fc1508c5143f3cc4bcbbc"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=4fd22c1d1b2fc1508c5143f3cc4bcbbc^sys_idNOT IN1fd26c1d1b2fc1508c5143f3cc4bcbf6,23d2ac1d1b2fc1508c5143f3cc4bcb5e,2bd2ac1d1b2fc1508c5143f3cc4bcb61,2bd2ac1d1b2fc1508c5143f3cc4bcb65,3fd2ec1d1b2fc1508c5143f3cc4bcbf8,5bd2ac1d1b2fc1508c5143f3cc4bcb2c,5bd2ac1d1b2fc1508c5143f3cc4bcb30,63d2ec1d1b2fc1508c5143f3cc4bcb0c,77d2ec1d1b2fc1508c5143f3cc4bcbb6,89e9beb41bc419108c5143f3cc4bcbc3,99e9feb41bc419108c5143f3cc4bcb10,a3d2ac1d1b2fc1508c5143f3cc4bcb69,b1e003741b4819108c5143f3cc4bcb8b,bde003741b4819108c5143f3cc4bcb87,c0e2205d1b2fc1508c5143f3cc4bcb29,d7d26c1d1b2fc1508c5143f3cc4bcbf2,e7d2ac1d1b2fc1508c5143f3cc4bcb34,f3d2205d1b2fc1508c5143f3cc4bcb00,ffd2ec1d1b2fc1508c5143f3cc4bcbfc"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1880e89d1bebc1508c5143f3cc4bcb6d</block>
@@ -4778,6 +4734,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=1fd26c1d1b2fc1508c5143f3cc4bcbf6"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1fd26c1d1b2fc1508c5143f3cc4bcbf6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1fd26c1d1b2fc1508c5143f3cc4bcbf6"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">1fcedc591bebc1508c5143f3cc4bcb94</block>
         <comment>Set current limit 0</comment>
@@ -4824,6 +4782,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=23d2ac1d1b2fc1508c5143f3cc4bcb5e"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=23d2ac1d1b2fc1508c5143f3cc4bcb5e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=23d2ac1d1b2fc1508c5143f3cc4bcb5e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=23d2ac1d1b2fc1508c5143f3cc4bcb5e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">72c068dd1bebc1508c5143f3cc4bcbb7</block>
         <comment/>
@@ -4896,6 +4856,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=2bd2ac1d1b2fc1508c5143f3cc4bcb61"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2bd2ac1d1b2fc1508c5143f3cc4bcb61"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2bd2ac1d1b2fc1508c5143f3cc4bcb61"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">53e12cd11b2fc1508c5143f3cc4bcbf3</block>
         <comment>User found</comment>
@@ -4942,6 +4904,8 @@
         <value>{{0ec5fbfb-8794-41ec-9004-4bd3f50da86e.status}}=0</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=2bd2ac1d1b2fc1508c5143f3cc4bcb65"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2bd2ac1d1b2fc1508c5143f3cc4bcb65"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2bd2ac1d1b2fc1508c5143f3cc4bcb65"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">31d2681d1b2fc1508c5143f3cc4bcb41</block>
         <comment>Set rejected</comment>
@@ -4988,6 +4952,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=3fd2ec1d1b2fc1508c5143f3cc4bcbf8"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=3fd2ec1d1b2fc1508c5143f3cc4bcbf8"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3fd2ec1d1b2fc1508c5143f3cc4bcbf8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3fd2ec1d1b2fc1508c5143f3cc4bcbf8"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">17cedc591bebc1508c5143f3cc4bcb88</block>
         <comment/>
@@ -5034,6 +5000,8 @@
         <value>{{38290806-17a1-495b-85cb-5a6c6ac4cd74.array}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=5bd2ac1d1b2fc1508c5143f3cc4bcb2c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5bd2ac1d1b2fc1508c5143f3cc4bcb2c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5bd2ac1d1b2fc1508c5143f3cc4bcb2c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">93cedc591bebc1508c5143f3cc4bcb8c</block>
         <comment>Set Current Approver and Current Limit</comment>
@@ -5105,6 +5073,8 @@
         <value>{{fd_transform:297064f5-aa3e-495f-a295-78bf03eb69f0}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=5bd2ac1d1b2fc1508c5143f3cc4bcb30"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5bd2ac1d1b2fc1508c5143f3cc4bcb30"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5bd2ac1d1b2fc1508c5143f3cc4bcb30"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">fd32a8951b2fc1508c5143f3cc4bcbcb</block>
         <comment>Invoice Approved, Rejected, or Not Required</comment>
@@ -5246,30 +5216,6 @@
         <value>{{flow_variable.current_limit}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow</field>
-        <id>63d2ec1d1b2fc1508c5143f3cc4bcb0c</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:07:35</sys_created_on>
-        <sys_id>b3d2ec1d1b2fc1508c5143f3cc4bcbb2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:07:35</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow_template</field>
-        <id>63d2ec1d1b2fc1508c5143f3cc4bcb0c</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:07:35</sys_created_on>
-        <sys_id>3fd2ec1d1b2fc1508c5143f3cc4bcbb1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:07:35</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>invoice</field>
         <id>63d2ec1d1b2fc1508c5143f3cc4bcb0c</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -5303,18 +5249,6 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-05-17 19:07:36</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_ext_input_63d2ec1d1b2fc1508c5143f3cc4bcb0c</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>63d2ec1d1b2fc1508c5143f3cc4bcb0c</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:07:35</sys_created_on>
-        <sys_id>ffd2ec1d1b2fc1508c5143f3cc4bcbb1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:07:35</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=63d2ec1d1b2fc1508c5143f3cc4bcb0c"/>
@@ -5352,6 +5286,7 @@
         <element>invoice</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5398,6 +5333,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5433,6 +5369,7 @@
         <element>approved_or_rejected</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5479,6 +5416,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5514,6 +5452,7 @@
         <element>is_partial_approval</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5560,6 +5499,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5595,6 +5535,7 @@
         <element>approver_max_approval_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5641,6 +5582,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5676,6 +5618,7 @@
         <element>invoice_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5722,10 +5665,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_logic_ext_input>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=63d2ec1d1b2fc1508c5143f3cc4bcb0c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">f5d2681d1b2fc1508c5143f3cc4bcb3c</block>
         <comment/>
@@ -5798,6 +5743,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=77d2ec1d1b2fc1508c5143f3cc4bcbb6"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=77d2ec1d1b2fc1508c5143f3cc4bcbb6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=77d2ec1d1b2fc1508c5143f3cc4bcbb6"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">58d9b6b41bc419108c5143f3cc4bcbbf</block>
         <comment>Should user auto approve ritm?</comment>
@@ -5873,30 +5820,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=89e9beb41bc419108c5143f3cc4bcbc3"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow</field>
-        <id>89e9beb41bc419108c5143f3cc4bcbc3</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:21:50</sys_created_on>
-        <sys_id>85e9feb41bc419108c5143f3cc4bcb0d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:21:50</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow_template</field>
-        <id>89e9beb41bc419108c5143f3cc4bcbc3</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:21:50</sys_created_on>
-        <sys_id>01e9feb41bc419108c5143f3cc4bcb0d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:21:50</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>invoice_number</field>
         <id>89e9beb41bc419108c5143f3cc4bcbc3</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -5931,18 +5854,6 @@
         <sys_updated_on>2022-06-10 13:21:50</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_ext_input_89e9beb41bc419108c5143f3cc4bcbc3</table>
         <value>{{0ec5fbfb-8794-41ec-9004-4bd3f50da86e.Record.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>89e9beb41bc419108c5143f3cc4bcbc3</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:21:50</sys_created_on>
-        <sys_id>c1e9feb41bc419108c5143f3cc4bcb0d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:21:50</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=89e9beb41bc419108c5143f3cc4bcbc3"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256^id=89e9beb41bc419108c5143f3cc4bcbc3"/>
@@ -5979,6 +5890,7 @@
         <element>user_sys_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6025,6 +5937,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6060,6 +5973,7 @@
         <element>invoice_number</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6106,6 +6020,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6141,6 +6056,7 @@
         <element>invoice_sys_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6187,10 +6103,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_logic_ext_input>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=89e9beb41bc419108c5143f3cc4bcbc3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">e4d9f6b41bc419108c5143f3cc4bcb20</block>
         <comment/>
@@ -6263,6 +6181,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=99e9feb41bc419108c5143f3cc4bcb10"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=99e9feb41bc419108c5143f3cc4bcb10"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=99e9feb41bc419108c5143f3cc4bcb10"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">9be16cd11b2fc1508c5143f3cc4bcb28</block>
         <comment>Ask one to approve invoice</comment>
@@ -6338,30 +6258,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a3d2ac1d1b2fc1508c5143f3cc4bcb69"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow</field>
-        <id>a3d2ac1d1b2fc1508c5143f3cc4bcb69</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:07:34</sys_created_on>
-        <sys_id>23d2ac1d1b2fc1508c5143f3cc4bcbf0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:07:34</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow_template</field>
-        <id>a3d2ac1d1b2fc1508c5143f3cc4bcb69</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:07:34</sys_created_on>
-        <sys_id>abd2ac1d1b2fc1508c5143f3cc4bcbef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:07:34</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>invoice_record</field>
         <id>a3d2ac1d1b2fc1508c5143f3cc4bcb69</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -6384,18 +6280,6 @@
         <sys_updated_on>2022-05-17 19:07:35</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_ext_input_a3d2ac1d1b2fc1508c5143f3cc4bcb69</table>
         <value>{{0ec5fbfb-8794-41ec-9004-4bd3f50da86e.Record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>a3d2ac1d1b2fc1508c5143f3cc4bcb69</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-05-17 19:07:34</sys_created_on>
-        <sys_id>6fd2ac1d1b2fc1508c5143f3cc4bcbef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-05-17 19:07:34</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=a3d2ac1d1b2fc1508c5143f3cc4bcb69"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256^id=a3d2ac1d1b2fc1508c5143f3cc4bcb69"/>
@@ -6432,6 +6316,7 @@
         <element>user_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6478,6 +6363,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6513,6 +6399,7 @@
         <element>invoice_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6559,10 +6446,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_logic_ext_input>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a3d2ac1d1b2fc1508c5143f3cc4bcb69"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">b2d08b341b4819108c5143f3cc4bcb0f</block>
         <comment>Invoice Approved</comment>
@@ -6718,30 +6607,6 @@
         <value>{{flow_variable.current_limit}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow</field>
-        <id>b1e003741b4819108c5143f3cc4bcb8b</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:52:29</sys_created_on>
-        <sys_id>0ae003741b4819108c5143f3cc4bcbe6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:52:29</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>flow_template</field>
-        <id>b1e003741b4819108c5143f3cc4bcb8b</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:52:29</sys_created_on>
-        <sys_id>82e003741b4819108c5143f3cc4bcbe6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:52:29</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>invoice</field>
         <id>b1e003741b4819108c5143f3cc4bcb8b</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -6775,18 +6640,6 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-10 13:52:29</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_ext_input_b1e003741b4819108c5143f3cc4bcb8b</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>wait_for_completion</field>
-        <id>b1e003741b4819108c5143f3cc4bcb8b</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-10 13:52:29</sys_created_on>
-        <sys_id>46e003741b4819108c5143f3cc4bcbe6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-10 13:52:29</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_5ede711653223300414eddeeff7b1256</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=b1e003741b4819108c5143f3cc4bcb8b"/>
@@ -6824,6 +6677,7 @@
         <element>invoice_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6870,6 +6724,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6905,6 +6760,7 @@
         <element>invoice</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6951,6 +6807,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6986,6 +6843,7 @@
         <element>approver_max_approval_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7032,6 +6890,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7067,6 +6926,7 @@
         <element>is_partial_approval</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7113,6 +6973,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7148,6 +7009,7 @@
         <element>approved_or_rejected</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7194,10 +7056,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_logic_ext_input>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b1e003741b4819108c5143f3cc4bcb8b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">aad08b341b4819108c5143f3cc4bcb0b</block>
         <comment>Auto-approve comment</comment>
@@ -7230,6 +7094,8 @@
     <sys_variable_value action="delete_multiple" query="document_key=bde003741b4819108c5143f3cc4bcb87"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=bde003741b4819108c5143f3cc4bcb87"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=bde003741b4819108c5143f3cc4bcb87"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bde003741b4819108c5143f3cc4bcb87"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bde003741b4819108c5143f3cc4bcb87"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">06d2681d1b2fc1508c5143f3cc4bcb65</block>
         <comment>Set approved</comment>
@@ -7276,6 +7142,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=c0e2205d1b2fc1508c5143f3cc4bcb29"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=c0e2205d1b2fc1508c5143f3cc4bcb29"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c0e2205d1b2fc1508c5143f3cc4bcb29"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c0e2205d1b2fc1508c5143f3cc4bcb29"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">5480e89d1bebc1508c5143f3cc4bcb6a</block>
         <comment>Set Invoice Amount String</comment>
@@ -7321,6 +7189,8 @@
         <value>{{fd_transform:50cf098c-7c68-4c38-a013-c00b8fe15a3b}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=d7d26c1d1b2fc1508c5143f3cc4bcbf2"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d7d26c1d1b2fc1508c5143f3cc4bcbf2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d7d26c1d1b2fc1508c5143f3cc4bcbf2"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">17cedc591bebc1508c5143f3cc4bcb90</block>
         <comment/>
@@ -7393,6 +7263,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=e7d2ac1d1b2fc1508c5143f3cc4bcb34"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e7d2ac1d1b2fc1508c5143f3cc4bcb34"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e7d2ac1d1b2fc1508c5143f3cc4bcb34"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">06d2681d1b2fc1508c5143f3cc4bcb61</block>
         <comment/>
@@ -7452,6 +7324,8 @@
         <value>{{flow_variable.current_limit}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=f3d2205d1b2fc1508c5143f3cc4bcb00"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f3d2205d1b2fc1508c5143f3cc4bcb00"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f3d2205d1b2fc1508c5143f3cc4bcb00"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">71d2681d1b2fc1508c5143f3cc4bcb5e</block>
         <comment/>
@@ -7484,6 +7358,8 @@
     <sys_variable_value action="delete_multiple" query="document_key=ffd2ec1d1b2fc1508c5143f3cc4bcbfc"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=ffd2ec1d1b2fc1508c5143f3cc4bcbfc"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^id=ffd2ec1d1b2fc1508c5143f3cc4bcbfc"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ffd2ec1d1b2fc1508c5143f3cc4bcbfc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ffd2ec1d1b2fc1508c5143f3cc4bcbfc"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=4fd22c1d1b2fc1508c5143f3cc4bcbbc^sys_idNOT IN00e2205d1b2fc1508c5143f3cc4bcb70,00e2205d1b2fc1508c5143f3cc4bcb71,00e2205d1b2fc1508c5143f3cc4bcb72,00e2205d1b2fc1508c5143f3cc4bcb73,04e2205d1b2fc1508c5143f3cc4bcb70,04e2205d1b2fc1508c5143f3cc4bcb71,04e2205d1b2fc1508c5143f3cc4bcb72,04e2205d1b2fc1508c5143f3cc4bcb73,08e2205d1b2fc1508c5143f3cc4bcb6f,08e2205d1b2fc1508c5143f3cc4bcb70,08e2205d1b2fc1508c5143f3cc4bcb71,08e2205d1b2fc1508c5143f3cc4bcb72,08e2205d1b2fc1508c5143f3cc4bcb73,0ce2205d1b2fc1508c5143f3cc4bcb70,0ce2205d1b2fc1508c5143f3cc4bcb71,0ce2205d1b2fc1508c5143f3cc4bcb72,40e2205d1b2fc1508c5143f3cc4bcb99,80e2205d1b2fc1508c5143f3cc4bcb70,80e2205d1b2fc1508c5143f3cc4bcb71,80e2205d1b2fc1508c5143f3cc4bcb72,80e2205d1b2fc1508c5143f3cc4bcb73,84e2205d1b2fc1508c5143f3cc4bcb70,84e2205d1b2fc1508c5143f3cc4bcb71,84e2205d1b2fc1508c5143f3cc4bcb72,84e2205d1b2fc1508c5143f3cc4bcb73,88e2205d1b2fc1508c5143f3cc4bcb70,88e2205d1b2fc1508c5143f3cc4bcb71,88e2205d1b2fc1508c5143f3cc4bcb72,8ce2205d1b2fc1508c5143f3cc4bcb6f,8ce2205d1b2fc1508c5143f3cc4bcb70,8ce2205d1b2fc1508c5143f3cc4bcb71,8ce2205d1b2fc1508c5143f3cc4bcb72,cce2205d1b2fc1508c5143f3cc4bcb98"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>4fd22c1d1b2fc1508c5143f3cc4bcbbc</attached_to>
@@ -8078,6 +7954,7 @@
         <element>current_limit</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8124,6 +8001,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8159,6 +8037,7 @@
         <element>invoice_amount_string</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8205,6 +8084,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8240,6 +8120,7 @@
         <element>invoice_amount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8286,6 +8167,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8321,6 +8203,7 @@
         <element>previous_limit</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8367,6 +8250,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8402,6 +8286,7 @@
         <element>current_approver</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8448,6 +8333,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8466,7 +8352,7 @@
         <sys_created_on>2022-05-17 19:07:32</sys_created_on>
         <sys_id>8fd26c1d1b2fc1508c5143f3cc4bcb3d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Company</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -8489,7 +8375,7 @@
         <sys_created_on>2022-05-17 19:07:32</sys_created_on>
         <sys_id>cfd26c1d1b2fc1508c5143f3cc4bcb13</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice Record</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -8499,6 +8385,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4fd22c1d1b2fc1508c5143f3cc4bcbbc"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc^sys_idNOT IN93d26c1d1b2fc1508c5143f3cc4bcb83"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>output</element>
@@ -8513,7 +8400,7 @@
         <sys_created_on>2022-05-17 19:07:33</sys_created_on>
         <sys_id>93d26c1d1b2fc1508c5143f3cc4bcb83</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Approval State</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -8523,8 +8410,10 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_flow action="update">
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4fd22c1d1b2fc1508c5143f3cc4bcbbc"/>
+    <sys_hub_flow action="UPDATE">
         <sys_id>249bd4951babc1508c5143f3cc4bcb39</sys_id>
         <latest_snapshot>4fd22c1d1b2fc1508c5143f3cc4bcbbc</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch0-07-19-2022_07-26-2022_2149.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

@@ -11,14 +11,11 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-07-28 21:03:08</sys_created_on>
         <sys_id>6b7344031b253c908c5143f3cc4bcbff</sys_id>
-        <sys_mod_count>1</sys_mod_count>
         <sys_name>1</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sp_column_6b7344031b253c908c5143f3cc4bcbff</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:40:36</sys_updated_on>
     </sp_column>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -30,8 +27,5 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:40:36</sys_created_on>
         <sys_id>647910b11baec9d08c5143f3cc4bcb12</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:40:36</sys_updated_on>
     </sys_claim>
 </record_update>

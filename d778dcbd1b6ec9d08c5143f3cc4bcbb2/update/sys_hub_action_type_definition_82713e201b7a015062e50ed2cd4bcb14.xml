@@ -8,7 +8,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-rome-06-23-2021__patch7-02-09-2022_02-23-2022_0935.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -19,6 +18,7 @@
         <name>Start New Catalog Item Flow</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -26,15 +26,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>82713e201b7a015062e50ed2cd4bcb14</sys_id>
-        <sys_mod_count>68</sys_mod_count>
         <sys_name>Start New Catalog Item Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_82713e201b7a015062e50ed2cd4bcb14</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-08 21:19:27</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -160,18 +157,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=887276241b7a015062e50ed2cd4bcb91"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>887276241b7a015062e50ed2cd4bcb91</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-04-08 14:52:18</sys_created_on>
-        <sys_id>4c7276241b7a015062e50ed2cd4bcba2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-08 14:52:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>catalog_item</field>
         <id>887276241b7a015062e50ed2cd4bcb91</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -207,18 +192,6 @@
         <table>var__m_sys_hub_step_ext_input_887276241b7a015062e50ed2cd4bcb91</table>
         <value>{{action.is_record_producer}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>887276241b7a015062e50ed2cd4bcb91</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-04-08 14:52:18</sys_created_on>
-        <sys_id>047276241b7a015062e50ed2cd4bcba3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-08 14:52:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=887276241b7a015062e50ed2cd4bcb91"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=887276241b7a015062e50ed2cd4bcb91^sys_idNOT IN0bc7322c1bba015062e50ed2cd4bcbd2,cfc7322c1bba015062e50ed2cd4bcbcc,f57af3e81bba415062e50ed2cd4bcbee"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
@@ -252,6 +225,7 @@
         <element>catalog_item</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -298,6 +272,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -333,6 +308,7 @@
         <element>current</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -379,6 +355,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -414,6 +391,7 @@
         <element>is_producer</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -460,10 +438,14 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=887276241b7a015062e50ed2cd4bcb91"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=887276241b7a015062e50ed2cd4bcb91"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_887276241b7a015062e50ed2cd4bcb91"/>
     <sys_hub_action_input action="delete_multiple" query="model=82713e201b7a015062e50ed2cd4bcb14^sys_idNOT INb57af3a81bba415062e50ed2cd4bcb31,bac7322c1bba015062e50ed2cd4bcb75,fac77a6c1b7a015062e50ed2cd4bcb9a"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -496,6 +478,7 @@
         <element>is_record_producer</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -542,10 +525,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b57af3a81bba415062e50ed2cd4bcb31"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -577,6 +562,7 @@
         <element>catalog_item</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -623,10 +609,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bac7322c1bba015062e50ed2cd4bcb75"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -658,6 +646,7 @@
         <element>document_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -704,10 +693,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fac77a6c1b7a015062e50ed2cd4bcb9a"/>
     <sys_hub_action_output action="delete_multiple" query="model=82713e201b7a015062e50ed2cd4bcb14^sys_idNOT IN08823a241b7a015062e50ed2cd4bcb78,c4823a241b7a015062e50ed2cd4bcb80"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -741,6 +732,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -788,10 +780,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=08823a241b7a015062e50ed2cd4bcb78"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=08823a241b7a015062e50ed2cd4bcb78"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -824,6 +819,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -871,10 +867,14 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c4823a241b7a015062e50ed2cd4bcb80"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c4823a241b7a015062e50ed2cd4bcb80"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=82713e201b7a015062e50ed2cd4bcb14"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=82713e201b7a015062e50ed2cd4bcb14^sys_idNOT INc87276241b7a015062e50ed2cd4bcba8"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="Start New Catalog Item Flow">82713e201b7a015062e50ed2cd4bcb14</action_type_id>
@@ -885,6 +885,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-04-08 14:52:18</sys_updated_on>
     </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c87276241b7a015062e50ed2cd4bcba8"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_82713e201b7a015062e50ed2cd4bcb14^sys_idNOT IN757af3e81bba415062e50ed2cd4bcbc9,76c7322c1bba015062e50ed2cd4bcba5,f2c7322c1bba015062e50ed2cd4bcb74"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>is_record_producer</element>
@@ -899,7 +900,7 @@
         <sys_created_on>2022-04-08 20:07:00</sys_created_on>
         <sys_id>757af3e81bba415062e50ed2cd4bcbc9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Is record producer</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -922,7 +923,7 @@
         <sys_created_on>2022-04-08 15:15:43</sys_created_on>
         <sys_id>76c7322c1bba015062e50ed2cd4bcba5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Catalog Item</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -945,7 +946,7 @@
         <sys_created_on>2022-04-08 15:15:42</sys_created_on>
         <sys_id>f2c7322c1bba015062e50ed2cd4bcb74</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Document ID</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -955,6 +956,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_82713e201b7a015062e50ed2cd4bcb14"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_82713e201b7a015062e50ed2cd4bcb14^sys_idNOT IN00823a241b7a015062e50ed2cd4bcb7f,c4823a241b7a015062e50ed2cd4bcb97"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
@@ -969,7 +971,7 @@
         <sys_created_on>2022-04-08 14:52:35</sys_created_on>
         <sys_id>00823a241b7a015062e50ed2cd4bcb7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -992,7 +994,7 @@
         <sys_created_on>2022-04-08 14:52:35</sys_created_on>
         <sys_id>c4823a241b7a015062e50ed2cd4bcb97</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -1002,6 +1004,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_82713e201b7a015062e50ed2cd4bcb14"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=82713e201b7a015062e50ed2cd4bcb14^sys_idNOT IN3872b6241b7a015062e50ed2cd4bcb76"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Start New Catalog Item Flow">82713e201b7a015062e50ed2cd4bcb14</action_id>
@@ -1176,18 +1179,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=907276241b7a015062e50ed2cd4bcbdb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>907276241b7a015062e50ed2cd4bcbdb</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-04-08 14:52:19</sys_created_on>
-        <sys_id>1c7276241b7a015062e50ed2cd4bcbf4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-08 14:52:19</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>catalog_item</field>
         <id>907276241b7a015062e50ed2cd4bcbdb</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -1223,18 +1214,6 @@
         <table>var__m_sys_hub_step_ext_input_907276241b7a015062e50ed2cd4bcbdb</table>
         <value>{{action.is_record_producer}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>907276241b7a015062e50ed2cd4bcbdb</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-04-08 14:52:19</sys_created_on>
-        <sys_id>dc7276241b7a015062e50ed2cd4bcbf4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-08 14:52:19</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=907276241b7a015062e50ed2cd4bcbdb"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=907276241b7a015062e50ed2cd4bcbdb^sys_idNOT INa7c7722c1bba015062e50ed2cd4bcb71,a7c7722c1bba015062e50ed2cd4bcb78,de7a37e81bba415062e50ed2cd4bcba1"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
@@ -1268,6 +1247,7 @@
         <element>current</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1314,6 +1294,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1349,6 +1330,7 @@
         <element>catalog_item</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1395,6 +1377,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1430,6 +1413,7 @@
         <element>is_producer</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1476,10 +1460,14 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=907276241b7a015062e50ed2cd4bcbdb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=907276241b7a015062e50ed2cd4bcbdb"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_907276241b7a015062e50ed2cd4bcbdb"/>
     <sys_hub_action_input action="delete_multiple" query="model=dc7276241b7a015062e50ed2cd4bcbc9^sys_idNOT IN27c7722c1bba015062e50ed2cd4bcb4f,527a37e81bba415062e50ed2cd4bcb93,e7c7722c1bba015062e50ed2cd4bcb47"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1512,6 +1500,7 @@
         <element>catalog_item</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1558,10 +1547,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=27c7722c1bba015062e50ed2cd4bcb4f"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1593,6 +1584,7 @@
         <element>is_record_producer</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1639,10 +1631,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=527a37e81bba415062e50ed2cd4bcb93"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1674,6 +1668,7 @@
         <element>document_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1720,10 +1715,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e7c7722c1bba015062e50ed2cd4bcb47"/>
     <sys_hub_action_output action="delete_multiple" query="model=dc7276241b7a015062e50ed2cd4bcbc9^sys_idNOT INa87276241b7a015062e50ed2cd4bcbfb,ac72b6241b7a015062e50ed2cd4bcb03"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1757,6 +1754,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1804,10 +1802,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a87276241b7a015062e50ed2cd4bcbfb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a87276241b7a015062e50ed2cd4bcbfb"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1840,6 +1841,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1887,10 +1889,14 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ac72b6241b7a015062e50ed2cd4bcb03"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ac72b6241b7a015062e50ed2cd4bcb03"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=dc7276241b7a015062e50ed2cd4bcbc9"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=dc7276241b7a015062e50ed2cd4bcbc9^sys_idNOT INe472b6241b7a015062e50ed2cd4bcb13"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="Start New Catalog Item Flow">dc7276241b7a015062e50ed2cd4bcbc9</action_type_id>
@@ -1901,6 +1907,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-04-08 14:52:20</sys_updated_on>
     </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e472b6241b7a015062e50ed2cd4bcb13"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_dc7276241b7a015062e50ed2cd4bcbc9^sys_idNOT IN127a37e81bba415062e50ed2cd4bcb99,6fc7722c1bba015062e50ed2cd4bcb4d,abc7722c1bba015062e50ed2cd4bcb59"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>is_record_producer</element>
@@ -1915,7 +1922,7 @@
         <sys_created_on>2022-04-08 20:07:02</sys_created_on>
         <sys_id>127a37e81bba415062e50ed2cd4bcb99</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Is record producer</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -1938,7 +1945,7 @@
         <sys_created_on>2022-04-08 15:15:45</sys_created_on>
         <sys_id>6fc7722c1bba015062e50ed2cd4bcb4d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Document ID</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -1961,7 +1968,7 @@
         <sys_created_on>2022-04-08 15:15:45</sys_created_on>
         <sys_id>abc7722c1bba015062e50ed2cd4bcb59</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Catalog Item</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -1971,6 +1978,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_dc7276241b7a015062e50ed2cd4bcbc9"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_dc7276241b7a015062e50ed2cd4bcbc9^sys_idNOT INa872b6241b7a015062e50ed2cd4bcb0e,e472b6241b7a015062e50ed2cd4bcb02"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
@@ -1985,7 +1993,7 @@
         <sys_created_on>2022-04-08 14:52:20</sys_created_on>
         <sys_id>a872b6241b7a015062e50ed2cd4bcb0e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -2008,7 +2016,7 @@
         <sys_created_on>2022-04-08 14:52:20</sys_created_on>
         <sys_id>e472b6241b7a015062e50ed2cd4bcb02</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -2018,8 +2026,10 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_type_definition action="update">
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_dc7276241b7a015062e50ed2cd4bcbc9"/>
+    <sys_hub_action_type_definition action="UPDATE">
         <sys_id>82713e201b7a015062e50ed2cd4bcb14</sys_id>
         <latest_snapshot>dc7276241b7a015062e50ed2cd4bcbc9</latest_snapshot>
+        <compiler_build>glide-rome-06-23-2021__patch7-02-09-2022_02-23-2022_0935.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

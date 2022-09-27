@@ -15,14 +15,11 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-07-29 17:52:28</sys_created_on>
         <sys_id>507120931be5f45062e50ed2cd4bcbd0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
         <sys_name>invoice_login</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sp_page_507120931be5f45062e50ed2cd4bcbd0</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:41:22</sys_updated_on>
         <title>APi Group Invoice Portal - Login</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
@@ -37,8 +34,5 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:41:22</sys_created_on>
         <sys_id>8ca918f11baec9d08c5143f3cc4bcb87</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-03-30 14:41:22</sys_updated_on>
     </sys_claim>
 </record_update>
