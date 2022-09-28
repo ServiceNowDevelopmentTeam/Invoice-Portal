@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles>public</create_roles>
         <default_html_value/>
-        <default_value>javascript:global.GetExternalUserRegistrationPortal(gs.action.getGlideURI())</default_value>
+        <default_value>9d579f061bcdb4148c5143f3cc4bcb54</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>

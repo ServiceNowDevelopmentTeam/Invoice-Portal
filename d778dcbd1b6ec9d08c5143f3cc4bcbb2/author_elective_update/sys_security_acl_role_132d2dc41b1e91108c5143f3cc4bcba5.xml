@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-09-27 20:12:29</sys_created_on>
+        <sys_id>132d2dc41b1e91108c5143f3cc4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_external_account_request.snc_internal</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_security_acl display_value="u_external_account_request">9938c6b91bf1f0148c5143f3cc4bcb12</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_132d2dc41b1e91108c5143f3cc4bcba5</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 20:12:29</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>96fca1001b1e91108c5143f3cc4bcb26</transaction_id>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_security_acl_role_132d2dc41b1e91108c5143f3cc4bcba5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2022-09-27 20:12:29</sys_created_on><sys_id>132d2dc41b1e91108c5143f3cc4bcba5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_external_account_request.snc_internal</sys_name><sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package><sys_policy/><sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope><sys_security_acl display_value="u_external_account_request">9938c6b91bf1f0148c5143f3cc4bcb12</sys_security_acl><sys_update_name>sys_security_acl_role_132d2dc41b1e91108c5143f3cc4bcba5</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-09-27 20:12:29</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role><transaction_id>96fca1001b1e91108c5143f3cc4bcb26</transaction_id></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>414951736</payload_hash>
+        <record_name>u_external_account_request.snc_internal</record_name>
+        <reverted_from/>
+        <source>37626b231b02111062e50ed2cd4bcb22</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-09-26 15:27:50</sys_created_on>
+        <sys_id>c16d21841b1e91108c5143f3cc4bcb32</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1837a6960f00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>816d2184191e911059ed29e844638f32</update_guid>
+        <update_guid_history>816d2184191e911059ed29e844638f32:414951736</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_external_account_request.snc_internal">416ded081b1e91108c5143f3cc4bcb30</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-09-27 20:13:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>387c5bcbe42f475881288bc42c10a291</sys_id>
+        <sys_metadata>132d2dc41b1e91108c5143f3cc4bcba5</sys_metadata>
+        <sys_name>u_external_account_request.snc_internal</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent display_value="u_external_account_request">9938c6b91bf1f0148c5143f3cc4bcb12</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_security_acl_role_132d2dc41b1e91108c5143f3cc4bcba5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_132d2dc41b1e91108c5143f3cc4bcba5">c16d21841b1e91108c5143f3cc4bcb32</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

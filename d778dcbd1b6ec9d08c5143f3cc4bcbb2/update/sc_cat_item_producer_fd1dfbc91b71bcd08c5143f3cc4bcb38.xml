@@ -17,7 +17,7 @@
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
-        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <fulfillment_automation_level/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -63,7 +63,8 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <script><![CDATA[producer.portal_redirect = new global.ExternalUserRegistrationUtil().getRedirectionURL(current.portal);]]></script>
+        <script><![CDATA[current.setValue('portal','9d579f061bcdb4148c5143f3cc4bcb54');
+producer.portal_redirect = new global.ExternalUserRegistrationUtil().getRedirectionURL(current.portal);]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>

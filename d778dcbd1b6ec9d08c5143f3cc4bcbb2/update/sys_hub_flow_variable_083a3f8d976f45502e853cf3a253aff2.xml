@@ -38,7 +38,7 @@
         <label>Invoice Amount</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Cascading Approval - Invoice">b72a3f8d976f45502e853cf3a253af96</model>
+        <model display_value="">b72a3f8d976f45502e853cf3a253af96</model>
         <model_id>b72a3f8d976f45502e853cf3a253af96</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_b72a3f8d976f45502e853cf3a253af96</name>

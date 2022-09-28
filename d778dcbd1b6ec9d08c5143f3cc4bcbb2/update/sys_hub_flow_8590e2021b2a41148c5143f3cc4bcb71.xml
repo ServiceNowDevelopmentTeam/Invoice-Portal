@@ -2974,11 +2974,11 @@
         <sys_created_on>2022-03-31 19:20:42</sys_created_on>
         <sys_id>2523ae0a1b2a41148c5143f3cc4bcbde</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8590e2021b2a41148c5143f3cc4bcb71_invoice_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-03-31 19:20:42</sys_updated_on>
         <url/>
@@ -2997,11 +2997,11 @@
         <sys_created_on>2022-03-31 19:09:30</sys_created_on>
         <sys_id>519026021b2a41148c5143f3cc4bcb8f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Is Partial Approval</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8590e2021b2a41148c5143f3cc4bcb71_is_partial_approval_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-03-31 19:09:30</sys_updated_on>
         <url/>
@@ -3020,11 +3020,11 @@
         <sys_created_on>2022-03-31 19:09:30</sys_created_on>
         <sys_id>5d9026021b2a41148c5143f3cc4bcb33</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Approved or Rejected</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8590e2021b2a41148c5143f3cc4bcb71_approved_or_rejected_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-03-31 19:09:30</sys_updated_on>
         <url/>
@@ -3043,11 +3043,11 @@
         <sys_created_on>2022-04-01 18:29:53</sys_created_on>
         <sys_id>7a11231a1b6e45148c5143f3cc4bcb21</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Approver Max Approval Amount</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8590e2021b2a41148c5143f3cc4bcb71_approver_max_approval_amount_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-04-01 18:29:53</sys_updated_on>
         <url/>
@@ -3066,17 +3066,17 @@
         <sys_created_on>2022-04-01 18:29:53</sys_created_on>
         <sys_id>fe11231a1b6e45148c5143f3cc4bcb1a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice Amount</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8590e2021b2a41148c5143f3cc4bcb71_invoice_amount_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-04-01 18:29:53</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8590e2021b2a41148c5143f3cc4bcb71^sys_idNOT INd59026021b2a41148c5143f3cc4bcb2f,159026021b2a41148c5143f3cc4bcb30,519026021b2a41148c5143f3cc4bcb31,9d9026021b2a41148c5143f3cc4bcb31"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8590e2021b2a41148c5143f3cc4bcb71^sys_idNOT IN39daed141b5e951062e50ed2cd4bcbb1,bddaed141b5e951062e50ed2cd4bcbbe,7ddaed141b5e951062e50ed2cd4bcbbf,3ddaed141b5e951062e50ed2cd4bcbc0"/>
     <sys_choice field="approved_or_rejected" table="var__m_sys_hub_flow_input_8590e2021b2a41148c5143f3cc4bcb71">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -3092,10 +3092,10 @@
             <sys_created_on>2022-03-31 19:09:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d59026021b2a41148c5143f3cc4bcb2f</sys_id>
+            <sys_id>39daed141b5e951062e50ed2cd4bcbb1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
+            <sys_updated_on>2022-09-27 18:40:39</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -3112,10 +3112,10 @@
             <sys_created_on>2022-03-31 19:09:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>159026021b2a41148c5143f3cc4bcb30</sys_id>
+            <sys_id>bddaed141b5e951062e50ed2cd4bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
+            <sys_updated_on>2022-09-27 18:40:39</sys_updated_on>
             <value>approved</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -3132,10 +3132,10 @@
             <sys_created_on>2022-03-31 19:09:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>519026021b2a41148c5143f3cc4bcb31</sys_id>
+            <sys_id>7ddaed141b5e951062e50ed2cd4bcbbf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
+            <sys_updated_on>2022-09-27 18:40:39</sys_updated_on>
             <value>rejected</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -3152,10 +3152,10 @@
             <sys_created_on>2022-03-31 19:09:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9d9026021b2a41148c5143f3cc4bcb31</sys_id>
+            <sys_id>3ddaed141b5e951062e50ed2cd4bcbc0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
+            <sys_updated_on>2022-09-27 18:40:39</sys_updated_on>
             <value>not_required</value>
         </sys_choice>
     </sys_choice>
@@ -6142,11 +6142,11 @@
         <sys_created_on>2022-03-31 19:24:19</sys_created_on>
         <sys_id>96f3260e1b2a41148c5143f3cc4bcb3d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_02f3e20e1b2a41148c5143f3cc4bcbdb_invoice_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-03-31 19:24:19</sys_updated_on>
         <url/>
@@ -6165,11 +6165,11 @@
         <sys_created_on>2022-03-31 19:24:18</sys_created_on>
         <sys_id>9ef3260e1b2a41148c5143f3cc4bcb2a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Is Partial Approval</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_02f3e20e1b2a41148c5143f3cc4bcbdb_is_partial_approval_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-03-31 19:24:18</sys_updated_on>
         <url/>
@@ -6188,11 +6188,11 @@
         <sys_created_on>2022-04-01 18:30:04</sys_created_on>
         <sys_id>a521ab1a1b6e45148c5143f3cc4bcbe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice Amount</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_02f3e20e1b2a41148c5143f3cc4bcbdb_invoice_amount_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-04-01 18:30:04</sys_updated_on>
         <url/>
@@ -6211,11 +6211,11 @@
         <sys_created_on>2022-03-31 19:24:18</sys_created_on>
         <sys_id>d2f3e20e1b2a41148c5143f3cc4bcbfa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Approved or Rejected</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_02f3e20e1b2a41148c5143f3cc4bcbdb_approved_or_rejected_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-03-31 19:24:18</sys_updated_on>
         <url/>
@@ -6234,17 +6234,17 @@
         <sys_created_on>2022-04-01 18:30:05</sys_created_on>
         <sys_id>fd21eb1a1b6e45148c5143f3cc4bcb0a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Approver Max Approval Amount</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_02f3e20e1b2a41148c5143f3cc4bcbdb_approver_max_approval_amount_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-04-01 18:30:05</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_02f3e20e1b2a41148c5143f3cc4bcbdb^sys_idNOT IN12f3e20e1b2a41148c5143f3cc4bcbf3,92f3e20e1b2a41148c5143f3cc4bcbf5,96f3e20e1b2a41148c5143f3cc4bcbf6,9af3e20e1b2a41148c5143f3cc4bcbf7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_02f3e20e1b2a41148c5143f3cc4bcbdb^sys_idNOT INf1daed141b5e951062e50ed2cd4bcb8a,b1daed141b5e951062e50ed2cd4bcb8b,71daed141b5e951062e50ed2cd4bcb8c,bddaed141b5e951062e50ed2cd4bcba5"/>
     <sys_choice field="approved_or_rejected" table="var__m_sys_hub_flow_input_02f3e20e1b2a41148c5143f3cc4bcbdb">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -6260,10 +6260,10 @@
             <sys_created_on>2022-03-31 19:24:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>12f3e20e1b2a41148c5143f3cc4bcbf3</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_id>f1daed141b5e951062e50ed2cd4bcb8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2022-09-27 19:45:47</sys_updated_on>
+            <sys_updated_on>2022-09-27 18:40:39</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6280,10 +6280,10 @@
             <sys_created_on>2022-03-31 19:24:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>92f3e20e1b2a41148c5143f3cc4bcbf5</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_id>b1daed141b5e951062e50ed2cd4bcb8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2022-09-27 19:45:47</sys_updated_on>
+            <sys_updated_on>2022-09-27 18:40:39</sys_updated_on>
             <value>approved</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6300,10 +6300,10 @@
             <sys_created_on>2022-03-31 19:24:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>96f3e20e1b2a41148c5143f3cc4bcbf6</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_id>71daed141b5e951062e50ed2cd4bcb8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2022-09-27 19:45:47</sys_updated_on>
+            <sys_updated_on>2022-09-27 18:40:39</sys_updated_on>
             <value>rejected</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6320,10 +6320,10 @@
             <sys_created_on>2022-03-31 19:24:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9af3e20e1b2a41148c5143f3cc4bcbf7</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_id>bddaed141b5e951062e50ed2cd4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2022-09-27 19:45:47</sys_updated_on>
+            <sys_updated_on>2022-09-27 18:40:39</sys_updated_on>
             <value>not_required</value>
         </sys_choice>
     </sys_choice>
