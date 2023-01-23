@@ -1,0 +1,2724 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>look_up_flow_data_record</internal_name>
+        <label_cache>[{"name":"{{action.related_table}}","label":"action➛Related Table","type":"action","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Table Name","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name","uiUniqueId":"43aab319-a332-422c-a999-dbd1f3104aba"}},{"name":"{{action.related_record}}","label":"action➛Related Record Sys Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Document ID","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id","uiUniqueId":"777c7269-0ec7-42c1-9aae-78c23c11ed71"}},{"name":"{{action.activity}}","label":"action➛Activity","type":"action","ref":"","reference_display":"Activity","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.activity.sys_id}}","label":"action➛Activity➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_pd_activity","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.related_record_sys_id}}","label":"action➛Related Record Sys Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].value}}","label":"step➛Script step➛Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].fdrecord}}","label":"step➛Script step➛fdRecordId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"7925bca4-01ad-4303-b166-3f85a09c7a4d"}},{"name":"{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].fdrecordid}}","label":"step➛Script step➛FDRecordId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[7dd38b34-d4bb-4e78-baf0-e17beaf3b04d].record}}","label":"step➛Look Up Record step➛Flow Data Record","type":"step","ref":"sys_flow_data","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>f330ac9b1b6b991062e50ed2cd4bcb5d</master_snapshot>
+        <name>Look up flow data record</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 19:42:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27a818531b6b991062e50ed2cd4bcb96</sys_id>
+        <sys_mod_count>102</sys_mod_count>
+        <sys_name>Look up flow data record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_27a818531b6b991062e50ed2cd4bcb96</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=27a818531b6b991062e50ed2cd4bcb96"/>
+    <sys_variable_value action="delete_multiple" query="document_key=27a818531b6b991062e50ed2cd4bcb96"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>27a818531b6b991062e50ed2cd4bcb96</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:00:27</sys_created_on>
+        <sys_id>30ec54971b6b991062e50ed2cd4bcb8b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 21:54:16</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">3cec54971b6b991062e50ed2cd4bcb7c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>27a818531b6b991062e50ed2cd4bcb96</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:00:27</sys_created_on>
+        <sys_id>38ec54971b6b991062e50ed2cd4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:00:27</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">70ec54971b6b991062e50ed2cd4bcb82</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=27a818531b6b991062e50ed2cd4bcb96"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fdrecord</field>
+        <id>27a818531b6b991062e50ed2cd4bcb96</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:55</sys_created_on>
+        <sys_id>d26d37f91bc0ad908c5143f3cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</table>
+        <value>{{step[7dd38b34-d4bb-4e78-baf0-e17beaf3b04d].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fdsysid</field>
+        <id>27a818531b6b991062e50ed2cd4bcb96</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:24:58</sys_created_on>
+        <sys_id>44822c5f1b6b991062e50ed2cd4bcbbe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 21:55:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</table>
+        <value>{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].fdrecordid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>27a818531b6b991062e50ed2cd4bcb96</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:06</sys_created_on>
+        <sys_id>eb30ac9b1b6b991062e50ed2cd4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</table>
+        <value>{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].fdrecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>27a818531b6b991062e50ed2cd4bcb96</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:00:27</sys_created_on>
+        <sys_id>b4ec54971b6b991062e50ed2cd4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:00:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>27a818531b6b991062e50ed2cd4bcb96</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:00:27</sys_created_on>
+        <sys_id>bcec54971b6b991062e50ed2cd4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:00:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=27a818531b6b991062e50ed2cd4bcb96^sys_idNOT IN1cffd49b1b6b991062e50ed2cd4bcbba,526d37f91bc0ad908c5143f3cc4bcb8e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</action>
+        <cid>07359eff-fdb7-44f3-8dea-d81412b96d8e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:13:47</sys_created_on>
+        <sys_id>1cffd49b1b6b991062e50ed2cd4bcbba</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:16:23</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1cffd49b1b6b991062e50ed2cd4bcbba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1cffd49b1b6b991062e50ed2cd4bcbba</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:13:47</sys_created_on>
+        <sys_id>9cffd49b1b6b991062e50ed2cd4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:13:47</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1cffd49b1b6b991062e50ed2cd4bcbba</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:13:47</sys_created_on>
+        <sys_id>d4ffd49b1b6b991062e50ed2cd4bcbd6</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:16:23</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var recordGr = inputs.docid;
+  var activity = inputs.activityid.toString();
+
+  var processContext = new GlideRecord('sys_pd_context');
+  processContext.addQuery('input_record',recordGr);
+  processContext.query();
+
+  if(processContext.next()){
+    var activityContext = new GlideRecord('sys_pd_activity_context');
+    activityContext.addQuery('activity',activity);
+    activityContext.addQuery('context',processContext.getUniqueValue());
+    activityContext.query();
+    if(activityContext.next()){
+      var flowData = new GlideRecord('sys_flow_data');
+      flowData.get(activityContext.associated_record.toString());
+      var fdrecord = flowData.getUniqueValue();
+      outputs.fdrecordid = fdrecord;
+    }
+  }
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1cffd49b1b6b991062e50ed2cd4bcbba"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>activity</field>
+        <id>1cffd49b1b6b991062e50ed2cd4bcbba</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:13:47</sys_created_on>
+        <sys_id>90ffd49b1b6b991062e50ed2cd4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:13:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1cffd49b1b6b991062e50ed2cd4bcbba</table>
+        <value>{{action.activity}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>activityid</field>
+        <id>1cffd49b1b6b991062e50ed2cd4bcbba</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:26:41</sys_created_on>
+        <sys_id>d5e2249f1b6b991062e50ed2cd4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:26:41</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1cffd49b1b6b991062e50ed2cd4bcbba</table>
+        <value>{{action.activity.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>1cffd49b1b6b991062e50ed2cd4bcbba</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:13:47</sys_created_on>
+        <sys_id>14ffd49b1b6b991062e50ed2cd4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:13:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>docid</field>
+        <id>1cffd49b1b6b991062e50ed2cd4bcbba</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 22:14:53</sys_created_on>
+        <sys_id>857bfba51b0c2d908c5143f3cc4bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1cffd49b1b6b991062e50ed2cd4bcbba</table>
+        <value>{{action.related_record_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>documentid</field>
+        <id>1cffd49b1b6b991062e50ed2cd4bcbba</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:13:47</sys_created_on>
+        <sys_id>54ffd49b1b6b991062e50ed2cd4bcbd7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:04</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1cffd49b1b6b991062e50ed2cd4bcbba</table>
+        <value>{{action.related_record_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>1cffd49b1b6b991062e50ed2cd4bcbba</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:13:47</sys_created_on>
+        <sys_id>1cffd49b1b6b991062e50ed2cd4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:13:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_1cffd49b1b6b991062e50ed2cd4bcbba^id=1cffd49b1b6b991062e50ed2cd4bcbba"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=1cffd49b1b6b991062e50ed2cd4bcbba"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=1cffd49b1b6b991062e50ed2cd4bcbba^sys_idNOT IN457bbba51b0c2d908c5143f3cc4bcbf6,99e2249f1b6b991062e50ed2cd4bcb97"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>docid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">1cffd49b1b6b991062e50ed2cd4bcbba</model>
+        <model_id>1cffd49b1b6b991062e50ed2cd4bcbba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_1cffd49b1b6b991062e50ed2cd4bcbba</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 22:14:53</sys_created_on>
+        <sys_id>457bbba51b0c2d908c5143f3cc4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>activityid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">1cffd49b1b6b991062e50ed2cd4bcbba</model>
+        <model_id>1cffd49b1b6b991062e50ed2cd4bcbba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_1cffd49b1b6b991062e50ed2cd4bcbba</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:26:41</sys_created_on>
+        <sys_id>99e2249f1b6b991062e50ed2cd4bcb97</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1cffd49b1b6b991062e50ed2cd4bcbba^sys_idNOT IN3f17bbed1bc82d908c5143f3cc4bcb71"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a8432dd4-0ae8-4aa8-808f-045afd3baea1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fdrecordid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>FDRecordId</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">1cffd49b1b6b991062e50ed2cd4bcbba</model>
+        <model_id>1cffd49b1b6b991062e50ed2cd4bcbba</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_1cffd49b1b6b991062e50ed2cd4bcbba</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 21:55:57</sys_created_on>
+        <sys_id>3f17bbed1bc82d908c5143f3cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 21:55:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1cffd49b1b6b991062e50ed2cd4bcbba"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1cffd49b1b6b991062e50ed2cd4bcbba^sys_idNOT INbf17bbed1bc82d908c5143f3cc4bcb74"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>fdrecordid</element>
+        <help/>
+        <hint/>
+        <label>FDRecordId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_1cffd49b1b6b991062e50ed2cd4bcbba</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 21:55:58</sys_created_on>
+        <sys_id>bf17bbed1bc82d908c5143f3cc4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 21:55:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</action>
+        <cid>7dd38b34-d4bb-4e78-baf0-e17beaf3b04d</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:54</sys_created_on>
+        <sys_id>526d37f91bc0ad908c5143f3cc4bcb8e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=526d37f91bc0ad908c5143f3cc4bcb8e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>526d37f91bc0ad908c5143f3cc4bcb8e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:54</sys_created_on>
+        <sys_id>5a6d37f91bc0ad908c5143f3cc4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail flow on error">b019356673110010d70877186bf6a780</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>526d37f91bc0ad908c5143f3cc4bcb8e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:55</sys_created_on>
+        <sys_id>926d37f91bc0ad908c5143f3cc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:55</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=526d37f91bc0ad908c5143f3cc4bcb8e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>526d37f91bc0ad908c5143f3cc4bcb8e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:54</sys_created_on>
+        <sys_id>d66d37f91bc0ad908c5143f3cc4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>sys_id={{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].fdrecordid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>526d37f91bc0ad908c5143f3cc4bcb8e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:54</sys_created_on>
+        <sys_id>166d37f91bc0ad908c5143f3cc4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>526d37f91bc0ad908c5143f3cc4bcb8e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:54</sys_created_on>
+        <sys_id>1e6d37f91bc0ad908c5143f3cc4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=526d37f91bc0ad908c5143f3cc4bcb8e"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=526d37f91bc0ad908c5143f3cc4bcb8e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=526d37f91bc0ad908c5143f3cc4bcb8e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_526d37f91bc0ad908c5143f3cc4bcb8e"/>
+    <sys_hub_action_input action="delete_multiple" query="model=27a818531b6b991062e50ed2cd4bcb96^sys_idNOT IN8a5e981b1b6b991062e50ed2cd4bcb71,c54b73a51b0c2d908c5143f3cc4bcb4b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=8a5f8f85-c402-4f36-952e-00ab7840ad8f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_pd_activity</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>activity</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Activity</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</model>
+        <model_id>27a818531b6b991062e50ed2cd4bcb96</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_27a818531b6b991062e50ed2cd4bcb96</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_pd_activity">sys_pd_activity</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:06:48</sys_created_on>
+        <sys_id>8a5e981b1b6b991062e50ed2cd4bcb71</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:00:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8a5e981b1b6b991062e50ed2cd4bcb71"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5860abb1-1a45-48da-a5cf-0f2ad1e70e66</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>related_record_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Related Record Sys Id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</model>
+        <model_id>27a818531b6b991062e50ed2cd4bcb96</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_27a818531b6b991062e50ed2cd4bcb96</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 22:14:03</sys_created_on>
+        <sys_id>c54b73a51b0c2d908c5143f3cc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c54b73a51b0c2d908c5143f3cc4bcb4b"/>
+    <sys_hub_action_output action="delete_multiple" query="model=27a818531b6b991062e50ed2cd4bcb96^sys_idNOT IN1a6d37f91bc0ad908c5143f3cc4bcb9a,3cec54971b6b991062e50ed2cd4bcb7c,48822c5f1b6b991062e50ed2cd4bcba1,70ec54971b6b991062e50ed2cd4bcb82"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=ea37b98d-6564-491b-b8c2-be450898afe9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_flow_data</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fdrecord</element>
+        <element_prototype display_value="Record" element="record" name="var__m_sys_flow_step_definition_output_dc9c26043b23220057a4a2e334efc447">d3e627913b23220057a4a2e334efc45e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Flow Data Record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</model>
+        <model_id>27a818531b6b991062e50ed2cd4bcb96</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_flow_data">sys_flow_data</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:55</sys_created_on>
+        <sys_id>1a6d37f91bc0ad908c5143f3cc4bcb9a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1a6d37f91bc0ad908c5143f3cc4bcb9a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1a6d37f91bc0ad908c5143f3cc4bcb9a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=99560965-f146-44f1-bc4e-fb0949ea262b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</model>
+        <model_id>27a818531b6b991062e50ed2cd4bcb96</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:00:27</sys_created_on>
+        <sys_id>3cec54971b6b991062e50ed2cd4bcb7c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3cec54971b6b991062e50ed2cd4bcb7c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3cec54971b6b991062e50ed2cd4bcb7c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=3cc3ad3b-a09c-4da1-8184-a0c8b9f6dfb5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fdsysid</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Flow Data Record SysId</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</model>
+        <model_id>27a818531b6b991062e50ed2cd4bcb96</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:24:58</sys_created_on>
+        <sys_id>48822c5f1b6b991062e50ed2cd4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:24:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=48822c5f1b6b991062e50ed2cd4bcba1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=48822c5f1b6b991062e50ed2cd4bcba1"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=84c33644-1a8d-4363-861a-6f7aac08b533,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</model>
+        <model_id>27a818531b6b991062e50ed2cd4bcb96</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:00:27</sys_created_on>
+        <sys_id>70ec54971b6b991062e50ed2cd4bcb82</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=70ec54971b6b991062e50ed2cd4bcb82"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=70ec54971b6b991062e50ed2cd4bcb82"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=27a818531b6b991062e50ed2cd4bcb96^sys_idNOT IN0827bbed1bc82d908c5143f3cc4bcb8c,4027bbed1bc82d908c5143f3cc4bcb8d"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>27a818531b6b991062e50ed2cd4bcb96</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>32ea255a-3580-4257-893e-afde19a8f69a</source_ui_id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 21:55:58</sys_created_on>
+        <sys_id>0827bbed1bc82d908c5143f3cc4bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 21:55:58</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>af3e10db-ca66-4cad-9ba5-1673f5f6e4a4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>27a818531b6b991062e50ed2cd4bcb96</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_related_record_sys_id.loop_count}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 21:55:58</sys_created_on>
+        <sys_id>4027bbed1bc82d908c5143f3cc4bcb8d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:04</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>32ea255a-3580-4257-893e-afde19a8f69a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=27a818531b6b991062e50ed2cd4bcb96^sys_idNOT INed8c1c571b6b991062e50ed2cd4bcb5c"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</action_type_id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 19:58:52</sys_created_on>
+        <sys_id>ed8c1c571b6b991062e50ed2cd4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 19:58:52</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=ed8c1c571b6b991062e50ed2cd4bcb5c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_27a818531b6b991062e50ed2cd4bcb96^sys_idNOT IN4a5e981b1b6b991062e50ed2cd4bcb79,4d4b73a51b0c2d908c5143f3cc4bcb4e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>activity</element>
+        <help/>
+        <hint/>
+        <label>Activity</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_27a818531b6b991062e50ed2cd4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:06:48</sys_created_on>
+        <sys_id>4a5e981b1b6b991062e50ed2cd4bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:06:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>related_record_sys_id</element>
+        <help/>
+        <hint/>
+        <label>Related Record Sys Id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_27a818531b6b991062e50ed2cd4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 22:14:03</sys_created_on>
+        <sys_id>4d4b73a51b0c2d908c5143f3cc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_27a818531b6b991062e50ed2cd4bcb96"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96^sys_idNOT IN566d37f91bc0ad908c5143f3cc4bcba2,74ec54971b6b991062e50ed2cd4bcb87,b0ec54971b6b991062e50ed2cd4bcb81,c4822c5f1b6b991062e50ed2cd4bcba5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>fdrecord</element>
+        <help/>
+        <hint/>
+        <label>Flow Data Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:55</sys_created_on>
+        <sys_id>566d37f91bc0ad908c5143f3cc4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:00:27</sys_created_on>
+        <sys_id>74ec54971b6b991062e50ed2cd4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:00:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:00:27</sys_created_on>
+        <sys_id>b0ec54971b6b991062e50ed2cd4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:00:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>fdsysid</element>
+        <help/>
+        <hint/>
+        <label>Flow Data Record SysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:24:58</sys_created_on>
+        <sys_id>c4822c5f1b6b991062e50ed2cd4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:24:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_27a818531b6b991062e50ed2cd4bcb96"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=27a818531b6b991062e50ed2cd4bcb96^sys_idNOT IN1c40ac9b1b6b991062e50ed2cd4bcbff"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1c40ac9b1b6b991062e50ed2cd4bcbff","name":"plan","plan_signature":null}}</plan>
+        <snapshot>8f6d77f91bc0ad908c5143f3cc4bcb3f</snapshot>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c40ac9b1b6b991062e50ed2cd4bcbff</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:02:00</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>look_up_flow_data_record</internal_name>
+        <label_cache>[{"name":"{{action.related_table}}","label":"action➛Related Table","type":"action","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Table Name","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name","uiUniqueId":"43aab319-a332-422c-a999-dbd1f3104aba"}},{"name":"{{action.related_record}}","label":"action➛Related Record Sys Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Document ID","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id","uiUniqueId":"777c7269-0ec7-42c1-9aae-78c23c11ed71"}},{"name":"{{action.activity}}","label":"action➛Activity","type":"action","ref":"","reference_display":"Activity","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.activity.sys_id}}","label":"action➛Activity➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_pd_activity","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.related_record_sys_id}}","label":"action➛Related Record Sys Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].value}}","label":"step➛Script step➛Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].fdrecord}}","label":"step➛Script step➛fdRecordId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"7925bca4-01ad-4303-b166-3f85a09c7a4d"}},{"name":"{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].fdrecordid}}","label":"step➛Script step➛FDRecordId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[7dd38b34-d4bb-4e78-baf0-e17beaf3b04d].record}}","label":"step➛Look Up Record step➛Flow Data Record","type":"step","ref":"sys_flow_data","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Look up flow data record</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Look up flow data record">27a818531b6b991062e50ed2cd4bcb96</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f330ac9b1b6b991062e50ed2cd4bcb5d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:57</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f330ac9b1b6b991062e50ed2cd4bcb5d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f330ac9b1b6b991062e50ed2cd4bcb5d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>f330ac9b1b6b991062e50ed2cd4bcb5d</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>0440ac9b1b6b991062e50ed2cd4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">c440ac9b1b6b991062e50ed2cd4bcb91</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>f330ac9b1b6b991062e50ed2cd4bcb5d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>c440ac9b1b6b991062e50ed2cd4bcb99</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 21:54:18</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">c440ac9b1b6b991062e50ed2cd4bcb8d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f330ac9b1b6b991062e50ed2cd4bcb5d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fdrecord</field>
+        <id>f330ac9b1b6b991062e50ed2cd4bcb5d</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:58</sys_created_on>
+        <sys_id>036d77f91bc0ad908c5143f3cc4bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</table>
+        <value>{{step[7dd38b34-d4bb-4e78-baf0-e17beaf3b04d].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fdsysid</field>
+        <id>f330ac9b1b6b991062e50ed2cd4bcb5d</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:25:01</sys_created_on>
+        <sys_id>f0826c5f1b6b991062e50ed2cd4bcb5f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 21:56:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</table>
+        <value>{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].fdrecordid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>f330ac9b1b6b991062e50ed2cd4bcb5d</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>0c40ac9b1b6b991062e50ed2cd4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</table>
+        <value>{{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].fdrecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>f330ac9b1b6b991062e50ed2cd4bcb5d</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>8040ac9b1b6b991062e50ed2cd4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>f330ac9b1b6b991062e50ed2cd4bcb5d</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>cc40ac9b1b6b991062e50ed2cd4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=f330ac9b1b6b991062e50ed2cd4bcb5d^sys_idNOT IN8f6d77f91bc0ad908c5143f3cc4bcb25,ff30ac9b1b6b991062e50ed2cd4bcb70"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look up flow data record">f330ac9b1b6b991062e50ed2cd4bcb5d</action>
+        <cid>7dd38b34-d4bb-4e78-baf0-e17beaf3b04d</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:57</sys_created_on>
+        <sys_id>8f6d77f91bc0ad908c5143f3cc4bcb25</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:57</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8f6d77f91bc0ad908c5143f3cc4bcb25"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f6d77f91bc0ad908c5143f3cc4bcb25</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:57</sys_created_on>
+        <sys_id>4b6d77f91bc0ad908c5143f3cc4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:57</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f6d77f91bc0ad908c5143f3cc4bcb25</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:57</sys_created_on>
+        <sys_id>876d77f91bc0ad908c5143f3cc4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:57</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail flow on error">b019356673110010d70877186bf6a780</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8f6d77f91bc0ad908c5143f3cc4bcb25"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8f6d77f91bc0ad908c5143f3cc4bcb25</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:57</sys_created_on>
+        <sys_id>076d77f91bc0ad908c5143f3cc4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>sys_id={{step[07359eff-fdb7-44f3-8dea-d81412b96d8e].fdrecordid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>8f6d77f91bc0ad908c5143f3cc4bcb25</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:57</sys_created_on>
+        <sys_id>436d77f91bc0ad908c5143f3cc4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>8f6d77f91bc0ad908c5143f3cc4bcb25</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:57</sys_created_on>
+        <sys_id>8f6d77f91bc0ad908c5143f3cc4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8f6d77f91bc0ad908c5143f3cc4bcb25"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8f6d77f91bc0ad908c5143f3cc4bcb25"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8f6d77f91bc0ad908c5143f3cc4bcb25"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_8f6d77f91bc0ad908c5143f3cc4bcb25"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look up flow data record">f330ac9b1b6b991062e50ed2cd4bcb5d</action>
+        <cid>07359eff-fdb7-44f3-8dea-d81412b96d8e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:07</sys_created_on>
+        <sys_id>ff30ac9b1b6b991062e50ed2cd4bcb70</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:16:24</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ff30ac9b1b6b991062e50ed2cd4bcb70"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff30ac9b1b6b991062e50ed2cd4bcb70</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>0840ac9b1b6b991062e50ed2cd4bcb83</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:16:24</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var recordGr = inputs.docid;
+  var activity = inputs.activityid.toString();
+
+  var processContext = new GlideRecord('sys_pd_context');
+  processContext.addQuery('input_record',recordGr);
+  processContext.query();
+
+  if(processContext.next()){
+    var activityContext = new GlideRecord('sys_pd_activity_context');
+    activityContext.addQuery('activity',activity);
+    activityContext.addQuery('context',processContext.getUniqueValue());
+    activityContext.query();
+    if(activityContext.next()){
+      var flowData = new GlideRecord('sys_flow_data');
+      flowData.get(activityContext.associated_record.toString());
+      var fdrecord = flowData.getUniqueValue();
+      outputs.fdrecordid = fdrecord;
+    }
+  }
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff30ac9b1b6b991062e50ed2cd4bcb70</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>4440ac9b1b6b991062e50ed2cd4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ff30ac9b1b6b991062e50ed2cd4bcb70"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>activity</field>
+        <id>ff30ac9b1b6b991062e50ed2cd4bcb70</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>4040ac9b1b6b991062e50ed2cd4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ff30ac9b1b6b991062e50ed2cd4bcb70</table>
+        <value>{{action.activity}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>activityid</field>
+        <id>ff30ac9b1b6b991062e50ed2cd4bcb70</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:26:56</sys_created_on>
+        <sys_id>45f2a49f1b6b991062e50ed2cd4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:26:56</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ff30ac9b1b6b991062e50ed2cd4bcb70</table>
+        <value>{{action.activity.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ff30ac9b1b6b991062e50ed2cd4bcb70</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>0040ac9b1b6b991062e50ed2cd4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>docid</field>
+        <id>ff30ac9b1b6b991062e50ed2cd4bcb70</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 22:14:55</sys_created_on>
+        <sys_id>297bfba51b0c2d908c5143f3cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:55</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ff30ac9b1b6b991062e50ed2cd4bcb70</table>
+        <value>{{action.related_record_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>documentid</field>
+        <id>ff30ac9b1b6b991062e50ed2cd4bcb70</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>0440ac9b1b6b991062e50ed2cd4bcb84</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ff30ac9b1b6b991062e50ed2cd4bcb70</table>
+        <value>{{action.related_record_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>ff30ac9b1b6b991062e50ed2cd4bcb70</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>c040ac9b1b6b991062e50ed2cd4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ff30ac9b1b6b991062e50ed2cd4bcb70^id=ff30ac9b1b6b991062e50ed2cd4bcb70"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ff30ac9b1b6b991062e50ed2cd4bcb70"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ff30ac9b1b6b991062e50ed2cd4bcb70^sys_idNOT INe57bfba51b0c2d908c5143f3cc4bcb62,f4f2a49f1b6b991062e50ed2cd4bcb25"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>docid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>docid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">ff30ac9b1b6b991062e50ed2cd4bcb70</model>
+        <model_id>ff30ac9b1b6b991062e50ed2cd4bcb70</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ff30ac9b1b6b991062e50ed2cd4bcb70</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 22:14:55</sys_created_on>
+        <sys_id>e57bfba51b0c2d908c5143f3cc4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>activityid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>activityid</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">ff30ac9b1b6b991062e50ed2cd4bcb70</model>
+        <model_id>ff30ac9b1b6b991062e50ed2cd4bcb70</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ff30ac9b1b6b991062e50ed2cd4bcb70</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:26:56</sys_created_on>
+        <sys_id>f4f2a49f1b6b991062e50ed2cd4bcb25</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ff30ac9b1b6b991062e50ed2cd4bcb70^sys_idNOT INa427fbed1bc82d908c5143f3cc4bcb0c"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a8432dd4-0ae8-4aa8-808f-045afd3baea1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fdrecordid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>FDRecordId</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">ff30ac9b1b6b991062e50ed2cd4bcb70</model>
+        <model_id>ff30ac9b1b6b991062e50ed2cd4bcb70</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ff30ac9b1b6b991062e50ed2cd4bcb70</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 21:56:00</sys_created_on>
+        <sys_id>a427fbed1bc82d908c5143f3cc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 21:56:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ff30ac9b1b6b991062e50ed2cd4bcb70"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ff30ac9b1b6b991062e50ed2cd4bcb70^sys_idNOT IN2427fbed1bc82d908c5143f3cc4bcb0f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>fdrecordid</element>
+        <help/>
+        <hint/>
+        <label>FDRecordId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ff30ac9b1b6b991062e50ed2cd4bcb70</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 21:56:00</sys_created_on>
+        <sys_id>2427fbed1bc82d908c5143f3cc4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 21:56:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=f330ac9b1b6b991062e50ed2cd4bcb5d^sys_idNOT IN214b77a51b0c2d908c5143f3cc4bcb4a,7f30ac9b1b6b991062e50ed2cd4bcb69"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5860abb1-1a45-48da-a5cf-0f2ad1e70e66</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>related_record_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Related Record Sys Id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Look up flow data record">f330ac9b1b6b991062e50ed2cd4bcb5d</model>
+        <model_id>f330ac9b1b6b991062e50ed2cd4bcb5d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 22:14:06</sys_created_on>
+        <sys_id>214b77a51b0c2d908c5143f3cc4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=214b77a51b0c2d908c5143f3cc4bcb4a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=8a5f8f85-c402-4f36-952e-00ab7840ad8f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_pd_activity</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>activity</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Activity</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Look up flow data record">f330ac9b1b6b991062e50ed2cd4bcb5d</model>
+        <model_id>f330ac9b1b6b991062e50ed2cd4bcb5d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_pd_activity">sys_pd_activity</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:07</sys_created_on>
+        <sys_id>7f30ac9b1b6b991062e50ed2cd4bcb69</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:00:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7f30ac9b1b6b991062e50ed2cd4bcb69"/>
+    <sys_hub_action_output action="delete_multiple" query="model=f330ac9b1b6b991062e50ed2cd4bcb5d^sys_idNOT IN68826c5f1b6b991062e50ed2cd4bcb4f,8b6d77f91bc0ad908c5143f3cc4bcb2e,c440ac9b1b6b991062e50ed2cd4bcb8d,c440ac9b1b6b991062e50ed2cd4bcb91"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=3cc3ad3b-a09c-4da1-8184-a0c8b9f6dfb5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fdsysid</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Flow Data Record SysId</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Look up flow data record">f330ac9b1b6b991062e50ed2cd4bcb5d</model>
+        <model_id>f330ac9b1b6b991062e50ed2cd4bcb5d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:25:00</sys_created_on>
+        <sys_id>68826c5f1b6b991062e50ed2cd4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:25:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=68826c5f1b6b991062e50ed2cd4bcb4f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=68826c5f1b6b991062e50ed2cd4bcb4f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=ea37b98d-6564-491b-b8c2-be450898afe9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_flow_data</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>fdrecord</element>
+        <element_prototype display_value="Record" element="record" name="var__m_sys_flow_step_definition_output_dc9c26043b23220057a4a2e334efc447">d3e627913b23220057a4a2e334efc45e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Flow Data Record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Look up flow data record">f330ac9b1b6b991062e50ed2cd4bcb5d</model>
+        <model_id>f330ac9b1b6b991062e50ed2cd4bcb5d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_flow_data">sys_flow_data</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:58</sys_created_on>
+        <sys_id>8b6d77f91bc0ad908c5143f3cc4bcb2e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8b6d77f91bc0ad908c5143f3cc4bcb2e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8b6d77f91bc0ad908c5143f3cc4bcb2e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=99560965-f146-44f1-bc4e-fb0949ea262b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Look up flow data record">f330ac9b1b6b991062e50ed2cd4bcb5d</model>
+        <model_id>f330ac9b1b6b991062e50ed2cd4bcb5d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>c440ac9b1b6b991062e50ed2cd4bcb8d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c440ac9b1b6b991062e50ed2cd4bcb8d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c440ac9b1b6b991062e50ed2cd4bcb8d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=84c33644-1a8d-4363-861a-6f7aac08b533,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Look up flow data record">f330ac9b1b6b991062e50ed2cd4bcb5d</model>
+        <model_id>f330ac9b1b6b991062e50ed2cd4bcb5d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>c440ac9b1b6b991062e50ed2cd4bcb91</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c440ac9b1b6b991062e50ed2cd4bcb91"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c440ac9b1b6b991062e50ed2cd4bcb91"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f330ac9b1b6b991062e50ed2cd4bcb5d^sys_idNOT INa027fbed1bc82d908c5143f3cc4bcb24,ec27fbed1bc82d908c5143f3cc4bcb23"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f330ac9b1b6b991062e50ed2cd4bcb5d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_related_record_sys_id.loop_count}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 21:56:00</sys_created_on>
+        <sys_id>a027fbed1bc82d908c5143f3cc4bcb24</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:06</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>32ea255a-3580-4257-893e-afde19a8f69a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f330ac9b1b6b991062e50ed2cd4bcb5d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>32ea255a-3580-4257-893e-afde19a8f69a</source_ui_id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 21:56:00</sys_created_on>
+        <sys_id>ec27fbed1bc82d908c5143f3cc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 21:56:00</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>af3e10db-ca66-4cad-9ba5-1673f5f6e4a4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=f330ac9b1b6b991062e50ed2cd4bcb5d^sys_idNOT IN4c40ac9b1b6b991062e50ed2cd4bcb9b"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Look up flow data record">f330ac9b1b6b991062e50ed2cd4bcb5d</action_type_id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>4c40ac9b1b6b991062e50ed2cd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=4c40ac9b1b6b991062e50ed2cd4bcb9b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f330ac9b1b6b991062e50ed2cd4bcb5d^sys_idNOT IN654b77a51b0c2d908c5143f3cc4bcb4d,bb30ac9b1b6b991062e50ed2cd4bcb6e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>related_record_sys_id</element>
+        <help/>
+        <hint/>
+        <label>Related Record Sys Id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-28 22:14:06</sys_created_on>
+        <sys_id>654b77a51b0c2d908c5143f3cc4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 22:14:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>activity</element>
+        <help/>
+        <hint/>
+        <label>Activity</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:07</sys_created_on>
+        <sys_id>bb30ac9b1b6b991062e50ed2cd4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f330ac9b1b6b991062e50ed2cd4bcb5d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d^sys_idNOT IN0840ac9b1b6b991062e50ed2cd4bcb90,8040ac9b1b6b991062e50ed2cd4bcb96,8b6d77f91bc0ad908c5143f3cc4bcb32,e0826c5f1b6b991062e50ed2cd4bcb53"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>0840ac9b1b6b991062e50ed2cd4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:15:08</sys_created_on>
+        <sys_id>8040ac9b1b6b991062e50ed2cd4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:15:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>fdrecord</element>
+        <help/>
+        <hint/>
+        <label>Flow Data Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-29 17:01:58</sys_created_on>
+        <sys_id>8b6d77f91bc0ad908c5143f3cc4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 17:01:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>fdsysid</element>
+        <help/>
+        <hint/>
+        <label>Flow Data Record SysId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-08 20:25:00</sys_created_on>
+        <sys_id>e0826c5f1b6b991062e50ed2cd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-08 20:25:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>27a818531b6b991062e50ed2cd4bcb96</sys_id>
+        <latest_snapshot>f330ac9b1b6b991062e50ed2cd4bcb5d</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch3-10-26-2022_11-03-2022_2313.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

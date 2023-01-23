@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_criteria_m2m_inclusion">
+    <sys_ux_criteria_m2m_inclusion action="DELETE">
+        <active>true</active>
+        <applicability display_value="Invoice Users">3f04ad6c1b7fdd108c5143f3cc4bcb50</applicability>
+        <sys_class_name>sys_ux_criteria_m2m_inclusion</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-12 22:37:05</sys_created_on>
+        <sys_id>8c17e9a01bbfdd108c5143f3cc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_criteria_m2m_inclusion_8c17e9a01bbfdd108c5143f3cc4bcb98</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-12 22:37:05</sys_updated_on>
+        <user_criteria display_value="Role: Invoice">48f140711b1749d0346f2f462a4bcb74</user_criteria>
+    </sys_ux_criteria_m2m_inclusion>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_ux_criteria_m2m_inclusion_8c17e9a01bbfdd108c5143f3cc4bcb98</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_criteria_m2m_inclusion"><sys_ux_criteria_m2m_inclusion action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Invoice Users">3f04ad6c1b7fdd108c5143f3cc4bcb50</applicability><sys_class_name>sys_ux_criteria_m2m_inclusion</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2022-12-12 22:37:05</sys_created_on><sys_id>8c17e9a01bbfdd108c5143f3cc4bcb98</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package><sys_policy/><sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope><sys_update_name>sys_ux_criteria_m2m_inclusion_8c17e9a01bbfdd108c5143f3cc4bcb98</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-12-12 22:37:05</sys_updated_on><user_criteria display_value="Role: Invoice">48f140711b1749d0346f2f462a4bcb74</user_criteria></sys_ux_criteria_m2m_inclusion></record_update>]]></payload>
+        <payload_hash>1548368905</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5ba6dba71b4691108c5143f3cc4bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-12 22:37:05</sys_created_on>
+        <sys_id>1a172da01bbfdd108c5143f3cc4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185087c0b7b0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-12 22:37:05</sys_updated_on>
+        <type>User Criteria Inclusion</type>
+        <update_guid>12172da0b6bfdd10da23e1a378ea0a4d</update_guid>
+        <update_guid_history>12172da0b6bfdd10da23e1a378ea0a4d:1548368905</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-12 23:00:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_criteria_m2m_inclusion">sys_ux_criteria_m2m_inclusion</sys_db_object>
+        <sys_id>58c47a3361bc4f868b6f9009cbda80e4</sys_id>
+        <sys_metadata>8c17e9a01bbfdd108c5143f3cc4bcb98</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sys_ux_criteria_m2m_inclusion_8c17e9a01bbfdd108c5143f3cc4bcb98</sys_update_name>
+        <sys_update_version display_value="sys_ux_criteria_m2m_inclusion_8c17e9a01bbfdd108c5143f3cc4bcb98">1a172da01bbfdd108c5143f3cc4bcb4d</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-12 23:00:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

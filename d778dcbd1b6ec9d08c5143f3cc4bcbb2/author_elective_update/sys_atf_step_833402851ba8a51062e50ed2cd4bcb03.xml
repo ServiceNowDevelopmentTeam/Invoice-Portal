@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values">8964c1741ba425108c5143f3cc4bcbf0</copied_from>
+        <description>Answer the questions on the form as follows:
+Phone Number = 1234567890
+and Project Manager(If Known) = 
+and Invoice Amount = 15000
+and Is ATF Running = true</description>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Set producer values</notes>
+        <order>11</order>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>833402851ba8a51062e50ed2cd4bcb03</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_atf_step_833402851ba8a51062e50ed2cd4bcb03</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <table/>
+        <test display_value="TC - 316 - Invoice - Invoice reject wrong vendor - IT copy">be348ac11ba8a51062e50ed2cd4bcbeb</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=833402851ba8a51062e50ed2cd4bcb03"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>833402851ba8a51062e50ed2cd4bcb03</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>033402851ba8a51062e50ed2cd4bcb04</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <value>IO:a3a924a01bbdf4d08c5143f3cc4bcb42=1234567890^IO:950024311b220dd08c5143f3cc4bcb83={{step['7e34ce451ba8a51062e50ed2cd4bcb6c'].user}}^IO:5ef6d0161b4138148c5143f3cc4bcbd3=15000^IO:c731d4731bdce11062e50ed2cd4bcbdb=true^EQ</value>
+        <variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>833402851ba8a51062e50ed2cd4bcb03</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>c33402851ba8a51062e50ed2cd4bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <value>39845cda1b0138148c5143f3cc4bcb27</value>
+        <variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=833402851ba8a51062e50ed2cd4bcb03"/>
+    <sys_element_mapping action="DELETE">
+        <field>variable_values</field>
+        <id>833402851ba8a51062e50ed2cd4bcb03</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>4b3402851ba8a51062e50ed2cd4bcb04</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <table>var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1</table>
+        <value>IO:a3a924a01bbdf4d08c5143f3cc4bcb42=1234567890^IO:950024311b220dd08c5143f3cc4bcb83={{step['7e34ce451ba8a51062e50ed2cd4bcb6c'].user}}^IO:5ef6d0161b4138148c5143f3cc4bcbd3=15000^IO:c731d4731bdce11062e50ed2cd4bcbdb=true^EQ</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_atf_step_833402851ba8a51062e50ed2cd4bcb03</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Set Variable Values">8964c1741ba425108c5143f3cc4bcbf0</copied_from><description>Answer the questions on the form as follows:
+Phone Number = 1234567890
+and Project Manager(If Known) = 
+and Invoice Amount = 15000
+and Is ATF Running = true</description><display_name>Set Variable Values</display_name><inputs/><inputs/><mugshots_cache_json/><notes>Set producer values</notes><order>11</order><step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>833402851ba8a51062e50ed2cd4bcb03</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Set Variable Values</sys_name><sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package><sys_policy/><sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope><sys_update_name>sys_atf_step_833402851ba8a51062e50ed2cd4bcb03</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><table/><test display_value="TC - 316 - Invoice - Invoice reject wrong vendor - IT copy">be348ac11ba8a51062e50ed2cd4bcbeb</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=833402851ba8a51062e50ed2cd4bcb03"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>833402851ba8a51062e50ed2cd4bcb03</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>033402851ba8a51062e50ed2cd4bcb04</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><value>IO:a3a924a01bbdf4d08c5143f3cc4bcb42=1234567890^IO:950024311b220dd08c5143f3cc4bcb83={{step['7e34ce451ba8a51062e50ed2cd4bcb6c'].user}}^IO:5ef6d0161b4138148c5143f3cc4bcbd3=15000^IO:c731d4731bdce11062e50ed2cd4bcbdb=true^EQ</value><variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>833402851ba8a51062e50ed2cd4bcb03</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>c33402851ba8a51062e50ed2cd4bcb04</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><value>39845cda1b0138148c5143f3cc4bcb27</value><variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=833402851ba8a51062e50ed2cd4bcb03"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>variable_values</field><id>833402851ba8a51062e50ed2cd4bcb03</id><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>4b3402851ba8a51062e50ed2cd4bcb04</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><table>var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1</table><value>IO:a3a924a01bbdf4d08c5143f3cc4bcb42=1234567890^IO:950024311b220dd08c5143f3cc4bcb83={{step['7e34ce451ba8a51062e50ed2cd4bcb6c'].user}}^IO:5ef6d0161b4138148c5143f3cc4bcbd3=15000^IO:c731d4731bdce11062e50ed2cd4bcbdb=true^EQ</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>208940781</payload_hash>
+        <record_name>Set Variable Values</record_name>
+        <reverted_from/>
+        <source>5ba6dba71b4691108c5143f3cc4bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>0b3402851ba8a51062e50ed2cd4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185d0f0989d0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>8f34028535a8a510269e78c61e6c810b</update_guid>
+        <update_guid_history>8f34028535a8a510269e78c61e6c810b:208940781,473402850ba8a5106df0a19c09115406:-213200019</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>047e50f29b0742fb801924d8676e9749</sys_id>
+        <sys_metadata>833402851ba8a51062e50ed2cd4bcb03</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_833402851ba8a51062e50ed2cd4bcb03</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_833402851ba8a51062e50ed2cd4bcb03">0b3402851ba8a51062e50ed2cd4bcb0c</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

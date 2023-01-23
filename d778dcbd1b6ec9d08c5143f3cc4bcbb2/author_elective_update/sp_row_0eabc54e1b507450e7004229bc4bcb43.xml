@@ -85,6 +85,7 @@
         <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
         <sys_id>54e80c7742c746cabeff091fa0049484</sys_id>
         <sys_metadata>0eabc54e1b507450e7004229bc4bcb43</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>2</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_parent/>
@@ -93,5 +94,7 @@
         <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
         <sys_update_name>sp_row_0eabc54e1b507450e7004229bc4bcb43</sys_update_name>
         <sys_update_version display_value="sp_row_0eabc54e1b507450e7004229bc4bcb43">968aa9901b5e951062e50ed2cd4bcb7c</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-28 14:49:10</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

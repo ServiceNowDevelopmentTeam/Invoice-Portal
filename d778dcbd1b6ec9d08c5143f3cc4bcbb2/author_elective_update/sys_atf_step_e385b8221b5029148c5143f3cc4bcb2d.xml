@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+Attach Invoice (Limit 1) = 
+and Phone Number = 0000000000
+and Invoice Amount = 123456
+and Project Manager Name Not Found = true
+and Project Manager Name = Test</description>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-12 20:40:30</sys_created_on>
+        <sys_id>e385b8221b5029148c5143f3cc4bcb2d</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_atf_step_e385b8221b5029148c5143f3cc4bcb2d</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-12 21:04:17</sys_updated_on>
+        <table/>
+        <test display_value="TC - 223 - Invoice - Invoice Submit and Process - SP">defd54c01b1ff05062e50ed2cd4bcb14</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=e385b8221b5029148c5143f3cc4bcb2d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>e385b8221b5029148c5143f3cc4bcb2d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-12 20:40:30</sys_created_on>
+        <sys_id>78b530621b5029148c5143f3cc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-12 20:40:30</sys_updated_on>
+        <value>39845cda1b0138148c5143f3cc4bcb27</value>
+        <variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>e385b8221b5029148c5143f3cc4bcb2d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-12 20:40:30</sys_created_on>
+        <sys_id>b4b530621b5029148c5143f3cc4bcbba</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-12 20:51:18</sys_updated_on>
+        <value>IO:7e4964b11ba20dd08c5143f3cc4bcb4e={"ext":"ics","size_bytes":"3 KB","file_name":"webinar-96203823037 (2).ics","sys_updated_on_display":"2023-01-12 14:49:55","sys_created_by_display":"Terry Lillo","canWrite":true,"sys_updated_on":"2023-01-12 20:49:55","table_name":"ZZ_YYsc_cart_item","sys_id":"32d7f4261b5029148c5143f3cc4bcb93","content_type":"text/calendar","size":"3 KB","sys_created_on":"2023-01-12 20:49:55","canDelete":true,"table_sys_id":"ba37f8e21b5029148c5143f3cc4bcbc5","state":"pending","sys_created_by":"Terry.Lillo"}^IO:a3a924a01bbdf4d08c5143f3cc4bcb42=0000000000^IO:5ef6d0161b4138148c5143f3cc4bcbd3=123456^IO:be88cce61b2a85148c5143f3cc4bcb90=true^IO:48b8042a1b2a85148c5143f3cc4bcb0c=Test^EQ</value>
+        <variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1^id=e385b8221b5029148c5143f3cc4bcb2d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_atf_step_e385b8221b5029148c5143f3cc4bcb2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Answer the questions on the form as follows:
+Attach Invoice (Limit 1) = 
+and Phone Number = 0000000000
+and Invoice Amount = 123456
+and Project Manager Name Not Found = true
+and Project Manager Name = Test</description><display_name>Set Variable Values</display_name><inputs/><mugshots_cache_json/><notes/><order>7</order><step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-12 20:40:30</sys_created_on><sys_id>e385b8221b5029148c5143f3cc4bcb2d</sys_id><sys_mod_count>13</sys_mod_count><sys_name>Set Variable Values</sys_name><sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package><sys_policy/><sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope><sys_update_name>sys_atf_step_e385b8221b5029148c5143f3cc4bcb2d</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-12 21:04:17</sys_updated_on><table/><test display_value="TC - 223 - Invoice - Invoice Submit and Process - SP">defd54c01b1ff05062e50ed2cd4bcb14</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=e385b8221b5029148c5143f3cc4bcb2d"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e385b8221b5029148c5143f3cc4bcb2d</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-12 20:40:30</sys_created_on><sys_id>78b530621b5029148c5143f3cc4bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-12 20:40:30</sys_updated_on><value>39845cda1b0138148c5143f3cc4bcb27</value><variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e385b8221b5029148c5143f3cc4bcb2d</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-12 20:40:30</sys_created_on><sys_id>b4b530621b5029148c5143f3cc4bcbba</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-12 20:51:18</sys_updated_on><value>IO:7e4964b11ba20dd08c5143f3cc4bcb4e={"ext":"ics","size_bytes":"3 KB","file_name":"webinar-96203823037 (2).ics","sys_updated_on_display":"2023-01-12 14:49:55","sys_created_by_display":"Terry Lillo","canWrite":true,"sys_updated_on":"2023-01-12 20:49:55","table_name":"ZZ_YYsc_cart_item","sys_id":"32d7f4261b5029148c5143f3cc4bcb93","content_type":"text/calendar","size":"3 KB","sys_created_on":"2023-01-12 20:49:55","canDelete":true,"table_sys_id":"ba37f8e21b5029148c5143f3cc4bcbc5","state":"pending","sys_created_by":"Terry.Lillo"}^IO:a3a924a01bbdf4d08c5143f3cc4bcb42=0000000000^IO:5ef6d0161b4138148c5143f3cc4bcbd3=123456^IO:be88cce61b2a85148c5143f3cc4bcb90=true^IO:48b8042a1b2a85148c5143f3cc4bcb0c=Test^EQ</value><variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1^id=e385b8221b5029148c5143f3cc4bcb2d"/></record_update>]]></payload>
+        <payload_hash>-1883850041</payload_hash>
+        <record_name>Set Variable Values</record_name>
+        <reverted_from/>
+        <source>5ba6dba71b4691108c5143f3cc4bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-12 21:04:17</sys_created_on>
+        <sys_id>d12b386a1b5029148c5143f3cc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185a7cc3ade0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-12 21:04:17</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>592b386a1f5029145b7c415ac34862ca</update_guid>
+        <update_guid_history>592b386a1f5029145b7c415ac34862ca:-1883850041,cf28b066ab502914cc5cd689605f239c:1746405990,4a97b026b250291420ea3516241ba689:-978224135,df16bc620c502914c3104d4ee81483e0:-1025975725,b216bc62cb5029148d8cba76c1d32d73:1768511862,4d06f862535029148b52c6f1052f3efa:-2026295531,aff5f8624d50291442774ea63ba6080c:-1526135628,38d5f462bd5029141bc09dd3c0ee8503:-1025975725,b4b530621c50291467d5b02ef3c0e9bc:-689116472</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-12 21:04:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>756be7c5efb7488a9f43672496e2b949</sys_id>
+        <sys_metadata>e385b8221b5029148c5143f3cc4bcb2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_e385b8221b5029148c5143f3cc4bcb2d</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_e385b8221b5029148c5143f3cc4bcb2d">d12b386a1b5029148c5143f3cc4bcbcb</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-12 21:04:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

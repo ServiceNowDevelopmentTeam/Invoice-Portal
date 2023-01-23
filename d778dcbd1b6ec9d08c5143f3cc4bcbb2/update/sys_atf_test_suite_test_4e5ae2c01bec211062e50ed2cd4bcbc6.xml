@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-17 21:01:00</sys_created_on>
+        <sys_id>4e5ae2c01bec211062e50ed2cd4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>254a2e841b2c21108c5143f3cc4bcbaf</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_4e5ae2c01bec211062e50ed2cd4bcbc6</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-17 21:01:00</sys_updated_on>
+        <test display_value="TC - 314 - Invoice - Invoice validate &quot;Is In ATF&quot; variable">254a2e841b2c21108c5143f3cc4bcbaf</test>
+        <test_suite display_value="TS - 39 - Invoice">ea53786e1b1029148c5143f3cc4bcbab</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

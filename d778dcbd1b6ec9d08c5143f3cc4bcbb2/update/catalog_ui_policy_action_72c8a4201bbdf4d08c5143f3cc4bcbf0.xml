@@ -11,11 +11,14 @@
         <sys_created_by>terry.owczarski@cdw.com</sys_created_by>
         <sys_created_on>2021-08-02 15:37:07</sys_created_on>
         <sys_id>72c8a4201bbdf4d08c5143f3cc4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>company</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>catalog_ui_policy_action_72c8a4201bbdf4d08c5143f3cc4bcbf0</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
         <table/>
         <ui_policy display_value="Read-Only for Email and Company">2698ecec1b7df4d08c5143f3cc4bcbec</ui_policy>
         <variable>company</variable>
@@ -32,5 +35,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 15:08:07</sys_created_on>
         <sys_id>bbbf9cbd1beec9d08c5143f3cc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

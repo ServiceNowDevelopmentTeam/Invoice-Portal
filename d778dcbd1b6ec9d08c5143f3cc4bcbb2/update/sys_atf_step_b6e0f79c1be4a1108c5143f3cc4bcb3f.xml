@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'sys_flow_data' matching query:
+Definition = Manual Activity
+and Created &gt; {{Step 1: Create a User.User.Created}}
+and State != Complete
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Find last playbook activity</notes>
+        <order>28</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-18 20:47:50</sys_created_on>
+        <sys_id>b6e0f79c1be4a1108c5143f3cc4bcb3f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_atf_step_b6e0f79c1be4a1108c5143f3cc4bcb3f</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-19 19:22:55</sys_updated_on>
+        <table>sys_flow_data</table>
+        <test display_value="TC - 315 - Invoice - Invoice reject wrong approver - IT">d99cae081b2c21108c5143f3cc4bcbbb</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b6e0f79c1be4a1108c5143f3cc4bcb3f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b6e0f79c1be4a1108c5143f3cc4bcb3f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-18 20:47:52</sys_created_on>
+        <sys_id>1be07f9c1be4a1108c5143f3cc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-18 20:47:52</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b6e0f79c1be4a1108c5143f3cc4bcb3f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-18 20:47:52</sys_created_on>
+        <sys_id>57e07f9c1be4a1108c5143f3cc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-18 20:47:52</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b6e0f79c1be4a1108c5143f3cc4bcb3f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-18 20:47:52</sys_created_on>
+        <sys_id>9fe07f9c1be4a1108c5143f3cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-18 20:47:52</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b6e0f79c1be4a1108c5143f3cc4bcb3f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-18 20:47:52</sys_created_on>
+        <sys_id>dbe07f9c1be4a1108c5143f3cc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-18 20:47:52</sys_updated_on>
+        <value>definition=04808edf1be7001094630f28cc4bcb6e^sys_created_on&gt;{{step['d19cae081b2c21108c5143f3cc4bcbc0'].user.sys_created_on}}^state!=COMPLETE^EQ</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b6e0f79c1be4a1108c5143f3cc4bcb3f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>b6e0f79c1be4a1108c5143f3cc4bcb3f</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-19 21:31:04</sys_created_on>
+        <sys_id>c26405741ba425108c5143f3cc4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-19 21:31:04</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>b6e0f79c1be4a1108c5143f3cc4bcb3f</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-18 20:47:52</sys_created_on>
+        <sys_id>53e07f9c1be4a1108c5143f3cc4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-18 20:47:52</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>definition=04808edf1be7001094630f28cc4bcb6e^sys_created_on&gt;{{step['d19cae081b2c21108c5143f3cc4bcbc0'].user.sys_created_on}}^state!=COMPLETE^EQ</value>
+    </sys_element_mapping>
+</record_update>

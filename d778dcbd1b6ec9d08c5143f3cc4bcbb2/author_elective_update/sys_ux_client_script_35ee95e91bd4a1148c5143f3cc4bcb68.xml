@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes>58d17acf0b531010a8b1c96237673a68</includes>
+        <macroponent display_value="Task Approvals default">b5f0e8291b50a1148c5143f3cc4bcb80</macroponent>
+        <name>Open Approval Record</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+    const {
+        routeMapping,
+        buildDefaultRoutePayload
+    } = imports["global.recordRoutesMapping"]();
+
+    var route = 'record';
+    var targetRoute = '';
+    const defaultRoutePayload = buildDefaultRoutePayload(route, targetRoute, event);
+    
+    const routeMap = api.data.dynamic_routing_list.routeMap;
+    const payload = routeMapping(routeMap, defaultRoutePayload, event);
+
+    // If a table name passed into trueupTable matches the existing table
+    // refresh trueup DR to get real table name; otherwise use existing.
+    if(api.state.routeParentTables && api.state.routeParentTables.split(',').find(table => table === payload.fields.table)) {
+        api.setState('navigationPayload', payload); 
+        api.data.resolve_route_parent_tables.refresh(); 
+    } else { 
+        api.emit('NAV_ITEM_SELECTED', payload); 
+    } 
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-09 21:06:36</sys_created_on>
+        <sys_id>35ee95e91bd4a1148c5143f3cc4bcb68</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Open Approval Record</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_client_script_35ee95e91bd4a1148c5143f3cc4bcb68</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-09 21:08:28</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_ux_client_script_35ee95e91bd4a1148c5143f3cc4bcb68</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes&gt;58d17acf0b531010a8b1c96237673a68&lt;/includes&gt;&lt;macroponent display_value="Task Approvals default"&gt;b5f0e8291b50a1148c5143f3cc4bcb80&lt;/macroponent&gt;&lt;name&gt;Open Approval Record&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+    const {
+        routeMapping,
+        buildDefaultRoutePayload
+    } = imports["global.recordRoutesMapping"]();
+
+    var route = 'record';
+    var targetRoute = '';
+    const defaultRoutePayload = buildDefaultRoutePayload(route, targetRoute, event);
+    
+    const routeMap = api.data.dynamic_routing_list.routeMap;
+    const payload = routeMapping(routeMap, defaultRoutePayload, event);
+
+    // If a table name passed into trueupTable matches the existing table
+    // refresh trueup DR to get real table name; otherwise use existing.
+    if(api.state.routeParentTables &amp;&amp; api.state.routeParentTables.split(',').find(table =&gt; table === payload.fields.table)) {
+        api.setState('navigationPayload', payload); 
+        api.data.resolve_route_parent_tables.refresh(); 
+    } else { 
+        api.emit('NAV_ITEM_SELECTED', payload); 
+    } 
+
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Terry.Lillo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-01-09 21:06:36&lt;/sys_created_on&gt;&lt;sys_id&gt;35ee95e91bd4a1148c5143f3cc4bcb68&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Open Approval Record&lt;/sys_name&gt;&lt;sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Invoice Portal"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_35ee95e91bd4a1148c5143f3cc4bcb68&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Terry.Lillo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-01-09 21:08:28&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1755009533</payload_hash>
+        <record_name>Open Approval Record</record_name>
+        <reverted_from/>
+        <source>5ba6dba71b4691108c5143f3cc4bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-09 21:08:28</sys_created_on>
+        <sys_id>515f152d1bd4a1148c5143f3cc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185985cfbdf0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-09 21:08:28</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>d55f152d84d4a11449e9a8883e191207</update_guid>
+        <update_guid_history>d55f152d84d4a11449e9a8883e191207:-1755009533,810f59e9a1d4a1147aedff60b66bf079:466968968,31ee95e909d4a1143fc04163ee43296c:1694086593</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-09 21:14:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>8bb5436d3aba442c9250d3f6932086e9</sys_id>
+        <sys_metadata>35ee95e91bd4a1148c5143f3cc4bcb68</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Approval Record</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_35ee95e91bd4a1148c5143f3cc4bcb68</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_35ee95e91bd4a1148c5143f3cc4bcb68">515f152d1bd4a1148c5143f3cc4bcb08</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-09 21:14:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

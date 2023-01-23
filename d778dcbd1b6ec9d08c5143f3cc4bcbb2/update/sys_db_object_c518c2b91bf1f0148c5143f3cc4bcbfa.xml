@@ -22,11 +22,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-08-06 19:46:16</sys_created_on>
         <sys_id>c518c2b91bf1f0148c5143f3cc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>External Account Request</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_db_object_c518c2b91bf1f0148c5143f3cc4bcbfa</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="u_external_account_request_user" name="u_external_account_request_user">4538ce791bf1f0148c5143f3cc4bcb3d</user_role>
         <ws_access>true</ws_access>
@@ -41,5 +44,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:40:52</sys_created_on>
         <sys_id>3489d0b11baec9d08c5143f3cc4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

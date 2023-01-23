@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" db_object_id="e428a0eb1be11010e7004229bc4bcb8a" label="Approval" max_length="40" name="sysapproval_approver" type="collection">
+        <element label="Replaces Approver" max_length="32" name="u_replaces_approver" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_replaces_approver"/>
+        </index>
+    </element>
+</database>

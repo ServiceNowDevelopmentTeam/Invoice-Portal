@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="DELETE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:25</sys_created_on>
+        <sys_id>7234ce451ba8a51062e50ed2cd4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>be348ac11ba8a51062e50ed2cd4bcbeb</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_7234ce451ba8a51062e50ed2cd4bcb9d</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:25</sys_updated_on>
+        <test display_value="">be348ac11ba8a51062e50ed2cd4bcbeb</test>
+        <test_suite display_value="TS - 39 - Invoice">ea53786e1b1029148c5143f3cc4bcbab</test_suite>
+    </sys_atf_test_suite_test>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_atf_test_suite_test_7234ce451ba8a51062e50ed2cd4bcb9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="INSERT_OR_UPDATE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:25</sys_created_on><sys_id>7234ce451ba8a51062e50ed2cd4bcb9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>be348ac11ba8a51062e50ed2cd4bcbeb</sys_name><sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package><sys_policy/><sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope><sys_update_name>sys_atf_test_suite_test_7234ce451ba8a51062e50ed2cd4bcb9d</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:25</sys_updated_on><test display_value="">be348ac11ba8a51062e50ed2cd4bcbeb</test><test_suite display_value="TS - 39 - Invoice">ea53786e1b1029148c5143f3cc4bcbab</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+        <payload_hash>267356881</payload_hash>
+        <record_name>be348ac11ba8a51062e50ed2cd4bcbeb</record_name>
+        <reverted_from/>
+        <source>36db79031b10211062e50ed2cd4bcbb1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-01-14 15:03:58</sys_created_on>
+        <sys_id>825406851ba8a51062e50ed2cd4bcbe3</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>185b0cf0f300000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Test Suite Test</type>
+        <update_guid>4254068592a8a5106571e055d91c5ee3</update_guid>
+        <update_guid_history>4254068592a8a5106571e055d91c5ee3:267356881</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_suite_test">sys_atf_test_suite_test</sys_db_object>
+        <sys_id>a1bef8d1c51946e084720c6c0e06fe40</sys_id>
+        <sys_metadata>7234ce451ba8a51062e50ed2cd4bcb9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>be348ac11ba8a51062e50ed2cd4bcbeb</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_test_7234ce451ba8a51062e50ed2cd4bcb9d</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_test_7234ce451ba8a51062e50ed2cd4bcb9d">825406851ba8a51062e50ed2cd4bcbe3</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

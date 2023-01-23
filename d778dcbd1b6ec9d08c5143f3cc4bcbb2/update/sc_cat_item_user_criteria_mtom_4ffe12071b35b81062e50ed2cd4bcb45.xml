@@ -5,11 +5,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-08-10 18:38:11</sys_created_on>
         <sys_id>4ffe12071b35b81062e50ed2cd4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Password Reset Enrollment.Role: invoice_portal</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sc_cat_item_user_criteria_mtom_4ffe12071b35b81062e50ed2cd4bcb45</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
         <user_criteria display_value="Role: invoice_portal">36462f0b1ba5b45062e50ed2cd4bcb1b</user_criteria>
     </sc_cat_item_user_criteria_mtom>
     <sys_claim action="INSERT_OR_UPDATE">
@@ -22,5 +25,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:41:20</sys_created_on>
         <sys_id>eb99d4f11baec9d08c5143f3cc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

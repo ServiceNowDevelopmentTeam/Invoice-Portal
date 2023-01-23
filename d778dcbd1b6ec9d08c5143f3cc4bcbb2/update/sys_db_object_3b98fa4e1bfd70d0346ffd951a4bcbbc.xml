@@ -22,11 +22,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-08-07 17:56:16</sys_created_on>
         <sys_id>3b98fa4e1bfd70d0346ffd951a4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Self Registered User Profile</sys_name>
         <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">9698ba4e1bfd70d0346ffd951a4bcb4c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_db_object_3b98fa4e1bfd70d0346ffd951a4bcbbc</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
         <update_access>true</update_access>
         <user_role/>
         <ws_access>true</ws_access>
@@ -41,6 +44,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:45:14</sys_created_on>
         <sys_id>6c8a1cb51baec9d08c5143f3cc4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -52,5 +58,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:45:14</sys_created_on>
         <sys_id>208a1cb51baec9d08c5143f3cc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

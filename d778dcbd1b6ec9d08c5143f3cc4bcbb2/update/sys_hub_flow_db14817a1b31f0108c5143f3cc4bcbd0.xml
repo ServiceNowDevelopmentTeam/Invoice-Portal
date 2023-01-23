@@ -29,12 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>db14817a1b31f0108c5143f3cc4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Invoice External User Verification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_hub_flow_db14817a1b31f0108c5143f3cc4bcbd0</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-28 16:48:39</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=db14817a1b31f0108c5143f3cc4bcbd0"/>
@@ -49,6 +52,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:45:20</sys_created_on>
         <sys_id>0a8a90f51baec9d08c5143f3cc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-28 16:48:39</sys_updated_on>
     </sys_claim>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=db14817a1b31f0108c5143f3cc4bcbd0"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=db14817a1b31f0108c5143f3cc4bcbd0"/>
@@ -450,7 +456,7 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Trigger Event">df1e239f1b20e850f5a3635bbc4bcb6f</action_type>
+        <action_type display_value="Trigger Event on RITM">df1e239f1b20e850f5a3635bbc4bcb6f</action_type>
         <action_type_parent/>
         <comment>Resend approval</comment>
         <display_text/>
@@ -1962,8 +1968,8 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Trigger Event">df1e239f1b20e850f5a3635bbc4bcb6f</action_type>
-        <action_type_parent display_value="Trigger Event">7e2ba79b1b20e850f5a3635bbc4bcb1e</action_type_parent>
+        <action_type display_value="Trigger Event on RITM">df1e239f1b20e850f5a3635bbc4bcb6f</action_type>
+        <action_type_parent display_value="Trigger Event on RITM">7e2ba79b1b20e850f5a3635bbc4bcb1e</action_type_parent>
         <comment>Resend approval</comment>
         <display_text/>
         <flow display_value="Invoice External User Verification">f3e275ba1b39f0108c5143f3cc4bcb71</flow>

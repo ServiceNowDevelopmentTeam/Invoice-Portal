@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Create a User">cd64c1741ba425108c5143f3cc4bcbdd</copied_from>
+        <description>Create and impersonate user with the following values:
+First name = Invoice Portal
+and Last name = User
+and Active = true
+and Locked out = false
+and Company = {{Step 4: Record Insert.Record}}
+and Email = invoice.portal@user.com
+With roles: invoice_portal</description>
+        <display_name>Create a User</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Invoice submitter</notes>
+        <order>9</order>
+        <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>c334ce451ba8a51062e50ed2cd4bcbf1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_atf_step_c334ce451ba8a51062e50ed2cd4bcbf1</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="TC - 316 - Invoice - Invoice reject wrong vendor - IT copy">be348ac11ba8a51062e50ed2cd4bcbeb</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=c334ce451ba8a51062e50ed2cd4bcbf1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>0334ce451ba8a51062e50ed2cd4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <value>fd77638f1ba5b45062e50ed2cd4bcb65</value>
+        <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>0f34ce451ba8a51062e50ed2cd4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>4b34ce451ba8a51062e50ed2cd4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <value>Invoice Portal</value>
+        <variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>4f34ce451ba8a51062e50ed2cd4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>8734ce451ba8a51062e50ed2cd4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <value>User</value>
+        <variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>c334ce451ba8a51062e50ed2cd4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>cf34ce451ba8a51062e50ed2cd4bcbf3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <value>active=true^locked_out=false^company={{step['f234ce451ba8a51062e50ed2cd4bcba7'].record_id}}^email=invoice.portal@user.com^EQ</value>
+        <variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=c334ce451ba8a51062e50ed2cd4bcbf1"/>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>c334ce451ba8a51062e50ed2cd4bcbf1</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>c334ce451ba8a51062e50ed2cd4bcbf4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value>active=true^locked_out=false^company={{step['f234ce451ba8a51062e50ed2cd4bcba7'].record_id}}^email=invoice.portal@user.com^EQ</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_atf_step_c334ce451ba8a51062e50ed2cd4bcbf1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Create a User">cd64c1741ba425108c5143f3cc4bcbdd</copied_from><description>Create and impersonate user with the following values:
+First name = Invoice Portal
+and Last name = User
+and Active = true
+and Locked out = false
+and Company = {{Step 4: Record Insert.Record}}
+and Email = invoice.portal@user.com
+With roles: invoice_portal</description><display_name>Create a User</display_name><inputs/><inputs/><mugshots_cache_json/><notes>Invoice submitter</notes><order>9</order><step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>c334ce451ba8a51062e50ed2cd4bcbf1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Create a User</sys_name><sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package><sys_policy/><sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope><sys_update_name>sys_atf_step_c334ce451ba8a51062e50ed2cd4bcbf1</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><table>sys_user</table><test display_value="TC - 316 - Invoice - Invoice reject wrong vendor - IT copy">be348ac11ba8a51062e50ed2cd4bcbeb</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=c334ce451ba8a51062e50ed2cd4bcbf1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>0334ce451ba8a51062e50ed2cd4bcbf3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><value>fd77638f1ba5b45062e50ed2cd4bcb65</value><variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>0f34ce451ba8a51062e50ed2cd4bcbf3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><value>sys_user</value><variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>4b34ce451ba8a51062e50ed2cd4bcbf3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><value>Invoice Portal</value><variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>4f34ce451ba8a51062e50ed2cd4bcbf2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><value>1</value><variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>8734ce451ba8a51062e50ed2cd4bcbf3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><value>User</value><variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>c334ce451ba8a51062e50ed2cd4bcbf3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><value/><variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c334ce451ba8a51062e50ed2cd4bcbf1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>cf34ce451ba8a51062e50ed2cd4bcbf3</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><value>active=true^locked_out=false^company={{step['f234ce451ba8a51062e50ed2cd4bcba7'].record_id}}^email=invoice.portal@user.com^EQ</value><variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=c334ce451ba8a51062e50ed2cd4bcbf1"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>c334ce451ba8a51062e50ed2cd4bcbf1</id><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-01-20 20:48:26</sys_created_on><sys_id>c334ce451ba8a51062e50ed2cd4bcbf4</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-01-20 20:48:26</sys_updated_on><table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table><value>active=true^locked_out=false^company={{step['f234ce451ba8a51062e50ed2cd4bcba7'].record_id}}^email=invoice.portal@user.com^EQ</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>896824646</payload_hash>
+        <record_name>Create a User</record_name>
+        <reverted_from/>
+        <source>5ba6dba71b4691108c5143f3cc4bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:26</sys_created_on>
+        <sys_id>4f34ce451ba8a51062e50ed2cd4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185d0f097d30000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:26</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>c334ce45e8a8a510cf9c02f3c0a6f8fd</update_guid>
+        <update_guid_history>c334ce45e8a8a510cf9c02f3c0a6f8fd:896824646,8334ce45baa8a51049c38e0cbece94f6:-647470266</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-20 20:48:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>1a528198ea744ec48aa8e6817c2f6084</sys_id>
+        <sys_metadata>c334ce451ba8a51062e50ed2cd4bcbf1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_c334ce451ba8a51062e50ed2cd4bcbf1</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_c334ce451ba8a51062e50ed2cd4bcbf1">4f34ce451ba8a51062e50ed2cd4bcbfd</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

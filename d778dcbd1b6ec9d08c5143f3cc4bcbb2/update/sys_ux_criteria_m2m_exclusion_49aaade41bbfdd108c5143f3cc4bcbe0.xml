@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_criteria_m2m_exclusion">
+    <sys_ux_criteria_m2m_exclusion action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Non-Invoice">9c9a65641bbfdd108c5143f3cc4bcbe4</applicability>
+        <sys_class_name>sys_ux_criteria_m2m_exclusion</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-12 22:52:51</sys_created_on>
+        <sys_id>49aaade41bbfdd108c5143f3cc4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_criteria_m2m_exclusion_49aaade41bbfdd108c5143f3cc4bcbe0</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-12 22:52:51</sys_updated_on>
+        <user_criteria display_value="Role: Invoice">48f140711b1749d0346f2f462a4bcb74</user_criteria>
+    </sys_ux_criteria_m2m_exclusion>
+</record_update>

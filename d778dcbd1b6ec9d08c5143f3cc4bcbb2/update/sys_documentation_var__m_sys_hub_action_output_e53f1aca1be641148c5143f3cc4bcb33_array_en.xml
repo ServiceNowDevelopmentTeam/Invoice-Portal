@@ -11,11 +11,14 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Terry.Lillo</sys_created_by>
             <sys_created_on>2022-03-31 19:04:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>Array</sys_name>
             <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
             <sys_policy/>
             <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
             <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e53f1aca1be641148c5143f3cc4bcb33_array_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-09-28 16:48:39</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="TC - 315 - Invoice - Invoice reject wrong approver - IT">d99cae081b2c21108c5143f3cc4bcbbb</copied_from>
+        <description>Keywords: SP, Service Portal, Invoice, Submit, Process, Approval, Approve&#13;
+Description: Validates that an invoice can be submitted, close task 1, reject level 1, set remediation response to wrong approver, set new approver, approve level 1 as new approver, auto-approve level 2, approve level 3.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>TC - 316 - Invoice - Invoice reject wrong vendor - IT</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-19 21:31:00</sys_created_on>
+        <sys_id>b86401341ba425108c5143f3cc4bcb5b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>TC - 316 - Invoice - Invoice reject wrong vendor - IT</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_atf_test_b86401341ba425108c5143f3cc4bcb5b</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-20 20:48:16</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=b86401341ba425108c5143f3cc4bcb5b"/>
+</record_update>

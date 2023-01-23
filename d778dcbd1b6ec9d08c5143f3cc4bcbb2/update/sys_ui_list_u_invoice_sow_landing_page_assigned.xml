@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_invoice" version="2" view="sow_landing_page_assigned">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-01-23 15:20:04</sys_created_on>
+            <sys_id>d6d554461bece91062e50ed2cd4bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-01-23 15:20:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval</element>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-01-23 15:20:04</sys_created_on>
+            <sys_id>dad554461bece91062e50ed2cd4bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-01-23 15:20:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-01-23 15:20:04</sys_created_on>
+            <sys_id>ded554461bece91062e50ed2cd4bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-01-23 15:20:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-01-23 15:20:04</sys_created_on>
+            <sys_id>d2d554461bece91062e50ed2cd4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-01-23 15:20:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_vendor_invoice_number</element>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-01-23 15:20:04</sys_created_on>
+            <sys_id>d6d554461bece91062e50ed2cd4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-01-23 15:20:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_invoice_amount</element>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-01-23 15:20:04</sys_created_on>
+            <sys_id>dad554461bece91062e50ed2cd4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-01-23 15:20:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_invoice</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-01-23 15:20:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ded554461bece91062e50ed2cd4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_invoice</sys_name>
+            <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+            <sys_update_name>sys_ui_list_u_invoice_sow_landing_page_assigned</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-01-23 15:20:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="SOW landing page assigned" name="sow_landing_page_assigned">0f92322477320110949878dabd5a99a3</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

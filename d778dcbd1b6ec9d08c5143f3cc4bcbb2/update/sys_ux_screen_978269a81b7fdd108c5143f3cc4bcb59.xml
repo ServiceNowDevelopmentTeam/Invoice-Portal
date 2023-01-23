@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Service Operations Workspace">4d69d0ed73c4301045216238edf6a7ea</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckwvrkazaaaabbccmddeggzddalxxtigg",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_sow.SHOW_ANNOUNCEMENT",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_sow.SHOW_ANNOUNCEMENT",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_sow.SHOW_ANNOUNCEMENT",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "value" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "value" ]
+            }
+          }
+        }
+      },
+      "sysId" : "f251f10553500110b662ddeeff7b1259"
+    },
+    "operation" : null,
+    "targetId" : "ckwvrkazaaaabbccnddeggzuidkddjid",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Announcement SNC">9f8269a81b7fdd108c5143f3cc4bcb52</macroponent>
+        <macroponent_config>{
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "headerTitle" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "headerSubTitle" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  }
+}</macroponent_config>
+        <name>Announcement SNC</name>
+        <order>100</order>
+        <parent_macroponent display_value="Invoice landing page">ad82a5a81b7fdd108c5143f3cc4bcb83</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Announcement">df8269a81b7fdd108c5143f3cc4bcb4d</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-12 22:17:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>978269a81b7fdd108c5143f3cc4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Announcement SNC</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_screen_978269a81b7fdd108c5143f3cc4bcb59</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-12 22:17:13</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

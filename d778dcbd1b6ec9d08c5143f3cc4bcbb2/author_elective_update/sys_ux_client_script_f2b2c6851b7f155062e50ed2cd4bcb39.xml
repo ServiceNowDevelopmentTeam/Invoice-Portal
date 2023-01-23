@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes>3eccb12bb7703010e69dbc16de11a9a1,188425ac1b7fdd108c5143f3cc4bcb1f</includes>
+        <macroponent display_value="SOW Overview Tier2 SNC">cdb246851b7f155062e50ed2cd4bcbf0</macroponent>
+        <name>UpdateEvamCardStateVariablesTier2</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+async function handler({api, event, helpers, imports}) {
+    var serviceDeskUtils = imports['global.SowInvoiceLandingPageUtils']();
+    var sowUtils = imports['sn_sow.SowUtils']();
+    var nameValueMap = sowUtils.getNameValueMap(event.payload.params.query);
+    var currentVizSelection = {};
+    var previousVizSelection = {};
+    var value = event.context.item.value;
+    var payload = event.payload;
+
+    currentVizSelection.table = value.datasource[0].tableOrViewName;
+    currentVizSelection.query = payload.params.query + value.updated_on;
+    currentVizSelection.evamId = value.evamId;
+    currentVizSelection.elementId = value.id;
+    currentVizSelection.recordCount = payload.data.value;
+    currentVizSelection.title = await serviceDeskUtils.fetchTitle(currentVizSelection.table, nameValueMap, api.state.groupMode);
+
+    previousVizSelection = {...currentVizSelection};
+    previousVizSelection.groupBy = payload.data.groupBy[0];
+    currentVizSelection.title = api.state.translations[currentVizSelection.title];
+
+    api.setState('pageCursor', () => 'init');
+    api.setState('pageNumber', () => 0);
+    api.setState('currentVizSelection', currentVizSelection);
+    api.setState('previousVizSelection', previousVizSelection);
+    api.setState('listRefreshRequested', {
+        timestamp: new Date().getTime()
+    });
+    if (api.state.groupMode)
+        api.setState('listView', 'sow_landing_page');
+    else
+        api.setState('listView', 'sow_landing_page_assigned');
+    api.data.get_datetime_now.refresh();
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-14 13:54:46</sys_created_on>
+        <sys_id>f2b2c6851b7f155062e50ed2cd4bcb39</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>UpdateEvamCardStateVariablesTier2</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_client_script_f2b2c6851b7f155062e50ed2cd4bcb39</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-14 15:07:25</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_ux_client_script_f2b2c6851b7f155062e50ed2cd4bcb39</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes&gt;3eccb12bb7703010e69dbc16de11a9a1,188425ac1b7fdd108c5143f3cc4bcb1f&lt;/includes&gt;&lt;macroponent display_value="SOW Overview Tier2 SNC"&gt;cdb246851b7f155062e50ed2cd4bcbf0&lt;/macroponent&gt;&lt;name&gt;UpdateEvamCardStateVariablesTier2&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+async function handler({api, event, helpers, imports}) {
+    var serviceDeskUtils = imports['global.SowInvoiceLandingPageUtils']();
+    var sowUtils = imports['sn_sow.SowUtils']();
+    var nameValueMap = sowUtils.getNameValueMap(event.payload.params.query);
+    var currentVizSelection = {};
+    var previousVizSelection = {};
+    var value = event.context.item.value;
+    var payload = event.payload;
+
+    currentVizSelection.table = value.datasource[0].tableOrViewName;
+    currentVizSelection.query = payload.params.query + value.updated_on;
+    currentVizSelection.evamId = value.evamId;
+    currentVizSelection.elementId = value.id;
+    currentVizSelection.recordCount = payload.data.value;
+    currentVizSelection.title = await serviceDeskUtils.fetchTitle(currentVizSelection.table, nameValueMap, api.state.groupMode);
+
+    previousVizSelection = {...currentVizSelection};
+    previousVizSelection.groupBy = payload.data.groupBy[0];
+    currentVizSelection.title = api.state.translations[currentVizSelection.title];
+
+    api.setState('pageCursor', () =&gt; 'init');
+    api.setState('pageNumber', () =&gt; 0);
+    api.setState('currentVizSelection', currentVizSelection);
+    api.setState('previousVizSelection', previousVizSelection);
+    api.setState('listRefreshRequested', {
+        timestamp: new Date().getTime()
+    });
+    if (api.state.groupMode)
+        api.setState('listView', 'sow_landing_page');
+    else
+        api.setState('listView', 'sow_landing_page_assigned');
+    api.data.get_datetime_now.refresh();
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Terry.Lillo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-14 13:54:46&lt;/sys_created_on&gt;&lt;sys_id&gt;f2b2c6851b7f155062e50ed2cd4bcb39&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;UpdateEvamCardStateVariablesTier2&lt;/sys_name&gt;&lt;sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Invoice Portal"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_f2b2c6851b7f155062e50ed2cd4bcb39&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Terry.Lillo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-14 15:07:25&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>404555348</payload_hash>
+        <record_name>UpdateEvamCardStateVariablesTier2</record_name>
+        <reverted_from/>
+        <source>5ba6dba71b4691108c5143f3cc4bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-14 15:07:25</sys_created_on>
+        <sys_id>47539a011bff155062e50ed2cd4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185112d17110000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-14 15:07:25</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>cb539a0178ff1550e8c3177f4d072197</update_guid>
+        <update_guid_history>cb539a0178ff1550e8c3177f4d072197:404555348,6859464161bf1550ac2184fe280a29da:1455879026,1fc8c601cebf1550734ac8249bcb88c3:-2014765123,e1b842011ebf1550e484036190f08a48:1145056215,72b2c6852b7f1550783da93333874b4c:1326337327</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-14 15:45:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>635b9bbf81894697b738398b3edb4319</sys_id>
+        <sys_metadata>f2b2c6851b7f155062e50ed2cd4bcb39</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UpdateEvamCardStateVariablesTier2</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_f2b2c6851b7f155062e50ed2cd4bcb39</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_f2b2c6851b7f155062e50ed2cd4bcb39">47539a011bff155062e50ed2cd4bcb98</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-14 15:45:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

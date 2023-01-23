@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "header",
+  "elementLabel" : "Header",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "avatar",
+      "elementLabel" : "Avatar",
+      "propertyValues" : {
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "showPresencePattern" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "imageSrc" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "user", "avatar" ],
+            "category" : "session"
+          }
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "userName" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "user", "fullName" ],
+            "category" : "session"
+          }
+        },
+        "presence" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "user", "presence" ],
+            "category" : "session"
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        },
+        "hideTooltip" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "211969ddfcc5e7050fcfa6cc019e9c8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : {
+        "width" : "72px",
+        "height" : "72px",
+        "grid-area" : "1 / 1 / span 2 / span 1",
+        "align-self" : "center"
+      }
+    }, {
+      "elementId" : "greeting",
+      "elementLabel" : "Greeting",
+      "propertyValues" : {
+        "hasNoMargin" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "level" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "header-primary"
+        },
+        "wontWrap" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "label" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "userGreeting" ]
+          }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : {
+        "grid-area" : "1 / 2 / span 1 / span 1",
+        "font-family" : "Cabin",
+        "font-style" : "normal",
+        "font-weight" : "700",
+        "font-size" : "32px",
+        "line-height" : "39px",
+        "color" : "var(--now-color--neutral-12)",
+        "margin-left" : "var(--now-static-space--lg)",
+        "align-self" : "end"
+      }
+    }, {
+      "elementId" : "sub_text",
+      "elementLabel" : "Sub Text",
+      "propertyValues" : {
+        "hasNoMargin" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "level" : {
+          "type" : "JSON_LITERAL",
+          "value" : "2"
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "title-tertiary"
+        },
+        "wontWrap" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "label" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "get_service_desk_agent_shift", "output", "shiftText" ]
+          }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : {
+        "grid-area" : "2 / 2 / span 1 / span 1",
+        "font-family" : "Lato",
+        "font-style" : "normal",
+        "font-weight" : "600",
+        "font-size" : "16px",
+        "line-height" : "19px",
+        "color" : "var(--now-color--neutral-8)",
+        "margin-left" : "var(--now-static-space--lg)"
+      }
+    }, {
+      "elementId" : "image",
+      "elementLabel" : "Image",
+      "propertyValues" : {
+        "fit" : {
+          "type" : "JSON_LITERAL",
+          "value" : "cover"
+        },
+        "src" : {
+          "type" : "JSON_LITERAL",
+          "value" : "sow_banner.svg"
+        },
+        "alt" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "top right"
+        },
+        "height" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "15fe506403f8a98575b6df59008ea8f1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : {
+        "grid-area" : "1 / 3 / span 2 / span 1"
+      }
+    }, {
+      "elementId" : "button_bare",
+      "elementLabel" : "Button bare",
+      "propertyValues" : {
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
+        "highContrast" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "tertiary"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Close",
+            "comment" : ""
+          }
+        },
+        "showInlinePadding" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        },
+        "hidePadding" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "iconStart" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "iconEnd" : {
+          "type" : "JSON_LITERAL",
+          "value" : "close-outline"
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "clcckddgwbhhaaddqccddghhbbvlaahhmstee",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON_BARE#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON_BARE#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "4a5b3f2e77030110949878dabd5a997a"
+          },
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "clcckddgwbhhaaddqddddghhbbajjtzcoffii",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "67d8bc45906c355a3100c0782f45487b",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : true
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : {
+        "position" : "absolute",
+        "top" : "calc(var(--now-static-space--md) - 2px)",
+        "right" : "calc(var(--now-static-space--lg) - 2px)",
+        "grid-area" : "1 / 3 / span 1 / span 1",
+        "--now-button--bare_secondary--background-color--active" : "var(--now-color--primary-1, opacity--mid)",
+        "--now-button--bare_secondary--background-color--hover" : "var(--now-color--primary-1, opacity--less)",
+        "--now-button--bare_secondary--color" : "var(--now-color--primary-0)",
+        "--now-button--bare_secondary--color--active" : "var(--now-color--neutral-0)",
+        "--now-button--bare_secondary--color--hover" : "var(--now-color--neutral-0)"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"avatar","styles":{}},{"element_id":"greeting","styles":{}},{"element_id":"sub_text","styles":{}},{"element_id":"image","styles":{}},{"element_id":"button_bare","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column","display":"grid","grid-template-columns":"1.2fr 20fr 12fr","grid-template-rows":"1fr .8fr","grid-auto-flow":"column","justify-content":"start","padding-left":"var(--now-static-space--xl)"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "fefabcf3c7143010d7e818b1c7c26078",
+    "type" : "TRANSFORM"
+  },
+  "dependencies" : { },
+  "elementId" : "get_service_desk_agent_shift",
+  "elementLabel" : "Get service desk agent shift",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "user_id" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "output_format" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "wfo_shift" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "0b84084c536910105a20ddeeff7b124b",
+    "type" : "GRAPHQL"
+  },
+  "dependencies" : { },
+  "elementId" : "save_user_preference",
+  "elementLabel" : "Save User Preference",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+} ]</data>
+        <description/>
+        <dispatched_events/>
+        <events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "c33b3f2e77030110949878dabd5a9960"
+    },
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "clcchigggvbbaaiiffddddfhhbbcctddjvcffaa",
+    "type" : "CLIENT_SCRIPT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"header","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column","display":"flex"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Tier2/3 specialist landing page header SNC</name>
+        <output_prop_mapping/>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "Close",
+  "comment" : ""
+}, {
+  "message" : "Enter a label",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "userGreeting",
+  "label" : "userGreeting",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "showHeaderImage",
+  "label" : "showHeaderImage",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-14 13:54:36</sys_created_on>
+        <sys_id>d4b246851b7f155062e50ed2cd4bcb29</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Tier2/3 specialist landing page header SNC</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_macroponent_d4b246851b7f155062e50ed2cd4bcb29</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:48:15</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

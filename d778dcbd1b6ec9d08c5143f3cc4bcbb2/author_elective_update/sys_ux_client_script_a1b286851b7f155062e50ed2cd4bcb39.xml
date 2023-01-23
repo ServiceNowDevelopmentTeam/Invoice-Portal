@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes>188425ac1b7fdd108c5143f3cc4bcb1f</includes>
+        <macroponent display_value="SOW Overview Tier2 SNC">cdb246851b7f155062e50ed2cd4bcbf0</macroponent>
+        <name>ToggleWorkPersonaTier2</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+async function handler({api, event, helpers, imports}) {
+    const { value } = event.payload;
+    
+    const landingPageUtils = imports['global.SowInvoiceLandingPageUtils']();
+    const donutConfig = await landingPageUtils.getDonutConfig(helpers, value[0]);
+    api.setState("donutConfig", donutConfig);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-14 13:54:41</sys_created_on>
+        <sys_id>a1b286851b7f155062e50ed2cd4bcb39</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ToggleWorkPersonaTier2</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_client_script_a1b286851b7f155062e50ed2cd4bcb39</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-14 15:08:10</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_ux_client_script_a1b286851b7f155062e50ed2cd4bcb39</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes&gt;188425ac1b7fdd108c5143f3cc4bcb1f&lt;/includes&gt;&lt;macroponent display_value="SOW Overview Tier2 SNC"&gt;cdb246851b7f155062e50ed2cd4bcbf0&lt;/macroponent&gt;&lt;name&gt;ToggleWorkPersonaTier2&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+async function handler({api, event, helpers, imports}) {
+    const { value } = event.payload;
+    
+    const landingPageUtils = imports['global.SowInvoiceLandingPageUtils']();
+    const donutConfig = await landingPageUtils.getDonutConfig(helpers, value[0]);
+    api.setState("donutConfig", donutConfig);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Terry.Lillo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-14 13:54:41&lt;/sys_created_on&gt;&lt;sys_id&gt;a1b286851b7f155062e50ed2cd4bcb39&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;ToggleWorkPersonaTier2&lt;/sys_name&gt;&lt;sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Invoice Portal"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_a1b286851b7f155062e50ed2cd4bcb39&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Terry.Lillo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-14 15:08:10&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>407850195</payload_hash>
+        <record_name>ToggleWorkPersonaTier2</record_name>
+        <reverted_from/>
+        <source>5ba6dba71b4691108c5143f3cc4bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-14 15:08:11</sys_created_on>
+        <sys_id>0683de011bff155062e50ed2cd4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185112dc8df0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-14 15:08:11</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>8a83de0126ff155073380de71cabc5df</update_guid>
+        <update_guid_history>8a83de0126ff155073380de71cabc5df:407850195,d059464152bf1550fa819212ad47603c:-1383056907,30c8060196bf1550020f67f0f62ff4eb:-1792804544,95b842017abf155013f2b837b46ab138:-563819366,29b28685c67f1550328293d455cd813f:1779865410,e9b2c2cdf77f9150aa38c6f8c639401c:-563819366</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-14 15:45:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>17123dfbd9b94d109df2b97d94b92e90</sys_id>
+        <sys_metadata>a1b286851b7f155062e50ed2cd4bcb39</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ToggleWorkPersonaTier2</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_a1b286851b7f155062e50ed2cd4bcb39</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_a1b286851b7f155062e50ed2cd4bcb39">0683de011bff155062e50ed2cd4bcbe0</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-14 15:45:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

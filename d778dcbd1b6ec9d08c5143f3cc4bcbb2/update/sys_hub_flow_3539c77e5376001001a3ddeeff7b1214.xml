@@ -29,12 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3539c77e5376001001a3ddeeff7b1214</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>External User Onboarding</sys_name>
         <sys_overrides/>
         <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">9698ba4e1bfd70d0346ffd951a4bcb4c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_hub_flow_3539c77e5376001001a3ddeeff7b1214</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-28 16:48:39</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3539c77e5376001001a3ddeeff7b1214"/>
@@ -49,6 +52,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:41:29</sys_created_on>
         <sys_id>35a91cf11baec9d08c5143f3cc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-28 16:48:39</sys_updated_on>
     </sys_claim>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -60,6 +66,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:41:29</sys_created_on>
         <sys_id>f5a91cf11baec9d08c5143f3cc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-28 16:48:39</sys_updated_on>
     </sys_claim>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=3539c77e5376001001a3ddeeff7b1214"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=3539c77e5376001001a3ddeeff7b1214"/>

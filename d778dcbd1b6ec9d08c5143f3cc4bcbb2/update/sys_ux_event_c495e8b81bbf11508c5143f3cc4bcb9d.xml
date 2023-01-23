@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>NAV_ITEM_SELECTED_RELAY_c6f2e0b41bbf11508c5143f3cc4bcb3f</event_name>
+        <interfaces/>
+        <label>Link to destination Relay (Invoice landing page)</label>
+        <props>[{"name":"route","fieldType":"string","interfaceApiName":"global.route","label":"Route type"},{"name":"fields","fieldType":"json","interfaceApiName":"global.route","label":"Route fields"},{"name":"params","fieldType":"json","interfaceApiName":"global.route","label":"Optionals parameters"},{"name":"redirect","fieldType":"boolean","interfaceApiName":null,"label":"Remove previous URL from browser history"},{"name":"passiveNavigation","fieldType":"boolean","interfaceApiName":null,"label":"Load in background (advanced)"},{"name":"title","fieldType":"string","interfaceApiName":null,"label":"Title (advanced)"},{"name":"multiInstField","fieldType":"string","interfaceApiName":null,"label":"Multi-instance field (advanced)"},{"name":"targetRoute","fieldType":"string","interfaceApiName":null,"label":"Sub-navigation route (advanced)"},{"name":"external","fieldType":"json","interfaceApiName":"global.route","label":"External URL object"}]</props>
+        <required_translations>[ {
+  "message" : "External URL object",
+  "comment" : ""
+}, {
+  "message" : "Load in background (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Multi-instance field (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Optionals parameters",
+  "comment" : ""
+}, {
+  "message" : "Remove previous URL from browser history",
+  "comment" : ""
+}, {
+  "message" : "Route fields",
+  "comment" : ""
+}, {
+  "message" : "Route type",
+  "comment" : ""
+}, {
+  "message" : "Sub-navigation route (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Title (advanced)",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-13 12:29:14</sys_created_on>
+        <sys_id>c495e8b81bbf11508c5143f3cc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to destination Relay (Invoice landing page)</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_event_c495e8b81bbf11508c5143f3cc4bcb9d</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-13 12:29:14</sys_updated_on>
+    </sys_ux_event>
+</record_update>

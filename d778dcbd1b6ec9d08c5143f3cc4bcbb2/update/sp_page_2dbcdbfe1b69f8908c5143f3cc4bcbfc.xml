@@ -15,11 +15,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-07-28 18:13:42</sys_created_on>
         <sys_id>2dbcdbfe1b69f8908c5143f3cc4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>my_invoices</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sp_page_2dbcdbfe1b69f8908c5143f3cc4bcbfc</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
         <title>APi Group Invoice Portal - My Invoices</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
@@ -34,5 +37,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:40:36</sys_created_on>
         <sys_id>787910b11baec9d08c5143f3cc4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

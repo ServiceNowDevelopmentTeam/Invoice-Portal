@@ -49,6 +49,7 @@
         <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
         <sys_id>341d6752be754e0c8b6051c0c246e044</sys_id>
         <sys_metadata>b3dc65441b1e91108c5143f3cc4bcb42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>u_user_reg_req_835040.snc_internal</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_parent/>
@@ -57,5 +58,7 @@
         <sys_scope_delete/>
         <sys_update_name>sys_security_acl_role_b3dc65441b1e91108c5143f3cc4bcb42</sys_update_name>
         <sys_update_version display_value="sys_security_acl_role_b3dc65441b1e91108c5143f3cc4bcb42">e50de5841b1e91108c5143f3cc4bcb63</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 20:11:49</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

@@ -26,12 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path/>
         <sys_id>91d7b93737601000deeabfc8bcbe5dcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Vendors</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="com.snc.organization_management">7848e02f1be11010e7004229bc4bcbcd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_app_module_91d7b93737601000deeabfc8bcbe5dcb</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
         <timeline_page/>
         <title>Vendors</title>
         <uncancelable>false</uncancelable>
@@ -48,6 +51,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:46:26</sys_created_on>
         <sys_id>c6ca54391baec9d08c5143f3cc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -59,5 +65,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:46:26</sys_created_on>
         <sys_id>8aca54391baec9d08c5143f3cc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

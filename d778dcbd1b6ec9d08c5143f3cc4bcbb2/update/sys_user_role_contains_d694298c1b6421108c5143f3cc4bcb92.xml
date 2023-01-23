@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="approver_user" name="approver_user">debab85bff02110053ccffffffffffb6</contains>
+        <role display_value="invoice" name="invoice">231d409e1b0df4148c5143f3cc4bcbe7</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-17 15:56:16</sys_created_on>
+        <sys_id>d694298c1b6421108c5143f3cc4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approver_user.invoice</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_user_role_contains_d694298c1b6421108c5143f3cc4bcb92</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-17 15:56:16</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

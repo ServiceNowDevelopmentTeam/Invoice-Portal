@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>a1dcc9e7b77c3010e69dbc16de11a93b</includes>
+        <macroponent display_value="Service desk landing page overview SNC">11a221e81b7fdd108c5143f3cc4bcb35</macroponent>
+        <name>UpdateDonutsConfig</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    let translations = api.state.translations || {};
+    if (Object.keys(translations).length == 0) {
+        translations = {
+            "Incidents assigned to me": await helpers.translate("Incidents assigned to me"),
+            "Incidents assigned to my team": await helpers.translate("Incidents assigned to my team"),
+            "Incident SLAs": await helpers.translate("Incident SLAs"),
+            "Unassigned incidents": await helpers.translate("Unassigned incidents"),
+            "Catalog tasks assigned to me": await helpers.translate("Catalog tasks assigned to me"),
+            "Catalog tasks assigned to my team": await helpers.translate("Catalog tasks assigned to my team"),
+            "New incidents assigned to me": await helpers.translate("New incidents assigned to me"),
+            "In Progress incidents assigned to me": await helpers.translate("In Progress incidents assigned to me"),
+            "On Hold incidents assigned to me": await helpers.translate("On Hold incidents assigned to me"),
+            "Resolved incidents assigned to me": await helpers.translate("Resolved incidents assigned to me"),
+            "P1 unassigned incidents": await helpers.translate("P1 unassigned incidents"),
+            "P2 unassigned incidents": await helpers.translate("P2 unassigned incidents"),
+            "P3 unassigned incidents": await helpers.translate("P3 unassigned incidents"),
+            "P4 unassigned incidents": await helpers.translate("P4 unassigned incidents"),
+            "P5 unassigned incidents": await helpers.translate("P5 unassigned incidents"),
+            "Pending catalog tasks assigned to me": await helpers.translate("Pending catalog tasks assigned to me"),
+            "Open catalog tasks assigned to me": await helpers.translate("Open catalog tasks assigned to me"),
+            "Work in progress catalog tasks assigned to me": await helpers.translate("Work in progress catalog tasks assigned to me"),
+            "New incidents assigned to my team": await helpers.translate("New incidents assigned to my team"),
+            "In Progress incidents assigned to my team": await helpers.translate("In Progress incidents assigned to my team"),
+            "On Hold incidents assigned to my team": await helpers.translate("On Hold incidents assigned to my team"),
+            "Resolved incidents assigned to my team": await helpers.translate("Resolved incidents assigned to my team"),
+            "Pending catalog tasks assigned to my team": await helpers.translate("Pending catalog tasks assigned to my team"),
+            "Open catalog tasks assigned to my team": await helpers.translate("Open catalog tasks assigned to my team"),
+            "Work in progress catalog tasks assigned to my team": await helpers.translate("Work in progress catalog tasks assigned to my team")
+        };
+        api.setState("translations", translations);
+    }
+    var currentVizSelection = api.state.currentVizSelection;
+    if (translations.hasOwnProperty(currentVizSelection.title)) {
+        currentVizSelection = { ...currentVizSelection,
+            title: translations[currentVizSelection.title]
+        };
+        api.setState("currentVizSelection", currentVizSelection);
+    }
+    const landingPageUtils = imports['sn_sow_inc.SowIncidentLandingPageUtils']();
+    const donutConfig = await landingPageUtils.getDonutConfig(helpers, 'your_work');
+    const workPersonaConfig = await landingPageUtils.getWorkPersonaConfig(helpers);
+
+    api.setState("donutConfig", donutConfig);
+    api.setState("workPersonaConfig", workPersonaConfig);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-12 22:17:46</sys_created_on>
+        <sys_id>13a261e81b7fdd108c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UpdateDonutsConfig</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_client_script_13a261e81b7fdd108c5143f3cc4bcbca</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-12 22:17:46</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

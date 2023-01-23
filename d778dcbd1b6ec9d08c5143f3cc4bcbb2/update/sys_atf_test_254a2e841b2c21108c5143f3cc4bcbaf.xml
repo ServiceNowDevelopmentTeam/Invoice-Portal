@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Keywords: SP, Service Portal, Invoice, Submit, Process, UI&#13;
+Description: Validate that an invoice cannot be submitted without an attachment if "Is In ATF" is false, then validate that it can be submitted without an attachment when that variable is true.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>TC - 314 - Invoice - Invoice validate "Is In ATF" variable</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-17 21:01:00</sys_created_on>
+        <sys_id>254a2e841b2c21108c5143f3cc4bcbaf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TC - 314 - Invoice - Invoice validate "Is In ATF" variable</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_atf_test_254a2e841b2c21108c5143f3cc4bcbaf</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-17 21:08:39</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=254a2e841b2c21108c5143f3cc4bcbaf"/>
+</record_update>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Service Operations Workspace">4d69d0ed73c4301045216238edf6a7ea</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "clcckddtmffdaaccjjlddghhbblbbpgccggrl",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_sow_inc.HIDE_HEADER",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_sow_inc.HIDE_HEADER",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_sow_inc.HIDE_HEADER",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : "e615ebb577850110c05d885d9f5a9983"
+    },
+    "operation" : null,
+    "targetId" : "clcckddtmffdaaccjjmddghhbbhhusomlwv",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Tier2/3 specialist landing page header SNC">d4b246851b7f155062e50ed2cd4bcb29</macroponent>
+        <macroponent_config>{
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Tier2/3 specialist landing page header SNC</name>
+        <order>100</order>
+        <parent_macroponent display_value="Invoice landing page">d9928a451b7f155062e50ed2cd4bcb61</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="SOW Tier2/3 landing page header">80b246851b7f155062e50ed2cd4bcb1c</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-14 13:54:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d4b246851b7f155062e50ed2cd4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tier2/3 specialist landing page header SNC</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_screen_d4b246851b7f155062e50ed2cd4bcb2f</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-14 13:54:36</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Service desk invoice">a95b9a4d1bff155062e50ed2cd4bcbfa</dataset>
+        <order>0</order>
+        <predicate_bundle display_value="Invoice">a14f1e811b33555062e50ed2cd4bcb35</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-14 15:59:34</sys_created_on>
+        <sys_id>764f1ac11b33555062e50ed2cd4bcbab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_764f1ac11b33555062e50ed2cd4bcbab</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-29 21:40:57</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

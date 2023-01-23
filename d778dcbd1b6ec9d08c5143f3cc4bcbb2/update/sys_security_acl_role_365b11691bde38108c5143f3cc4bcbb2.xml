@@ -4,12 +4,15 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-08-30 18:23:35</sys_created_on>
         <sys_id>365b11691bde38108c5143f3cc4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>u_user_reg_req_835040.invoice</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_security_acl display_value="u_user_reg_req_835040">4a5b11691bde38108c5143f3cc4bcbac</sys_security_acl>
         <sys_update_name>sys_security_acl_role_365b11691bde38108c5143f3cc4bcbb2</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
         <sys_user_role display_value="invoice" name="invoice">231d409e1b0df4148c5143f3cc4bcbe7</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
@@ -23,5 +26,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:41:22</sys_created_on>
         <sys_id>84a918f11baec9d08c5143f3cc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

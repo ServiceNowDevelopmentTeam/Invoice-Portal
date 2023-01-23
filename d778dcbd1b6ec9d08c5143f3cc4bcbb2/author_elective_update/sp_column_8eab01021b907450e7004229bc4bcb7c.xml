@@ -91,6 +91,7 @@
         <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
         <sys_id>16ee96fd35014f558404db2f573dcb61</sys_id>
         <sys_metadata>8eab01021b907450e7004229bc4bcb7c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>2</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_parent/>
@@ -99,5 +100,7 @@
         <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
         <sys_update_name>sp_column_8eab01021b907450e7004229bc4bcb7c</sys_update_name>
         <sys_update_version display_value="sp_column_8eab01021b907450e7004229bc4bcb7c">6d8a69901b5e951062e50ed2cd4bcb04</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-28 14:49:10</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

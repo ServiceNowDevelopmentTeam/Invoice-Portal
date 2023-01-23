@@ -11,16 +11,19 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">20a73d10d7000200a9ad1e173e24d4ad</sp_column>
-        <sp_widget display_value="Copy of Approval Info">fdcd03550f203200e1f30dbce1050e4e</sp_widget>
+        <sp_widget display_value="Custom Approval Info">fdcd03550f203200e1f30dbce1050e4e</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>mounika.paluri</sys_created_by>
         <sys_created_on>2020-09-17 23:25:18</sys_created_on>
         <sys_id>78d0a7b11b579010e7004229bc4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sp_instance_78d0a7b11b579010e7004229bc4bcb56</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-28 16:48:39</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters/>
@@ -36,5 +39,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:46:09</sys_created_on>
         <sys_id>c2ba10391baec9d08c5143f3cc4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-28 16:48:39</sys_updated_on>
     </sys_claim>
 </record_update>

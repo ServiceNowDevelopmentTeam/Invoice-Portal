@@ -52,7 +52,7 @@
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>u_invoice</record_producer_table>
+        <record_producer_table>u_invoice_task</record_producer_table>
         <reference>core_company</reference>
         <reference_qual>u_company_numberISNOTEMPTY^vendor=false^customer=false^EQ</reference_qual>
         <reference_qual_condition table="core_company">u_company_numberISNOTEMPTY^vendor=false^customer=false^EQ<item endquery="false" field="u_company_number" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
@@ -73,11 +73,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-10-13 18:05:54</sys_created_on>
         <sys_id>7c4df7271b03b05062e50ed2cd4bcb8c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Company Code</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>item_option_new_7c4df7271b03b05062e50ed2cd4bcb8c</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-28 19:34:23</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -142,5 +145,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 15:07:36</sys_created_on>
         <sys_id>50afd03d1beec9d08c5143f3cc4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

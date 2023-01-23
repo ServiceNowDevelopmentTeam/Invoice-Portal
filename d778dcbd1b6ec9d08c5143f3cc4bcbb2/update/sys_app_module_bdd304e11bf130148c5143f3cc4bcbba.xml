@@ -24,12 +24,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bdd304e11bf130148c5143f3cc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Invoice User Registration Profiles</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_app_module_bdd304e11bf130148c5143f3cc4bcbba</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
         <timeline_page/>
         <title>Invoice User Registration Profiles</title>
         <uncancelable>false</uncancelable>
@@ -46,5 +49,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:40:54</sys_created_on>
         <sys_id>8d8914b11baec9d08c5143f3cc4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

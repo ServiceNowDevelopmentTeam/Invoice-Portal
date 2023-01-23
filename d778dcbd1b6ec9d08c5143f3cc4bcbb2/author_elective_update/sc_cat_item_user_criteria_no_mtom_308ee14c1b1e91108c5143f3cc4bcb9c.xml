@@ -48,6 +48,7 @@
         <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
         <sys_id>468cb10af1df48709a3e39a28b718900</sys_id>
         <sys_metadata>308ee14c1b1e91108c5143f3cc4bcb9c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Invoice.SNC External</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_parent/>
@@ -56,5 +57,7 @@
         <sys_scope_delete/>
         <sys_update_name>sc_cat_item_user_criteria_no_mtom_308ee14c1b1e91108c5143f3cc4bcb9c</sys_update_name>
         <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_308ee14c1b1e91108c5143f3cc4bcb9c">d24afd8c1b9e91108c5143f3cc4bcb1b</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 21:09:46</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

@@ -11,11 +11,14 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>system</sys_created_by>
             <sys_created_on>2020-06-27 20:39:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>Type</sys_name>
-            <sys_package display_value="Questionset Plugin" source="com.glideapp.questionset">d268286f1be11010e7004229bc4bcb1c</sys_package>
+            <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
             <sys_policy/>
             <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
             <sys_update_name>sys_documentation_question_type_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
             <url>itsm_context_help.do?help_resource=CSHelp:Variable_Types</url>
             <url_target/>
         </sys_documentation>
@@ -30,6 +33,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:47:06</sys_created_on>
         <sys_id>04fadc391baec9d08c5143f3cc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
@@ -41,5 +47,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:47:06</sys_created_on>
         <sys_id>c4fadc391baec9d08c5143f3cc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

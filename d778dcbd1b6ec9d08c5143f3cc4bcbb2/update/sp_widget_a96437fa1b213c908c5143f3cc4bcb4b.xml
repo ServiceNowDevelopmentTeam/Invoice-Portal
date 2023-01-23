@@ -279,11 +279,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-07-28 19:57:11</sys_created_on>
         <sys_id>a96437fa1b213c908c5143f3cc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Invoice Header Menu</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sp_widget_a96437fa1b213c908c5143f3cc4bcb4b</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
         <template><![CDATA[<ul class="nav navbar-nav" aria-label="${Header menu}" role="menubar">
   <div class="header-loader" ng-class="{'invisible': !loadingIndicator}">
     <div class="hidden-xs sp-loading-indicator la-sm">
@@ -399,5 +402,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-30 14:40:37</sys_created_on>
         <sys_id>c17910b11baec9d08c5143f3cc4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
     </sys_claim>
 </record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.atfIsRunning</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>atfIsRunning</name>
+        <script><![CDATA[var atfIsRunning = Class.create();
+atfIsRunning.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	isRunning : function() {
+		return gs.getProperty('glide.ui.atf', 'false');
+	},
+	type: 'atfIsRunning'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-16 14:50:34</sys_created_on>
+        <sys_id>66b848371b9ce11062e50ed2cd4bcb12</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>atfIsRunning</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_script_include_66b848371b9ce11062e50ed2cd4bcb12</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-16 15:06:19</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_script_include_66b848371b9ce11062e50ed2cd4bcb12</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.atfIsRunning&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;atfIsRunning&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var atfIsRunning = Class.create();
+atfIsRunning.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	isRunning : function() {
+		return gs.getProperty('glide.ui.atf', 'false');
+	},
+	type: 'atfIsRunning'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Terry.Lillo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-01-16 14:50:34&lt;/sys_created_on&gt;&lt;sys_id&gt;66b848371b9ce11062e50ed2cd4bcb12&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;atfIsRunning&lt;/sys_name&gt;&lt;sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Invoice Portal"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_66b848371b9ce11062e50ed2cd4bcb12&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Terry.Lillo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-01-16 15:06:19&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1780697449</payload_hash>
+        <record_name>atfIsRunning</record_name>
+        <reverted_from/>
+        <source>5ba6dba71b4691108c5143f3cc4bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-16 15:06:19</sys_created_on>
+        <sys_id>a09f807f1b9ce11062e50ed2cd4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185bb1df12f0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-16 15:06:19</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>289f807f6d9ce1100993ce322205b367</update_guid>
+        <update_guid_history>289f807f6d9ce1100993ce322205b367:-1780697449,a54f483fa79ce110fcf65b78eac567e9:-1266353642,4efb0c33e29ce110b2673b7316e11d48:1115074021</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-16 15:10:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>08a0b78cd37c464092deac867cb71ef9</sys_id>
+        <sys_metadata>66b848371b9ce11062e50ed2cd4bcb12</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>atfIsRunning</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>sys_script_include_66b848371b9ce11062e50ed2cd4bcb12</sys_update_name>
+        <sys_update_version display_value="sys_script_include_66b848371b9ce11062e50ed2cd4bcb12">a09f807f1b9ce11062e50ed2cd4bcb68</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-16 15:10:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

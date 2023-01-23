@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>true</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Invoice">39845cda1b0138148c5143f3cc4bcb27</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Attachment not required for atf</name>
+        <order>0</order>
+        <script><![CDATA[// onLoad function is called when the form is loaded
+function onLoad() {
+	var ga = new GlideAjax('global.atfIsRunning');
+	ga.addParam('sysparm_name', 'isRunning');
+	ga.getXMLAnswer(getResponse);
+
+	function getResponse(isATFRunning){
+		// check if ATF is running or if ATF is present
+		if(isATFRunning == 'true'){
+			// set the 'add_attachments' field as non-mandatory
+			g_form.setMandatory('add_attachments',false);
+		}
+	}
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-12 21:28:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2be38ae1b5029148c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Attachment not required for atf</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>catalog_script_client_c2be38ae1b5029148c5143f3cc4bcbca</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-16 15:08:22</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>catalog_script_client_c2be38ae1b5029148c5143f3cc4bcbca</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;true&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Invoice"&gt;39845cda1b0138148c5143f3cc4bcb27&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Attachment not required for atf&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;script&gt;&lt;![CDATA[// onLoad function is called when the form is loaded
+function onLoad() {
+	var ga = new GlideAjax('global.atfIsRunning');
+	ga.addParam('sysparm_name', 'isRunning');
+	ga.getXMLAnswer(getResponse);
+
+	function getResponse(isATFRunning){
+		// check if ATF is running or if ATF is present
+		if(isATFRunning == 'true'){
+			// set the 'add_attachments' field as non-mandatory
+			g_form.setMandatory('add_attachments',false);
+		}
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Terry.Lillo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-01-12 21:28:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c2be38ae1b5029148c5143f3cc4bcbca&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;Attachment not required for atf&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Invoice Portal"&gt;d778dcbd1b6ec9d08c5143f3cc4bcbb2&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_c2be38ae1b5029148c5143f3cc4bcbca&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Terry.Lillo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-01-16 15:08:22&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2141183013</payload_hash>
+        <record_name>Attachment not required for atf</record_name>
+        <reverted_from/>
+        <source>5ba6dba71b4691108c5143f3cc4bcb2a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-16 15:08:22</sys_created_on>
+        <sys_id>6e0014ff1b9ce11062e50ed2cd4bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185bb1fcff10000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-16 15:08:22</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>a20014ff879ce11058cc3ae4f19d0004</update_guid>
+        <update_guid_history>a20014ff879ce11058cc3ae4f19d0004:2141183013,f39f04bf3f9ce11017abb60e3f5f92a0:1394210179,dd5e88fb7a9ce110658e5d61cc2822f2:318508405,984e843f719ce1105c8f3b5d0bf11265:2013016974,452e443f8b9ce1104c28ce38be856dbf:515581255,db3dccbb149ce110804130ce71daa6d3:-204319984,24fcc4bb009ce110c40104525e9490f6:-716489881,5ac3ce3aa4146154b7713c5f259224b1:-1808182868,f1a3863aed146154c0db7b275dc2b7f6:1868548597,6b23023a75146154de8f15d3e5294885:-2035863577,1fe20af6d0146154c3986ef917228af1:1451057718,f19202b67d14615464cbb5194b7c8479:-398390676,38a0cef2db14615495f3d1051232d468:596537121,c24f3d72fc146154304bbd84e22998cb:-1097461621,ba3f3d72e91461547554463febe4bc87:792883319,1a2fb9720c146154e194e8f271fc3058:-2080178575,8f1f3972391461545215e5d48bdbd7f2:107807415,c2ee717239146154c8a25e01eb21d29a:41013053,9721c1a2b7902914fdba75bd10fe2421:268547127,50f04d623190291404afab3bac820327:903748891,fab0056272902914c5fb45d8fb1a5c4b:-534875924,d3a005625a902914bb49468e85dbfa3e:1964856957,d9a009220d902914729824ace5b8bcc7:-1592642031</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Attachment not required for atf">f67090331bdce11062e50ed2cd4bcb7c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-16 15:10:17</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>174825b120a24370952cc84097e0d100</sys_id>
+        <sys_metadata>c2be38ae1b5029148c5143f3cc4bcbca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment not required for atf</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_scope_delete display_value="">455b831530c04caaac24db1349c775a4</sys_scope_delete>
+        <sys_update_name>catalog_script_client_c2be38ae1b5029148c5143f3cc4bcbca</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_c2be38ae1b5029148c5143f3cc4bcbca">6e0014ff1b9ce11062e50ed2cd4bcb04</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-16 15:10:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

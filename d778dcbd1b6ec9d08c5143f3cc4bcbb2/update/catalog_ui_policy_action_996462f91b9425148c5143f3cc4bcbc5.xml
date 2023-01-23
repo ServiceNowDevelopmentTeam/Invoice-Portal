@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Invoice">39845cda1b0138148c5143f3cc4bcb27</catalog_item>
+        <catalog_variable>IO:4cc5dc1e1b0138148c5143f3cc4bcb9a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-10 20:48:47</sys_created_on>
+        <sys_id>996462f91b9425148c5143f3cc4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>company</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_996462f91b9425148c5143f3cc4bcbc5</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-10 20:48:47</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mandatory company on task">4c54aeb91b9425148c5143f3cc4bcb35</ui_policy>
+        <variable>company</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

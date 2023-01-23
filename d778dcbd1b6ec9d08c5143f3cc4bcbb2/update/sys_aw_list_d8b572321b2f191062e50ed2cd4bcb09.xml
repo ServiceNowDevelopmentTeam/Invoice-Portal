@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Invoice Tasks">ae653afe1beb191062e50ed2cd4bcb65</category>
+        <columns>number,priority,state,assigned_to,short_description,sys_class_name</columns>
+        <condition table="u_invoice_task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <groups/>
+        <list_attributes/>
+        <order>50</order>
+        <roles>invoice</roles>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-12-07 17:51:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8b572321b2f191062e50ed2cd4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_aw_list_d8b572321b2f191062e50ed2cd4bcb09</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-12-07 17:51:06</sys_updated_on>
+        <table>u_invoice_task</table>
+        <title>Open</title>
+        <user/>
+        <workspace display_value="Agent Workspace">7b24ceae5304130084acddeeff7b12a3</workspace>
+    </sys_aw_list>
+</record_update>
