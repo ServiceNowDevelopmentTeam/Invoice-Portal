@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values">fe31ca361b14615462e50ed2cd4bcb07</copied_from>
+        <description>Answer the questions on the form as follows:
+Phone Number = 1234567890
+and Project Manager(If Known) = 
+and Invoice Amount = 1234567
+and Is ATF Running = true</description>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Set producer values</notes>
+        <order>8</order>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-24 15:48:05</sys_created_on>
+        <sys_id>16d5a11e1bec6d1062e50ed2cd4bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_atf_step_16d5a11e1bec6d1062e50ed2cd4bcbbd</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-24 15:48:05</sys_updated_on>
+        <table/>
+        <test display_value="TC - 223 - Invoice - Invoice Submit - SP">8ad5251a1bec6d1062e50ed2cd4bcbb4</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=16d5a11e1bec6d1062e50ed2cd4bcbbd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>16d5a11e1bec6d1062e50ed2cd4bcbbd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-24 15:48:05</sys_created_on>
+        <sys_id>12d5a11e1bec6d1062e50ed2cd4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-24 15:48:05</sys_updated_on>
+        <value>39845cda1b0138148c5143f3cc4bcb27</value>
+        <variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>16d5a11e1bec6d1062e50ed2cd4bcbbd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-24 15:48:05</sys_created_on>
+        <sys_id>5ed5a11e1bec6d1062e50ed2cd4bcbbf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-24 15:48:05</sys_updated_on>
+        <value>IO:a3a924a01bbdf4d08c5143f3cc4bcb42=1234567890^IO:950024311b220dd08c5143f3cc4bcb83={{step['86d5a11e1bec6d1062e50ed2cd4bcb49'].user}}^IO:5ef6d0161b4138148c5143f3cc4bcbd3=1234567^IO:c731d4731bdce11062e50ed2cd4bcbdb=true^EQ</value>
+        <variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=16d5a11e1bec6d1062e50ed2cd4bcbbd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable_values</field>
+        <id>16d5a11e1bec6d1062e50ed2cd4bcbbd</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-24 15:48:05</sys_created_on>
+        <sys_id>96d5a11e1bec6d1062e50ed2cd4bcbc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-24 15:48:05</sys_updated_on>
+        <table>var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1</table>
+        <value>IO:a3a924a01bbdf4d08c5143f3cc4bcb42=1234567890^IO:950024311b220dd08c5143f3cc4bcb83={{step['86d5a11e1bec6d1062e50ed2cd4bcb49'].user}}^IO:5ef6d0161b4138148c5143f3cc4bcbd3=1234567^IO:c731d4731bdce11062e50ed2cd4bcbdb=true^EQ</value>
+    </sys_element_mapping>
+</record_update>
