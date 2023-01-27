@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Invoice Managers">3f04ad6c1b7fdd108c5143f3cc4bcb50</applicability>
+        <list display_value="Closed">620791c61b642d1062e50ed2cd4bcb4d</list>
+        <order>0</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-26 21:16:41</sys_created_on>
+        <sys_id>0634054b1ba0a1508c5143f3cc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_0634054b1ba0a1508c5143f3cc4bcb1c</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-26 21:16:41</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

@@ -921,6 +921,23 @@
                   "operation" : null,
                   "targetId" : "clbnwbeeaabbaaccrffddnhhsdffaahvcnf",
                   "type" : "CLIENT_SCRIPT"
+                }, {
+                  "broker" : null,
+                  "clientScript" : null,
+                  "conditional" : null,
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : {
+                    "dataBrokerId" : "21f155c65310101024e5ddeeff7b1210",
+                    "operationName" : "REFRESH",
+                    "parentResourceId" : "fetch_selected_visualization_record_count",
+                    "payload" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : { }
+                    }
+                  },
+                  "targetId" : "clddhhnqcxaaccejjddnhhsiinchhpcaj",
+                  "type" : "DATABROKER_OP"
                 } ]
               } ],
               "slot" : null,
@@ -3085,6 +3102,40 @@
     "operation" : null,
     "targetId" : "clboaamnpsaaggyhddnhhsddhhjughhebb",
     "type" : "CLIENT_SCRIPT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "eaafa603773300108d070d74c81061b6",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "fetch_evam_data_1",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "clddggxmsjjaaccabddnhhsrgghaaiibbggb",
+    "type" : "DATABROKER_OP"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : {
+      "dataBrokerId" : "21f155c65310101024e5ddeeff7b1210",
+      "operationName" : "REFRESH",
+      "parentResourceId" : "fetch_selected_visualization_record_count",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      }
+    },
+    "targetId" : "clddggybobbaaccalddnhhsieeyddzqdc",
+    "type" : "DATABROKER_OP"
   } ]
 }</internal_event_mappings>
         <layout>{
@@ -3344,13 +3395,13 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-12-14 13:54:39</sys_created_on>
         <sys_id>cdb246851b7f155062e50ed2cd4bcbf0</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>77</sys_mod_count>
         <sys_name>SOW Overview Tier2 SNC</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_ux_macroponent_cdb246851b7f155062e50ed2cd4bcbf0</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-01-23 20:38:58</sys_updated_on>
+        <sys_updated_on>2023-01-26 14:49:19</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

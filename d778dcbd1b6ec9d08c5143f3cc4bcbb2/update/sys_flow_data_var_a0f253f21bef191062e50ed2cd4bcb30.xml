@@ -16,8 +16,8 @@
         <column_label>Information</column_label>
         <comments/>
         <create_roles/>
-        <default_value>&lt;b&gt;Complete Rejection&lt;/b&gt; - Stops processing invoice.&lt;br/&gt;&#13;
-&lt;b&gt;More Info Needed from Vendor&lt;/b&gt; - Stops processing invoice.&lt;br/&gt;&#13;
+        <default_value>&lt;b&gt;Complete Rejection&lt;/b&gt; - Stops processing invoice. Please communicate with vendor.&lt;br/&gt;&#13;
+&lt;b&gt;More Info Needed from Vendor&lt;/b&gt; - Stops processing invoice. Please communicate with vendor.&lt;br/&gt;&#13;
 &lt;b&gt;Wrong Approver&lt;/b&gt; - Continues the approval process after the specified approver has approved.&lt;br/&gt;&#13;
 &lt;b&gt;Wrong GL Code&lt;/b&gt; - Restarts approval process with the updated specified GL code.&lt;br/&gt;&#13;
 &lt;b&gt;Wrong Vendor&lt;/b&gt; - Restarts approval process with the specified vendor for approvals.</default_value>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_flow_data_var_a0f253f21bef191062e50ed2cd4bcb30</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-12-07 20:57:20</sys_updated_on>
+        <sys_updated_on>2023-01-27 01:01:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
