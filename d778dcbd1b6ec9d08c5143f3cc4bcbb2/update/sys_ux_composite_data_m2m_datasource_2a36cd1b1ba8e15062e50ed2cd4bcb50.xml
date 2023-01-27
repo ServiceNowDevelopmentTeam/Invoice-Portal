@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Service desk invoice task">6b168d1b1ba8e15062e50ed2cd4bcb6d</dataset>
+        <datasource display_value="Open Invoice Tasks">a026cd1b1ba8e15062e50ed2cd4bcb7a</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-01-27 16:03:51</sys_created_on>
+        <sys_id>2a36cd1b1ba8e15062e50ed2cd4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_2a36cd1b1ba8e15062e50ed2cd4bcb50</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-01-27 16:03:51</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

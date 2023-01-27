@@ -17,9 +17,20 @@
         static async getVisualizationConfig(helpers, mode) {
             const evamDef = this.getEvamDef();
             const visualizationConfig = [{
+                    "id": "invoice_task_open",
+                    "tableName": "u_invoice_task",
+                    "tableDisplayValue": "Invoice Task",
+                    "myWorkQuery": "active=true",
+                    "myTeamQuery": "active=true",
+                    "listView": mode == "your_work" ? "sow_landing_page_assigned" : "sow_landing_page",
+                    "header": await helpers.translate("Open Invoice Tasks"),
+                    "groupByField": "state",
+                    "evamId": evamDef['invoiceTaskEvamDefinitionId'],
+                    "updated_on": "^ORDERBYDESCsys_updated_on",
+                },{
                     "id": "invoice_open",
                     "tableName": "u_invoice",
-                    "tableDisplayValue": "invoice",
+                    "tableDisplayValue": "Invoice",
                     "myWorkQuery": "active=true",
                     "myTeamQuery": "active=true",
                     "listView": mode == "your_work" ? "sow_landing_page_assigned" : "sow_landing_page",
@@ -30,7 +41,7 @@
                 },{
                     "id": "invoice_all",
                     "tableName": "u_invoice",
-                    "tableDisplayValue": "invoice",
+                    "tableDisplayValue": "Invoice",
                     "myWorkQuery": "",
                     "myTeamQuery": "",
                     "listView": mode == "your_work" ? "sow_landing_page_assigned" : "sow_landing_page",
@@ -38,42 +49,7 @@
                     "groupByField": "state",
                     "evamId": evamDef['invoiceEvamDefinitionId'],
                     "updated_on": "^ORDERBYDESCsys_updated_on",
-                },{
-                    "id": "task_assigned",
-                    "tableName": "task",
-                    "tableDisplayValue": "Task",
-                    "myWorkQuery": "active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe",
-                    "myTeamQuery": "active=true^assigned_toISNOTEMPTY^assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744",
-                    "listView": mode == "your_work" ? "sow_landing_page_assigned" : "sow_landing_page",
-                    "header": mode == 'your_work' ? await helpers.translate("Tasks assigned to me") : await helpers.translate("Tasks assigned to my team"),
-                    "groupByField": "state",
-                    "evamId": evamDef['taskEvamDefinitionId'],
-                    "updated_on": "^ORDERBYDESCsys_updated_on",
-                },/*
-                {
-                    "id": "task_sla",
-                    "tableName": "task_sla",
-                    "tableDisplayValue": "Task SLA",
-                    "myWorkQuery": "task.sys_class_name=task^task.assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^task.active=true^sla.type=SLA^ORsla.type=OLA^active=true^time_left<=1970-01-08 00:00:00",
-                    "myTeamQuery": "task.sys_class_name=task^task.assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744^task.active=true^sla.type=SLA^ORsla.type=OLA^active=true^time_left<=1970-01-08 00:00:00",
-                    "listView": 'sow_landing_page',
-                    "header": await helpers.translate("Task SLAs"),
-                    "groupByField": "time_left",
-                    "evamId": evamDef['taskSlaEvamDefinitionId'],
-                    "updated_on": "^ORDERBYtime_left",
-                },
-                {
-                    "id": "unassigned_tasks",
-                    "tableName": "task",
-                    "tableDisplayValue": "task",
-                    "myWorkQuery": "active=true^assigned_toISEMPTY^assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744",
-                    "myTeamQuery": "active=true^assigned_toISEMPTY^assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744",
-                    "listView": mode == "your_work" ? "sow_landing_page_assigned" : "sow_landing_page",
-                    "header": await helpers.translate("Unassigned Tasks"),
-                    "groupByField": "priority",
-                    "evamId": evamDef['taskEvamDefinitionId'],
-                    "updated_on": "^ORDERBYDESCsys_updated_on",
-                }*/];
+                }];
 
             return visualizationConfig;
         }
@@ -138,7 +114,7 @@
         static getEvamDef() {
             const evamDef = {
                 'invoiceEvamDefinitionId': 'a95b9a4d1bff155062e50ed2cd4bcbfa',
-                'taskEvamDefinitionId': '01a404e8b7203010e69dbc16de11a93f',
+                'invoiceTaskEvamDefinitionId': '6b168d1b1ba8e15062e50ed2cd4bcb6d',
                 'taskSlaEvamDefinitionId': '749b857eb7283010e69dbc16de11a98d',
                 'catalogTaskEvamDefinitionId': '4a59c876c7323010d7e818b1c7c26083'
             };
@@ -229,12 +205,12 @@
                 },
                 'u_invoice_task': {
                     'state': {
-                        '1': 'New invoices',
-                        '2': 'In Progress invoices',
-                        '3': 'On Hold invoices',
-                        '6': 'Resolved invoices',
-                       '51':'Under Review invoices',
-                       '52':'Waiting for Approval invoices'
+                        '1': 'Open invoice tasks',
+                        '2': 'In Progress invoice tasks',
+                        '3': 'On Hold invoice tasks',
+                        '6': 'Resolved invoice tasks',
+                       '51':'Under Review invoice tasks',
+                       '52':'Waiting for Approval invoice tasks'
                     }
                 },
                 'sc_task': {
@@ -300,13 +276,13 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-12-12 22:25:45</sys_created_on>
         <sys_id>188425ac1b7fdd108c5143f3cc4bcb1f</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>SowInvoiceLandingPageUtils</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_ux_client_script_include_188425ac1b7fdd108c5143f3cc4bcb1f</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-01-23 19:51:39</sys_updated_on>
+        <sys_updated_on>2023-01-27 16:40:17</sys_updated_on>
     </sys_ux_client_script_include>
 </record_update>
