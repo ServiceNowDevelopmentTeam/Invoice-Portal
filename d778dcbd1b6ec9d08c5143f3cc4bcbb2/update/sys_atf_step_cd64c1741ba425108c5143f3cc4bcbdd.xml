@@ -9,7 +9,7 @@ and Active = true
 and Locked out = false
 and Company = {{Step 4: Record Insert.Record}}
 and Email = invoice.portal@user.com
-With roles: invoice_portal</description>
+With roles: itil</description>
         <display_name>Create a User</display_name>
         <inputs/>
         <inputs/>
@@ -21,14 +21,14 @@ With roles: invoice_portal</description>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-01-19 21:31:00</sys_created_on>
         <sys_id>cd64c1741ba425108c5143f3cc4bcbdd</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Create a User</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_atf_step_cd64c1741ba425108c5143f3cc4bcbdd</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-01-20 15:47:30</sys_updated_on>
+        <sys_updated_on>2023-01-30 14:36:51</sys_updated_on>
         <table>sys_user</table>
         <test display_value="TC - 316 - Invoice - Invoice reject wrong vendor - IT">b86401341ba425108c5143f3cc4bcb5b</test>
         <timeout/>
@@ -85,10 +85,10 @@ With roles: invoice_portal</description>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-01-19 21:31:00</sys_created_on>
         <sys_id>8164c1741ba425108c5143f3cc4bcbe0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-01-19 21:31:00</sys_updated_on>
-        <value>fd77638f1ba5b45062e50ed2cd4bcb65</value>
+        <sys_updated_on>2023-01-30 14:36:51</sys_updated_on>
+        <value>282bf1fac6112285017366cb5f867469</value>
         <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
