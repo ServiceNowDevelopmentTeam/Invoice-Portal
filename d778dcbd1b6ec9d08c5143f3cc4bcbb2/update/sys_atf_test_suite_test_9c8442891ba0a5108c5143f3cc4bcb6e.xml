@@ -14,7 +14,7 @@
         <sys_update_name>sys_atf_test_suite_test_9c8442891ba0a5108c5143f3cc4bcb6e</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-01-20 20:49:36</sys_updated_on>
-        <test display_value="TC - 316 - Invoice - Invoice reject wrong GL - IT">77744a851ba8a51062e50ed2cd4bcb3c</test>
+        <test display_value="TC - 317 - Invoice - Invoice reject wrong GL - IT">77744a851ba8a51062e50ed2cd4bcb3c</test>
         <test_suite display_value="TS - 28 - Vendor Invoice Portal">6d7c6e421b4b781062e50ed2cd4bcbba</test_suite>
     </sys_atf_test_suite_test>
 </record_update>

@@ -14,7 +14,7 @@
         <sys_update_name>sys_atf_test_suite_test_16d5a11e1bec6d1062e50ed2cd4bcba8</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-01-24 15:48:04</sys_updated_on>
-        <test display_value="TC - 223 - Invoice - Invoice Submit - SP">8ad5251a1bec6d1062e50ed2cd4bcbb4</test>
+        <test display_value="TC - 319 - Invoice - Invoice Submit - SP">8ad5251a1bec6d1062e50ed2cd4bcbb4</test>
         <test_suite display_value="TS - 39 - Invoice">ea53786e1b1029148c5143f3cc4bcbab</test_suite>
     </sys_atf_test_suite_test>
 </record_update>

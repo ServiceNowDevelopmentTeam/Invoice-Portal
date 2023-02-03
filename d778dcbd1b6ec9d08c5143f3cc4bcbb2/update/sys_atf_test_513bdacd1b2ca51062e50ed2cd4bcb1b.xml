@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="TC - 316 - Invoice - Invoice reject wrong GL - IT">77744a851ba8a51062e50ed2cd4bcb3c</copied_from>
+        <copied_from display_value="TC - 317 - Invoice - Invoice reject wrong GL - IT">77744a851ba8a51062e50ed2cd4bcb3c</copied_from>
         <description>Keywords: SP, Service Portal, Invoice, Submit, Process, Approval, Approve&#13;
 Description: Validates that an invoice can be submitted, close task 1, reject level 1, set remediation response to wrong approver, set new approver, approve level 1 as new approver, auto-approve level 2, approve level 3.</description>
         <enable_parameterized_testing>false</enable_parameterized_testing>

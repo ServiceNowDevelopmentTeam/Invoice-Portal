@@ -22,7 +22,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-01-20 20:50:12</sys_updated_on>
         <table/>
-        <test display_value="TC - 316 - Invoice - Invoice reject wrong GL - IT">77744a851ba8a51062e50ed2cd4bcb3c</test>
+        <test display_value="TC - 317 - Invoice - Invoice reject wrong GL - IT">77744a851ba8a51062e50ed2cd4bcb3c</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

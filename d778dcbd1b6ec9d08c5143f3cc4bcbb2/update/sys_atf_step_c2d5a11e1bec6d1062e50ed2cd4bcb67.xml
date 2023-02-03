@@ -36,7 +36,7 @@ Confirm the record was successfully inserted</description>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-01-24 15:49:15</sys_updated_on>
         <table>core_company</table>
-        <test display_value="TC - 223 - Invoice - Invoice Submit - SP">8ad5251a1bec6d1062e50ed2cd4bcbb4</test>
+        <test display_value="TC - 319 - Invoice - Invoice Submit - SP">8ad5251a1bec6d1062e50ed2cd4bcbb4</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>
