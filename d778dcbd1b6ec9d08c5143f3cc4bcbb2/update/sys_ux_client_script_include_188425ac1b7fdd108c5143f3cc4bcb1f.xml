@@ -197,20 +197,24 @@
                     'state': {
                         '1': 'New invoices',
                         '2': 'In Progress invoices',
-                        '3': 'On Hold invoices',
+                        '3': 'Closed Complete invoices',
+                        '4': 'Closed Incomplete invoices',
                         '6': 'Resolved invoices',
                        '51':'Under Review invoices',
-                       '52':'Waiting for Approval invoices'
+                       '52':'Waiting for Approval invoices',
+                       '53':'Approved invoices',
+                       '710':'Payment Processing invoices',
+                       '720':'Process Invoice invoices'
                     }
                 },
                 'u_invoice_task': {
                     'state': {
                         '1': 'Open invoice tasks',
                         '2': 'In Progress invoice tasks',
-                        '3': 'On Hold invoice tasks',
-                        '6': 'Resolved invoice tasks',
-                       '51':'Under Review invoice tasks',
-                       '52':'Waiting for Approval invoice tasks'
+                        '3': 'Closed Complete invoice tasks',
+                        '4': 'Closed Incomplete invoice tasks',
+                        '7': 'Closed Skipped invoice tasks',
+                        '6': 'Resolved invoice tasks'
                     }
                 },
                 'sc_task': {
@@ -276,13 +280,13 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-12-12 22:25:45</sys_created_on>
         <sys_id>188425ac1b7fdd108c5143f3cc4bcb1f</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>SowInvoiceLandingPageUtils</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_ux_client_script_include_188425ac1b7fdd108c5143f3cc4bcb1f</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-01-27 16:40:17</sys_updated_on>
+        <sys_updated_on>2023-02-13 21:25:33</sys_updated_on>
     </sys_ux_client_script_include>
 </record_update>

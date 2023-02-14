@@ -3203,9 +3203,9 @@
   "initialValue" : {
     "type" : "JSON_LITERAL",
     "value" : [ {
-      "id" : "invoice_open",
-      "header" : "Open Invoices",
-      "evamId" : "a95b9a4d1bff155062e50ed2cd4bcbfa",
+      "id" : "invoice_task_open",
+      "header" : "Open Invoice Tasks",
+      "evamId" : "6b168d1b1ba8e15062e50ed2cd4bcb6d",
       "updated_on" : "",
       "listView" : "sow_landing_page_assigned",
       "datasource" : [ {
@@ -3259,11 +3259,11 @@
   "initialValue" : {
     "type" : "JSON_LITERAL",
     "value" : {
-      "table" : "u_invoice",
-      "elementId" : "invoice_open",
-      "title" : "Open Invoices",
+      "table" : "u_invoice_task",
+      "elementId" : "invoice_task_open",
+      "title" : "Open Invoice Tasks",
       "query" : "active=true",
-      "evamId" : "a95b9a4d1bff155062e50ed2cd4bcbfa",
+      "evamId" : "6b168d1b1ba8e15062e50ed2cd4bcb6d",
       "recordCount" : 0
     }
   }
@@ -3395,13 +3395,13 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-12-14 13:54:39</sys_created_on>
         <sys_id>cdb246851b7f155062e50ed2cd4bcbf0</sys_id>
-        <sys_mod_count>80</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_name>SOW Overview Tier2 SNC</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_ux_macroponent_cdb246851b7f155062e50ed2cd4bcbf0</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-01-27 15:56:39</sys_updated_on>
+        <sys_updated_on>2023-02-13 21:22:36</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

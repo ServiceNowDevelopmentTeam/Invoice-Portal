@@ -511,7 +511,7 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Close Invoice Task">38803b611bc82d908c5143f3cc4bcb60</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"84d037a11bc82d908c5143f3cc4bcbba","name":"plan","plan_signature":null}}</plan>
-        <snapshot>d376a75c1ba4a1108c5143f3cc4bcbb6</snapshot>
+        <snapshot>bd729cb81b092d1062e50ed2cd4bcbd5</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-12-28 21:28:23</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -1031,6 +1031,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>38803b611bc82d908c5143f3cc4bcb60</sys_id>
         <latest_snapshot>23c037a11bc82d908c5143f3cc4bcb47</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch4-11-23-2022_12-05-2022_2132.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-01-18-2023_01-27-2023_1724.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

@@ -38,7 +38,7 @@
         <label>Comment HTML</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Invoice Approved or Rejected or Not Required">02f3e20e1b2a41148c5143f3cc4bcbdb</model>
+        <model display_value="PROF - Invoice Approval State - C">02f3e20e1b2a41148c5143f3cc4bcbdb</model>
         <model_id>02f3e20e1b2a41148c5143f3cc4bcbdb</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_02f3e20e1b2a41148c5143f3cc4bcbdb</name>
