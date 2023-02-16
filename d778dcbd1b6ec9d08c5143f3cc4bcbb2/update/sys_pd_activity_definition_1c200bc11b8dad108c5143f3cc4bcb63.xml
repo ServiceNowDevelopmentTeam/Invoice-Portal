@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type/>
+        <badge/>
+        <category/>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>Build HTML Card</label>
+        <name>build_html_card</name>
+        <outputs/>
+        <source>72244e4b1b1dc9508c5143f3cc4bcb72</source>
+        <source_type>sys_hub_action_type_definition</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-02-14 21:42:17</sys_created_on>
+        <sys_id>1c200bc11b8dad108c5143f3cc4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Build HTML Card</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_1c200bc11b8dad108c5143f3cc4bcb63</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-02-14 21:42:17</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=1c200bc11b8dad108c5143f3cc4bcb63"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_72244e4b1b1dc9508c5143f3cc4bcb72^id=1c200bc11b8dad108c5143f3cc4bcb63"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_72244e4b1b1dc9508c5143f3cc4bcb72^id=1c200bc11b8dad108c5143f3cc4bcb63"/>
+</record_update>

@@ -39,8 +39,9 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>roles=approver_user^EQ</reference_qual>
-        <reference_qual_condition table="sys_user">roles=approver_user^EQ<item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="approver_user"/>
+        <reference_qual>roles=approver_user^ORroles=itil^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">roles=approver_user^ORroles=itil^EQ<item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="approver_user"/>
+            <item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="true" value="itil"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
@@ -55,7 +56,7 @@
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_dictionary_core_company_u_4th_level</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-02-13 21:00:58</sys_updated_on>
+        <sys_updated_on>2023-02-15 19:54:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
