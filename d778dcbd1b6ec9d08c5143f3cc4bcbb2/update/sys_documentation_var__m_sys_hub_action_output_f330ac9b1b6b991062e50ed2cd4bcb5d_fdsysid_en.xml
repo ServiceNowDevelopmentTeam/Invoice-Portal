@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="fdsysid" label="Flow Data Record SysId" language="en" table="var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>fdsysid</element>
+            <help/>
+            <hint/>
+            <label>Flow Data Record SysId</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-12-08 20:25:00</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Flow Data Record SysId</sys_name>
+            <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f330ac9b1b6b991062e50ed2cd4bcb5d_fdsysid_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-12-08 20:25:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

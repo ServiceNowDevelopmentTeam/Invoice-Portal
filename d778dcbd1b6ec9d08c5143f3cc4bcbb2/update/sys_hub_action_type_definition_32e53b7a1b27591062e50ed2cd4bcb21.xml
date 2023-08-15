@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32e53b7a1b27591062e50ed2cd4bcb21</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Set Invoice Variable</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_32e53b7a1b27591062e50ed2cd4bcb21</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-12-07 22:32:44</sys_updated_on>
+        <sys_updated_on>2023-02-24 19:40:32</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -132,18 +132,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0fe53b7a1b27591062e50ed2cd4bcb50"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>0fe53b7a1b27591062e50ed2cd4bcb50</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-12-07 22:31:44</sys_created_on>
-        <sys_id>cbe53b7a1b27591062e50ed2cd4bcb63</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-12-07 22:31:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>invDocumentId</field>
         <id>0fe53b7a1b27591062e50ed2cd4bcb50</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -166,18 +154,6 @@
         <sys_updated_on>2022-12-07 22:31:44</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_0fe53b7a1b27591062e50ed2cd4bcb50</table>
         <value>{{action.ritm.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>0fe53b7a1b27591062e50ed2cd4bcb50</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-12-07 22:31:44</sys_created_on>
-        <sys_id>83e53b7a1b27591062e50ed2cd4bcb64</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-12-07 22:31:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>varName</field>
@@ -911,11 +887,11 @@
         <sys_created_on>2022-12-07 22:31:43</sys_created_on>
         <sys_id>07e53b7a1b27591062e50ed2cd4bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variable Name</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_32e53b7a1b27591062e50ed2cd4bcb21_variable_name_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-12-07 22:31:43</sys_updated_on>
         <url/>
@@ -934,11 +910,11 @@
         <sys_created_on>2022-12-07 22:31:43</sys_created_on>
         <sys_id>87e53b7a1b27591062e50ed2cd4bcb48</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variable Value</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_32e53b7a1b27591062e50ed2cd4bcb21_variable_value_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-12-07 22:31:43</sys_updated_on>
         <url/>
@@ -957,11 +933,11 @@
         <sys_created_on>2022-12-07 22:31:43</sys_created_on>
         <sys_id>87e53b7a1b27591062e50ed2cd4bcb4e</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_32e53b7a1b27591062e50ed2cd4bcb21_ritm_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-12-07 22:32:41</sys_updated_on>
         <url/>
@@ -982,11 +958,11 @@
         <sys_created_on>2022-12-07 22:31:44</sys_created_on>
         <sys_id>5fe53b7a1b27591062e50ed2cd4bcb8e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_32e53b7a1b27591062e50ed2cd4bcb21___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-12-07 22:31:44</sys_updated_on>
         <url/>
@@ -1005,11 +981,11 @@
         <sys_created_on>2022-12-07 22:31:44</sys_created_on>
         <sys_id>9be53b7a1b27591062e50ed2cd4bcb88</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_32e53b7a1b27591062e50ed2cd4bcb21___action_status___en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-12-07 22:31:44</sys_updated_on>
         <url/>
@@ -1020,7 +996,7 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Set Invoice Variable">32e53b7a1b27591062e50ed2cd4bcb21</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1a267f7a1b27591062e50ed2cd4bcbb3","name":"plan","plan_signature":null}}</plan>
-        <snapshot>82ab6e4d1bc9ad108c5143f3cc4bcbc8</snapshot>
+        <snapshot>41ab078f8790f1506b4c21b9cebb3558</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-12-07 22:32:46</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -1162,18 +1138,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b9267f7a1b27591062e50ed2cd4bcb27"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>b9267f7a1b27591062e50ed2cd4bcb27</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-12-07 22:32:44</sys_created_on>
-        <sys_id>b1267f7a1b27591062e50ed2cd4bcb52</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-12-07 22:32:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>invDocumentId</field>
         <id>b9267f7a1b27591062e50ed2cd4bcb27</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -1184,18 +1148,6 @@
         <sys_updated_on>2022-12-07 22:32:44</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_b9267f7a1b27591062e50ed2cd4bcb27</table>
         <value>{{action.ritm.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>b9267f7a1b27591062e50ed2cd4bcb27</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-12-07 22:32:44</sys_created_on>
-        <sys_id>75267f7a1b27591062e50ed2cd4bcb52</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-12-07 22:32:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>varName</field>
@@ -1929,11 +1881,11 @@
         <sys_created_on>2022-12-07 22:32:43</sys_created_on>
         <sys_id>31267f7a1b27591062e50ed2cd4bcb1c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variable Name</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b1267f7a1b27591062e50ed2cd4bcb15_variable_name_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-12-07 22:32:43</sys_updated_on>
         <url/>
@@ -1952,11 +1904,11 @@
         <sys_created_on>2022-12-07 22:32:44</sys_created_on>
         <sys_id>75267f7a1b27591062e50ed2cd4bcb25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b1267f7a1b27591062e50ed2cd4bcb15_ritm_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-12-07 22:32:44</sys_updated_on>
         <url/>
@@ -1975,11 +1927,11 @@
         <sys_created_on>2022-12-07 22:32:43</sys_created_on>
         <sys_id>bd267f7a1b27591062e50ed2cd4bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variable Value</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b1267f7a1b27591062e50ed2cd4bcb15_variable_value_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-12-07 22:32:43</sys_updated_on>
         <url/>
@@ -2000,11 +1952,11 @@
         <sys_created_on>2022-12-07 22:32:44</sys_created_on>
         <sys_id>0a267f7a1b27591062e50ed2cd4bcb5f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b1267f7a1b27591062e50ed2cd4bcb15___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-12-07 22:32:44</sys_updated_on>
         <url/>
@@ -2023,11 +1975,11 @@
         <sys_created_on>2022-12-07 22:32:44</sys_created_on>
         <sys_id>8e267f7a1b27591062e50ed2cd4bcb59</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b1267f7a1b27591062e50ed2cd4bcb15___action_status___en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-12-07 22:32:44</sys_updated_on>
         <url/>
@@ -2037,6 +1989,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>32e53b7a1b27591062e50ed2cd4bcb21</sys_id>
         <latest_snapshot>b1267f7a1b27591062e50ed2cd4bcb15</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch6-01-18-2023_01-27-2023_1724.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2-06-07-2023_06-23-2023_1740.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

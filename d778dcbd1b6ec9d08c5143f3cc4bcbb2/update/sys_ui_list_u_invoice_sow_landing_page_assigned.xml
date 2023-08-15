@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="4e944250975de9102e853cf3a253af39">ded554461bece91062e50ed2cd4bcba8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>approval</element>
-            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="4e944250975de9102e853cf3a253af39">ded554461bece91062e50ed2cd4bcba8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="4e944250975de9102e853cf3a253af39">ded554461bece91062e50ed2cd4bcba8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="4e944250975de9102e853cf3a253af39">ded554461bece91062e50ed2cd4bcba8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_vendor_invoice_number</element>
-            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="4e944250975de9102e853cf3a253af39">ded554461bece91062e50ed2cd4bcba8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_invoice_amount</element>
-            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="0f92322477320110949878dabd5a99a3">ded554461bece91062e50ed2cd4bcba8</list_id>
+            <list_id display_value="u_invoice" element="NULL" name="u_invoice" parent="NULL" relationship="NULL" sys_domain="global" view="4e944250975de9102e853cf3a253af39">ded554461bece91062e50ed2cd4bcba8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -115,7 +115,7 @@
             <sys_updated_by>Terry.Lillo</sys_updated_by>
             <sys_updated_on>2023-01-23 15:20:04</sys_updated_on>
             <sys_user/>
-            <view display_value="SOW landing page assigned" name="sow_landing_page_assigned">0f92322477320110949878dabd5a99a3</view>
+            <view display_value="SOW landing page assigned" name="sow_landing_page_assigned">4e944250975de9102e853cf3a253af39</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -38,7 +38,7 @@
         <label>Loop Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Invoice Rejected - Remediation Process">58bb4cc61b44ad908c5143f3cc4bcb16</model>
+        <model display_value="">58bb4cc61b44ad908c5143f3cc4bcb16</model>
         <model_id>58bb4cc61b44ad908c5143f3cc4bcb16</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_58bb4cc61b44ad908c5143f3cc4bcb16</name>

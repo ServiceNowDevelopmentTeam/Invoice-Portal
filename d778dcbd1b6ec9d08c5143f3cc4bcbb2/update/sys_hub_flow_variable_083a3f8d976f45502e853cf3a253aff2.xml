@@ -38,7 +38,7 @@
         <label>Invoice Amount</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="">b72a3f8d976f45502e853cf3a253af96</model>
+        <model display_value="Cascading Approval - Invoice">b72a3f8d976f45502e853cf3a253af96</model>
         <model_id>b72a3f8d976f45502e853cf3a253af96</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_b72a3f8d976f45502e853cf3a253af96</name>
@@ -65,7 +65,7 @@
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_hub_flow_variable_083a3f8d976f45502e853cf3a253aff2</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-28 16:48:39</sys_updated_on>
+        <sys_updated_on>2022-05-17 16:09:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

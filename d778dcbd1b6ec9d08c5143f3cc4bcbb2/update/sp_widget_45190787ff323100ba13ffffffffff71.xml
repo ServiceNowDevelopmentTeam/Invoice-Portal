@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>other</category>
+        <client_script><![CDATA[function ($scope, $rootScope) {
+
+	if ($scope.data.allowSessions) {
+		$rootScope.$on('sp.sessions', function(name, sessions) {
+			$scope.sessions = sessions;
+		});
+	}
+
+	$scope.sessionCount = function() {
+		var num = 0;
+		var keys = Object.keys($scope.sessions);
+		var journalFields = $scope.data.journalFields;
+		
+		for (var i = 0; i < keys.length; i++) {
+			var session = $scope.sessions[keys[i]];
+			var canUserReadJournalField = false;
+			var status = session.status;
+			
+			if (status == "")
+				continue;
+			
+			for (var j = 0; j < journalFields.length; j++) {
+				if (journalFields[j].field_name === session.field_type) {
+					canUserReadJournalField = journalFields[j].can_read;
+					break;
+				}
+			}
+
+			if (status === "typing" && canUserReadJournalField) 
+				session.statusDisplay = $scope.data.msgs.typing || status;
+			else 
+				session.statusDisplay = $scope.data.msgs.viewing || "viewing";
+		
+			num++;
+		}
+		return num;
+	}
+
+}]]></client_script>
+        <controller_as/>
+        <css>.no-border {
+  border-width: 0 !important;
+}
+
+.panel-body {
+  padding-bottom: 0;
+}
+
+.avatar-container {
+  cursor: default;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Sessions</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	data.allowSessions = false;
+	var rec = $sp.getRecord();	 
+	if (!rec || !rec.canRead())
+		return;
+
+	data.allowSessions = true;
+	data.msgs = {};
+	data.msgs.typing = gs.getMessage("typing");
+	data.msgs.viewing = gs.getMessage("viewing");
+	var journalFields = [];	
+	var elements = rec.getElements();
+
+	// global and scoped GlideRecord.getElements return two different things,
+	// so if we got an ArrayList, convert to Array before doing the work
+	if (typeof elements.size != "undefined") {
+		var elementArr = [];
+		for (var i = 0; i < elements.size(); i++)
+			elementArr.push(elements.get(i));
+		elements = elementArr;
+	}
+
+	// now check canRead on the Journal fields
+	for (var j = 0; elements.length > j; j++) {
+		var element = elements[j];
+		// check the internal type because ED.isJournal() isn't available to scopes
+		var fieldType = element.getED().getInternalType();
+		if (fieldType != "journal" && fieldType != "journal_input")
+			continue;
+
+		var fieldName = element.getName();
+		var canRead = element.canRead();
+		journalFields.push({field_name: fieldName, can_read: canRead});
+	}
+
+	data.journalFields = journalFields;
+})();]]></script>
+        <servicenow>true</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2015-03-19 12:31:52</sys_created_on>
+        <sys_id>45190787ff323100ba13ffffffffff71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sessions</sys_name>
+        <sys_package display_value="Service Portal - Core" source="com.glide.service-portal">521a246f1b251010e7004229bc4bcba1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sp_widget_45190787ff323100ba13ffffffffff71</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-27 14:01:24</sys_updated_on>
+        <template><![CDATA[<sp-panel ng-if="sessions && sessionCount()" class="panel b">
+  <div>
+    <ul class="list-group no-bg no-borders pull-in">
+      <li ng-if="s.status" class="list-group-item no-border" ng-repeat="s in sessions">
+        <span class="pull-left thumb-sm avatar m-r">
+          <sn-avatar primary="s.user_id" show-presence="true" enable-context-menu="false"></sn-avatar>
+        </span>
+        <div class="clear">
+          <div><span>{{::s.user_display_name}}</span></div>
+          <small class="text-muted">{{s.statusDisplay}}</small>
+        </div>
+      </li>
+    </ul>
+  </div>
+</sp-panel>
+]]></template>
+    </sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</claim_owner_scope>
+        <claim_timestamp>189fb171c710000001</claim_timestamp>
+        <metadata_update_name>sp_widget_45190787ff323100ba13ffffffffff71</metadata_update_name>
+        <previous_claim_app_version>1.3.17</previous_claim_app_version>
+        <previous_claim_name>Invoice Portal</previous_claim_name>
+        <previous_claim_scope>d778dcbd1b6ec9d08c5143f3cc4bcbb2</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-08-15 21:25:43</sys_created_on>
+        <sys_id>1bddcc7b1b20b5108c5143f3cc4bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-08-15 21:25:43</sys_updated_on>
+    </sys_claim>
+</record_update>

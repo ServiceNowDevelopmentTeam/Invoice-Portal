@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f5e642281b0cd51062e50ed2cd4bcbe9</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Should User Auto-Approve Invoice</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_update_name>sys_hub_flow_f5e642281b0cd51062e50ed2cd4bcbe9</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-01-27 00:27:47</sys_updated_on>
+        <sys_updated_on>2023-02-24 19:41:27</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f5e642281b0cd51062e50ed2cd4bcbe9"/>
@@ -408,10 +408,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-09 15:00:36</sys_created_on>
         <sys_id>4ae682281b0cd51062e50ed2cd4bcb49</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-15 20:15:56</sys_updated_on>
+        <sys_updated_on>2023-07-31 19:40:33</sys_updated_on>
         <ui_id>6b33cf33-1d31-46e0-b1fa-84270dd64c3c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4ae682281b0cd51062e50ed2cd4bcb49"/>
@@ -470,10 +470,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-10 13:14:28</sys_created_on>
         <sys_id>5138b2fc1b8419108c5143f3cc4bcb92</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-15 20:15:56</sys_updated_on>
+        <sys_updated_on>2023-07-31 19:40:33</sys_updated_on>
         <ui_id>04a44747-2e78-4b3f-86c6-483d31ddba5f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5138b2fc1b8419108c5143f3cc4bcb92"/>
@@ -532,10 +532,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-09 15:00:36</sys_created_on>
         <sys_id>8ae682281b0cd51062e50ed2cd4bcb26</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-15 20:15:56</sys_updated_on>
+        <sys_updated_on>2023-07-31 19:40:33</sys_updated_on>
         <ui_id>60ee769a-87fc-4ef7-bcb2-d146e028b3e4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8ae682281b0cd51062e50ed2cd4bcb26"/>
@@ -725,7 +725,7 @@
         <sys_created_on>2022-06-10 13:14:27</sys_created_on>
         <sys_id>413872fc1b8419108c5143f3cc4bcbef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice Sys ID</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -748,7 +748,7 @@
         <sys_created_on>2022-06-09 15:00:35</sys_created_on>
         <sys_id>7de642281b0cd51062e50ed2cd4bcbf6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User Sys ID</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -771,7 +771,7 @@
         <sys_created_on>2022-06-10 13:14:27</sys_created_on>
         <sys_id>813872fc1b8419108c5143f3cc4bcbf5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice Number</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -796,7 +796,7 @@
         <sys_created_on>2022-06-09 15:00:35</sys_created_on>
         <sys_id>b9e682281b0cd51062e50ed2cd4bcb10</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Auto-Approve</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -812,7 +812,7 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"ea38b6fc1b8419108c5143f3cc4bcbc4","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Should User Auto-Approve Invoice">f5e642281b0cd51062e50ed2cd4bcbe9</plan_id>
-        <snapshot>1826b3591bc9215062e50ed2cd4bcb22</snapshot>
+        <snapshot>2cf5227e9750b1502e853cf3a253af9a</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-10 13:14:33</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -1548,7 +1548,7 @@
         <sys_created_on>2022-06-10 13:14:31</sys_created_on>
         <sys_id>063876fc1b8419108c5143f3cc4bcb02</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice Number</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -1571,7 +1571,7 @@
         <sys_created_on>2022-06-10 13:14:31</sys_created_on>
         <sys_id>823836fc1b8419108c5143f3cc4bcbeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Invoice Sys ID</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -1594,7 +1594,7 @@
         <sys_created_on>2022-06-10 13:14:31</sys_created_on>
         <sys_id>b93836fc1b8419108c5143f3cc4bcbc7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User Sys ID</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -1619,7 +1619,7 @@
         <sys_created_on>2022-06-10 13:14:31</sys_created_on>
         <sys_id>823876fc1b8419108c5143f3cc4bcb22</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Auto-Approve</sys_name>
         <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
@@ -1633,6 +1633,6 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>f5e642281b0cd51062e50ed2cd4bcbe9</sys_id>
         <latest_snapshot>b138f2fc1b8419108c5143f3cc4bcbe2</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch6-01-18-2023_01-27-2023_1724.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2-06-07-2023_06-23-2023_1740.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

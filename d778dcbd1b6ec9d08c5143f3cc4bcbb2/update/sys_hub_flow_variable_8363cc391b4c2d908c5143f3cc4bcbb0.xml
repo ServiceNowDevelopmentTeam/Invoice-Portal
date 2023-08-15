@@ -38,7 +38,7 @@
         <label>Task Found</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Invoice Rejected - Remediation Process">b663cc391b4c2d908c5143f3cc4bcb2d</model>
+        <model display_value="">b663cc391b4c2d908c5143f3cc4bcb2d</model>
         <model_id>b663cc391b4c2d908c5143f3cc4bcb2d</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_b663cc391b4c2d908c5143f3cc4bcb2d</name>

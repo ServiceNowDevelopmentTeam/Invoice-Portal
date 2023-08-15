@@ -6,7 +6,6 @@
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="4th Level" max_length="32" name="u_4th_level" reference="sys_user" reference_qual="roles=approver_user^ORroles=itil^EQ" reference_qual_condition="roles=approver_user^ORroles=itil^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="5th Level" max_length="32" name="u_5th_level" reference="sys_user" reference_qual="roles=approver_user^ORroles=itil^EQ" reference_qual_condition="roles=approver_user^ORroles=itil^EQ" type="reference"/>
         <element default="50000" label="2nd Limit" max_length="20" name="u_nd_level_max_approval_amount" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Project Manager" max_length="40" name="u_project_manager" reference="sys_user" reference_qual="roles=approver_user^ORroles=itil^EQ" reference_qual_condition="roles=approver_user^ORroles=itil^EQ" type="reference"/>
         <element default="0" label="PM Limit" max_length="20" name="u_project_manager_max_approval_amount" type="currency"/>
         <element default="200000" label="3rd Limit" max_length="20" name="u_rd_level_max_approval_amount" type="currency"/>
         <element default="25000" label="1st Limit" max_length="20" name="u_st_level_max_approval_amount" type="currency"/>
@@ -25,9 +24,6 @@
         </index>
         <index name="index5">
             <element name="u_3rd_level"/>
-        </index>
-        <index name="index6">
-            <element name="u_project_manager"/>
         </index>
     </element>
 </database>
