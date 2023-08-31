@@ -511,7 +511,7 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Close Invoice Task">38803b611bc82d908c5143f3cc4bcb60</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"84d037a11bc82d908c5143f3cc4bcbba","name":"plan","plan_signature":null}}</plan>
-        <snapshot>866f79fe87d431506b4c21b9cebb3517</snapshot>
+        <snapshot>254a64c81bf0f5108c5143f3cc4bcbcd</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-12-28 21:28:23</sys_created_on>
         <sys_domain>global</sys_domain>
