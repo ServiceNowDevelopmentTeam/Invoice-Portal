@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,display_image=photo,global_search_config_handler=UserConfig,ih_process_sync_enabled=true,iterativeDelete=true,metadata_link_exempt=true,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter" audit="true" create_roles="user_admin" db_object_id="dc74a8231b211010e7004229bc4bcb5d" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="1st Level" max_length="32" name="u_1st_level" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="2nd Level" max_length="32" name="u_2nd_level" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="3rd Level" max_length="32" name="u_3rd_level" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="4th Level" max_length="32" name="u_4th_level" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="5th Level" max_length="32" name="u_5th_level" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="2nd Limit" max_length="20" name="u_nd_level_max_approval_amount" type="currency"/>
+        <element attributes="encode_utf8=false" label="Project Manager" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="PM Limit" max_length="20" name="u_project_manager_max_approval_amount" type="currency"/>
+        <element attributes="omit_sys_original=true" label="3rd Limit" max_length="20" name="u_rd_level_max_approval_amount" type="currency"/>
+        <element attributes="omit_sys_original=true" label="1st Limit" max_length="20" name="u_st_level_max_approval_amount" type="currency"/>
+        <element attributes="omit_sys_original=true" label="4th Limit" max_length="20" name="u_th_level_max_approval_amount" type="currency"/>
+        <index name="index">
+            <element name="u_1st_level"/>
+        </index>
+        <index name="index2">
+            <element name="u_2nd_level"/>
+        </index>
+        <index name="index3">
+            <element name="u_3rd_level"/>
+        </index>
+        <index name="index4">
+            <element name="u_4th_level"/>
+        </index>
+        <index name="index5">
+            <element name="u_5th_level"/>
+        </index>
+        <index name="index6">
+            <element name="u_project_manager"/>
+        </index>
+    </element>
+</database>

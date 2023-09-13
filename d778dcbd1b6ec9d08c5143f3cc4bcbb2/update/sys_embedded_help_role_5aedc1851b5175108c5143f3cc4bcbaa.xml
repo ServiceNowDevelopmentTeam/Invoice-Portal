@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="invoice_admin" name="invoice_admin">4ded0d851b5175108c5143f3cc4bcb5a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-09-13 19:49:20</sys_created_on>
+        <sys_id>5aedc1851b5175108c5143f3cc4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4ded0d851b5175108c5143f3cc4bcb5a</sys_name>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_embedded_help_role_5aedc1851b5175108c5143f3cc4bcbaa</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-09-13 19:49:20</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

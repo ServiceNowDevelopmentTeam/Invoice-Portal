@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Invoice Management">13ad40de1b8df4148c5143f3cc4bcba1</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_user">active=true^u_1st_levelISNOTEMPTY^ORu_2nd_levelISNOTEMPTY^ORu_3rd_levelISNOTEMPTY^ORu_4th_levelISNOTEMPTY^ORu_5th_levelISNOTEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_1st_level" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_2nd_level" goto="false" newquery="false" operator="ISNOTEMPTY" or="true" value=""/>
+            <item endquery="false" field="u_3rd_level" goto="false" newquery="false" operator="ISNOTEMPTY" or="true" value=""/>
+            <item endquery="false" field="u_4th_level" goto="false" newquery="false" operator="ISNOTEMPTY" or="true" value=""/>
+            <item endquery="false" field="u_5th_level" goto="false" newquery="false" operator="ISNOTEMPTY" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Vendor Users</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_user</name>
+        <order>175</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-09-12 20:28:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49fc4cf81b11b51062e50ed2cd4bcb4a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Configured Vendor Users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoice Portal" source="d778dcbd1b6ec9d08c5143f3cc4bcbb2">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoice Portal">d778dcbd1b6ec9d08c5143f3cc4bcbb2</sys_scope>
+        <sys_update_name>sys_app_module_49fc4cf81b11b51062e50ed2cd4bcb4a</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-09-13 14:40:51</sys_updated_on>
+        <timeline_page/>
+        <title>Configured Vendor Users</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Vendor_User</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

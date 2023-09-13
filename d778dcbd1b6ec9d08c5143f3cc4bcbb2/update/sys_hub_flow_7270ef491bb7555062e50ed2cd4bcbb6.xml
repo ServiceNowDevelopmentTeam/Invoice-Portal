@@ -2899,7 +2899,7 @@
         <inputs/>
         <order>46</order>
         <parent_ui_id>65126733-f07f-4ce9-9060-b5c3bb18ea9a</parent_ui_id>
-        <subflow display_value="PROF - Cascading Approval - Invoice - R">4fd22c1d1b2fc1508c5143f3cc4bcbbc</subflow>
+        <subflow display_value="PROF - Company Cascading Approval - Invoice - R">4fd22c1d1b2fc1508c5143f3cc4bcbbc</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -8164,7 +8164,7 @@
         <inputs/>
         <order>46</order>
         <parent_ui_id>65126733-f07f-4ce9-9060-b5c3bb18ea9a</parent_ui_id>
-        <subflow display_value="PROF - Cascading Approval - Invoice - R">4fd22c1d1b2fc1508c5143f3cc4bcbbc</subflow>
+        <subflow display_value="PROF - Company Cascading Approval - Invoice - R">4fd22c1d1b2fc1508c5143f3cc4bcbbc</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
